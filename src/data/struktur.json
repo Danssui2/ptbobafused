@@ -1,0 +1,155 @@
+{
+  "founders": {
+    "chip": "Struktur Perusahaan",
+    "title": "Tim PT BOBA",
+    "subtitle": "Tim profesional yang menggerakkan PT Bikin Orang Bahagia.",
+    "members": [
+      {
+        "name": "Bachrul Ullum Assrori",
+        "role": "Direktur",
+        "desc": "Bertanggung jawab atas pengambilan keputusan utama, arah bisnis perusahaan, pengembangan brand, kerja sama strategis, serta pengawasan operasional BOBA Group.",
+        "photo": "/founders/bachrul-ullum-assrori.jpg"
+      },
+      {
+        "name": "Ellen Sinta Budirahayu",
+        "role": "Marketing Manager",
+        "desc": "Bertanggung jawab dalam merancang dan menjalankan strategi pemasaran, membangun identitas brand, serta memperluas jangkauan pasar BOBA Group.",
+        "photo": "/founders/ellen-sinta-budirahayu.jpg"
+      },
+      {
+        "name": "Shely Nilam Sari",
+        "role": "Administrasi",
+        "desc": "Bertanggung jawab dalam pengelolaan administrasi perusahaan, koordinasi dokumen, serta mendukung kelancaran operasional harian BOBA Group.",
+        "photo": "/founders/shelly.jpg"
+      }
+    ]
+  },
+  "ecosystem": {
+    "chip": "Business Ecosystem",
+    "title": "Ekosistem Bisnis BOBA Group",
+    "holdingLabel": "BOBA Group",
+    "holdingDesc": "Holding Company",
+    "items": [
+      {
+        "icon": "Building2",
+        "name": "Holding",
+        "sub": "BOBA Group",
+        "desc": null
+      },
+      {
+        "icon": "Leaf",
+        "name": "BOBA Agro",
+        "sub": "Komoditas Pertanian & Perkebunan",
+        "desc": "Kopi, sawit, kakao, karet, dan komoditas agro unggulan"
+      },
+      {
+        "icon": "Zap",
+        "name": "BOBA Global",
+        "sub": "Ekspor Internasional",
+        "desc": "Distribusi bahan baku alam ke pasar global"
+      },
+      {
+        "icon": "ShoppingBag",
+        "name": "BOBA Nusantara",
+        "sub": "Perdagangan Nasional",
+        "desc": "Jaringan distribusi bahan baku alam di seluruh Indonesia"
+      }
+    ],
+    "subholdingsChip": "Struktur Subholding",
+    "subholdingsTitle": "4 Subholding BOBA Group",
+    "subholdingsSubtitle": "Empat entitas bisnis strategis yang beroperasi di bawah naungan BOBA Group dalam perdagangan bahan baku alam nasional dan ekspor.",
+    "subholdings": [
+      {
+        "id": 1,
+        "icon": "Leaf",
+        "accentFrom": "#1BA882",
+        "accentTo": "#2DD4B0",
+        "name": "BOBA Agro",
+        "label": "Subholding Pertanian & Perkebunan",
+        "focus": "Perdagangan komoditas pertanian dan perkebunan unggulan Indonesia — kelapa, ubi jalar, singkong, rempah-rempah, manggis, alpukat tropis, dan madu hutan — untuk pasar nasional dan ekspor.",
+        "products": [
+          "Kelapa muda & kelapa tua untuk santan, minyak, dan ekspor",
+          "Rempah segar: kunyit, jahe, kencur (nasional & ekspor)",
+          "Buah tropis premium: manggis dan alpukat",
+          "Ubi jalar, singkong, dan madu hutan murni"
+        ]
+      },
+      {
+        "id": 2,
+        "icon": "Zap",
+        "accentFrom": "#0369A1",
+        "accentTo": "#38BDF8",
+        "name": "BOBA Marine & Energy",
+        "label": "Subholding Perikanan & Energi",
+        "focus": "Perdagangan hasil perikanan olahan dan komoditas energi biomassa berkualitas tinggi untuk kebutuhan industri, ekspor, dan pasar gourmet internasional.",
+        "products": [
+          "Teri kering premium: Teri Nasi & Teri Medan",
+          "Bekicot olahan (frozen/canned) untuk pasar gourmet ekspor",
+          "Arang kayu campuran berkualitas tinggi untuk industri & rumah tangga"
+        ]
+      },
+      {
+        "id": 3,
+        "icon": "Award",
+        "accentFrom": "#D97706",
+        "accentTo": "#FBBF24",
+        "name": "BOBA Craft",
+        "label": "Subholding Kerajinan & Tekstil",
+        "focus": "Perdagangan kerajinan tangan artisanal dan tekstil tradisional Indonesia berbasis bahan alam — kayu, bambu, dan batik — bernilai ekspor tinggi.",
+        "products": [
+          "Kerajinan kayu artisanal: jati, mahoni, sonokeling",
+          "Kerajinan bambu berkelanjutan: keranjang, lampu, aksesori",
+          "Batik autentik: Batik Tulis & Cap untuk fashion dan interior ekspor"
+        ]
+      },
+      {
+        "id": 4,
+        "icon": "Users",
+        "accentFrom": "#7C3AED",
+        "accentTo": "#A78BFA",
+        "name": "BOBA Foundation",
+        "label": "Subholding Kelembagaan Sosial",
+        "focus": "Tanggung Jawab Sosial Perusahaan (CSR), filantropi, dan program pemberdayaan masyarakat berbasis komunitas petani dan pengrajin lokal.",
+        "products": [
+          "Donasi bencana alam: logistik, pakaian, dan kebutuhan darurat",
+          "Donasi ke panti asuhan & lansia",
+          "Dapur umum & distribusi gizi untuk komunitas rentan",
+          "Pemberdayaan UMKM petani dan pengrajin lokal"
+        ]
+      }
+    ]
+  },
+  "investment": {
+    "badge": "Investment Opportunity",
+    "title": "Peluang Investasi PT BOBA",
+    "desc": "PT BOBA membuka peluang kerja sama strategis bagi investor nasional dan internasional. Dengan ekosistem fashion + green technology yang terintegrasi, PT BOBA memiliki potensi pertumbuhan tinggi di pasar lokal maupun ekspor.",
+    "points": [
+      "Diversifikasi pendapatan: fashion + jasa lingkungan.",
+      "Komitmen ESG & ekonomi sirkular via Green Services PT BOBA.",
+      "Skalabilitas tinggi melalui marketplace digital.",
+      "Tim pendiri berpengalaman lintas sektor."
+    ],
+    "card": {
+      "title": "Tertarik Berinvestasi?",
+      "desc": "Akses Investor Relations untuk profil lengkap, pitch deck, dan jadwal pertemuan.",
+      "stats": [
+        {
+          "v": "3",
+          "l": "Entitas Bisnis"
+        },
+        {
+          "v": "2026",
+          "l": "Tahun Berdiri"
+        },
+        {
+          "v": "ASEAN",
+          "l": "Target Pasar"
+        }
+      ],
+      "ctaLabel": "Buka Investor Relations",
+      "ctaHref": "/investor-relations",
+      "secondaryLabel": "Hubungi Tim Kami",
+      "secondaryHref": "#contact"
+    }
+  }
+}

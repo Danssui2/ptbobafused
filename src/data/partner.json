@@ -1,0 +1,188 @@
+{
+  "header": {
+    "chip": "Mitra Kami",
+    "title": "Partner & Mitra PT BOBA",
+    "subtitle": "Bersama mitra terpercaya, kami membangun ekosistem bisnis yang kuat — dari distribusi, teknologi, hingga pelestarian lingkungan."
+  },
+  "categories": [
+    "Semua",
+    "Strategis",
+    "Distribusi",
+    "Teknologi",
+    "Lingkungan"
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "cat": "Strategis",
+      "initials": "GBI",
+      "name": "Green Business Indonesia",
+      "desc": "Mitra pengembangan ekosistem bisnis hijau nasional.",
+      "color": "#1BA882",
+      "textColor": "#fff"
+    },
+    {
+      "id": 2,
+      "cat": "Strategis",
+      "initials": "ANI",
+      "name": "ASEAN Net Initiative",
+      "desc": "Kolaborasi ekspansi distribusi komoditas alam ke pasar ASEAN.",
+      "color": "#0D5040",
+      "textColor": "#fff"
+    },
+    {
+      "id": 3,
+      "cat": "Strategis",
+      "initials": "IPF",
+      "name": "Indo Pacific Fund",
+      "desc": "Kemitraan investasi dan pengembangan kapasitas bisnis.",
+      "color": "#148F6D",
+      "textColor": "#fff"
+    },
+    {
+      "id": 4,
+      "cat": "Distribusi",
+      "initials": "JNE",
+      "name": "JNE Express",
+      "desc": "Mitra logistik pengiriman produk fashion ke seluruh Indonesia.",
+      "color": "#e63946",
+      "textColor": "#fff"
+    },
+    {
+      "id": 5,
+      "cat": "Distribusi",
+      "initials": "SiC",
+      "name": "SiCepat",
+      "desc": "Solusi logistik pengiriman komoditas bahan baku alam ke seluruh Indonesia.",
+      "color": "#f4a261",
+      "textColor": "#fff"
+    },
+    {
+      "id": 6,
+      "cat": "Distribusi",
+      "initials": "WHS",
+      "name": "Wahana Shipping",
+      "desc": "Jaringan distribusi produk ke wilayah 3T Indonesia.",
+      "color": "#457b9d",
+      "textColor": "#fff"
+    },
+    {
+      "id": 7,
+      "cat": "Teknologi",
+      "initials": "AWZ",
+      "name": "AWS Indonesia",
+      "desc": "Infrastruktur cloud untuk sistem manajemen distribusi BOBA Group.",
+      "color": "#FF9900",
+      "textColor": "#fff"
+    },
+    {
+      "id": 8,
+      "cat": "Teknologi",
+      "initials": "MDB",
+      "name": "MongoDB Atlas",
+      "desc": "Database solusi untuk manajemen data skala besar.",
+      "color": "#00ED64",
+      "textColor": "#13241e"
+    },
+    {
+      "id": 9,
+      "cat": "Teknologi",
+      "initials": "VRL",
+      "name": "Vercel",
+      "desc": "Platform deployment untuk properti digital dan sistem perdagangan BOBA Group.",
+      "color": "#000000",
+      "textColor": "#fff"
+    },
+    {
+      "id": 10,
+      "cat": "Lingkungan",
+      "initials": "KLH",
+      "name": "KLHK Indonesia",
+      "desc": "Kemitraan pengelolaan sampah sesuai regulasi lingkungan hidup.",
+      "color": "#2d6a4f",
+      "textColor": "#fff"
+    },
+    {
+      "id": 11,
+      "cat": "Lingkungan",
+      "initials": "WWF",
+      "name": "WWF Indonesia",
+      "desc": "Kolaborasi program pelestarian lingkungan & ESG perusahaan.",
+      "color": "#333333",
+      "textColor": "#fff"
+    },
+    {
+      "id": 12,
+      "cat": "Lingkungan",
+      "initials": "BIA",
+      "name": "Bio Indonesia",
+      "desc": "Riset bersama pengolahan sampah organik menjadi bioenergi.",
+      "color": "#52b788",
+      "textColor": "#fff"
+    }
+  ],
+  "benefits": {
+    "chip": "Keuntungan Mitra",
+    "title": "Mengapa Bermitra dengan PT BOBA?",
+    "desc": "Kami percaya bahwa kemitraan yang baik adalah fondasi pertumbuhan bersama. Setiap mitra mendapatkan akses penuh ke ekosistem, data, dan dukungan tim PT BOBA.",
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageAlt": "Kolaborasi Mitra PT BOBA",
+    "stats": [
+      {
+        "value": "12+",
+        "label": "Mitra Aktif"
+      },
+      {
+        "value": "4",
+        "label": "Kategori Mitra"
+      }
+    ],
+    "items": [
+      "Akses ke ekosistem brand fashion & green tech PT BOBA",
+      "Akses jaringan distribusi bahan baku alam BOBA Group (Nasional & ASEAN)",
+      "Co-branding dan promosi lintas platform digital",
+      "Dukungan operasional & after-sales dari tim PT BOBA",
+      "Laporan kemitraan transparan setiap bulan"
+    ]
+  },
+  "partnerTypes": {
+    "chip": "Bergabung",
+    "title": "Jenis Kemitraan",
+    "items": [
+      {
+        "icon": "🚚",
+        "title": "Mitra Distribusi",
+        "desc": "Bergabung sebagai mitra logistik & distribusi produk fashion dan layanan green tech PT BOBA ke seluruh nusantara.",
+        "cta": "Daftar Mitra Distribusi"
+      },
+      {
+        "icon": "💻",
+        "title": "Mitra Teknologi",
+        "desc": "Kolaborasi pengembangan sistem manajemen distribusi, integrasi logistik, dan digitalisasi rantai pasok bahan baku alam.",
+        "cta": "Daftar Mitra Teknologi"
+      },
+      {
+        "icon": "🌱",
+        "title": "Mitra Lingkungan",
+        "desc": "Bersama membangun solusi green technology — dari pengelolaan sampah hingga produksi bahan bakar bio.",
+        "cta": "Daftar Mitra Lingkungan"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Bermitra dengan PT BOBA?",
+    "desc": "Kirimkan proposal kemitraan Anda atau jadwalkan pertemuan dengan tim kami. Kami siap merespons dalam 1×24 jam.",
+    "buttons": [
+      {
+        "label": "Hubungi Kami",
+        "href": "#contact",
+        "variant": "white"
+      },
+      {
+        "label": "Investor Relations",
+        "href": "/investor-relations",
+        "variant": "ghost"
+      }
+    ]
+  }
+}

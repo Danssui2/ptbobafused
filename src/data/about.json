@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "chip": "Tentang Kami",
+    "title": "Bikin Orang Bahagia Lewat",
+    "titleHighlight": "Produk & Lingkungan",
+    "description": "PT Bikin Orang Bahagia (PT BOBA) adalah perusahaan yang bergerak di bidang perdagangan bahan baku alam, mencakup komoditas pertanian, perkebunan, dan hasil alam unggulan Indonesia — baik untuk pasar nasional maupun ekspor internasional.",
+    "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageAlt": "Tim PT BOBA",
+    "imageLabel": "Tim Profesional Kami",
+    "imageSub": "1.000+ karyawan berdedikasi",
+    "badge": {
+      "value": "Indonesia 100%",
+      "sub": "National Identity"
+    },
+    "cta": [
+      {
+        "label": "Struktur Perusahaan",
+        "href": "#struktur",
+        "variant": "primary"
+      },
+      {
+        "label": "Mitra Kami",
+        "href": "#partner",
+        "variant": "outline"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "icon": "TrendingUp",
+      "value": 75,
+      "suffix": "+",
+      "label": "Tahun Pengalaman",
+      "sub": "sejak 1957"
+    },
+    {
+      "icon": "Users",
+      "value": 31000,
+      "suffix": "+",
+      "label": "Karyawan Aktif",
+      "sub": "seluruh Indonesia"
+    },
+    {
+      "icon": "Globe",
+      "value": 13,
+      "suffix": "",
+      "label": "Negara Operasional",
+      "sub": "ekspansi global"
+    },
+    {
+      "icon": "Award",
+      "value": 100,
+      "suffix": "+",
+      "label": "Penghargaan",
+      "sub": "nasional & internasional"
+    }
+  ],
+  "visiMisi": {
+    "chip": "Arah Perusahaan",
+    "title": "Visi & Misi Kami",
+    "visi": {
+      "title": "Menjadi Perusahaan Energi Nasional Kelas Dunia",
+      "desc": "Kami beraspirasi menjadi perusahaan terdepan dalam industri energi, yang diakui secara global atas inovasi, keberlanjutan, dan kontribusi nyata bagi kemakmuran bangsa Indonesia."
+    },
+    "misi": [
+      "Menjalankan usaha minyak, gas, serta energi baru & terbarukan secara terintegrasi.",
+      "Memaksimalkan nilai perusahaan melalui inovasi, tata kelola baik, dan SDM unggul.",
+      "Memberikan manfaat optimal bagi pemegang saham, pelanggan, dan masyarakat.",
+      "Mendukung ketahanan energi nasional dan agenda keberlanjutan Indonesia."
+    ]
+  },
+  "pillars": {
+    "chip": "Fondasi Kami",
+    "title": "Empat Pilar Utama Perusahaan",
+    "ctaLabel": "Lihat Semua Layanan",
+    "ctaHref": "#services",
+    "items": [
+      {
+        "icon": "Zap",
+        "title": "Ketahanan Energi",
+        "desc": "Memastikan ketersediaan energi yang andal dan terjangkau untuk seluruh masyarakat Indonesia dari Sabang sampai Merauke.",
+        "color": "from-brand-green to-brand-green-mid"
+      },
+      {
+        "icon": "Leaf",
+        "title": "Energi Berkelanjutan",
+        "desc": "Berkomitmen mengurangi emisi karbon dan mengembangkan portofolio energi terbarukan menuju Indonesia Net Zero 2060.",
+        "color": "from-brand-green-mid to-brand-green-light"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Tata Kelola Unggul",
+        "desc": "Menjalankan bisnis dengan standar GCG tertinggi, transparansi penuh, dan integritas sebagai fondasi kepercayaan publik.",
+        "color": "from-emerald-600 to-teal-500"
+      },
+      {
+        "icon": "Users",
+        "title": "Dampak Sosial",
+        "desc": "Program CSR & TJSL yang menyentuh ribuan komunitas — dari pemberdayaan UMKM hingga pendidikan dan kesehatan masyarakat.",
+        "color": "from-teal-600 to-brand-green-light"
+      }
+    ]
+  },
+  "timeline": {
+    "chip": "Perjalanan Kami",
+    "title": "Sejarah & Pencapaian",
+    "defaultYear": "2025",
+    "milestones": [
+      {
+        "year": "2015",
+        "event": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional."
+      },
+      {
+        "year": "2018",
+        "event": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional."
+      },
+      {
+        "year": "2022",
+        "event": "Masuk daftar Fortune Global 500 dan memperkuat komitmen energi terbarukan."
+      },
+      {
+        "year": "2025",
+        "event": "Akselerasi transisi energi — target 23% portofolio dari renewable energy."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ingin Berkolaborasi Bersama Kami?",
+    "desc": "Kami membuka peluang kemitraan strategis, investasi, dan kolaborasi lintas sektor untuk membangun masa depan energi Indonesia yang lebih cerah.",
+    "buttons": [
+      {
+        "label": "Hubungi Kami",
+        "href": "#contact",
+        "variant": "primary"
+      },
+      {
+        "label": "Hubungan Investor",
+        "href": "/investor-relations",
+        "variant": "white"
+      }
+    ]
+  }
+}

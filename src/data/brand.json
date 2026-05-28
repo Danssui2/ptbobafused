@@ -1,0 +1,50 @@
+{
+  "header": {
+    "chip": "Brand Perusahaan",
+    "title": "Brand & Platform PT BOBA",
+    "subtitle": "Dua brand fashion (pria & wanita) di bawah PT BOBA, dipasarkan via",
+    "subtitleBold": "Ponpin",
+    "subtitleEnd": ", platform marketplace ASEAN milik PT BOBA."
+  },
+  "brands": [
+    {
+      "id": 1,
+      "name": "tsoecha.co",
+      "category": "Fashion Pria",
+      "desc": "Brand fashion pria PT BOBA yang menghadirkan kaos, kemeja, hoodie, jaket, celana, dan aksesoris pria dengan desain modern dan kualitas premium.",
+      "cta": { "label": "Lihat Produk", "icon": "ShoppingBag", "href": "#products" },
+      "logoText": "TSOECHA.CO",
+      "logoBg": "#f5f5f5",
+      "logoTextColor": "#333",
+      "accent": "#BBBBBB"
+    },
+    {
+      "id": 2,
+      "name": "sokyuut",
+      "category": "Fashion Wanita",
+      "desc": "Brand fashion wanita PT BOBA yang menyediakan blouse, dress, outer, hijab, rok, celana, dan aksesoris wanita yang modis, nyaman, dan berkualitas.",
+      "cta": { "label": "Lihat Produk", "icon": "ShoppingBag", "href": "#products" },
+      "logoText": "sokyuut",
+      "logoBg": "#fce4ec",
+      "logoTextColor": "#c2185b",
+      "accent": "#c2185b"
+    },
+    {
+      "id": 3,
+      "name": "Ponpin",
+      "category": "Green Technology",
+      "desc": "Holding company green technology PT BOBA — pengambilan sampah, pengelolaan sampah, pengolahan sampah organik, dan pembuatan bahan bakar kendaraan dari sampah organik.",
+      "cta": { "label": "Pesan Layanan", "icon": "Recycle", "href": "#services" },
+      "logoText": "PONPIN",
+      "logoBg": "#1BA882",
+      "logoTextColor": "#ffffff",
+      "accent": "#1BA882"
+    }
+  ],
+  "platformNote": {
+    "text": "Semua brand tersedia di",
+    "brand": "Ponpin Marketplace",
+    "ctaLabel": "Kunjungi",
+    "ctaHref": "#"
+  }
+}

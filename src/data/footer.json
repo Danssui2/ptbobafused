@@ -1,0 +1,148 @@
+{
+  "brand": {
+    "tagline": "Holding company yang membangun ekosistem bisnis berkelanjutan — dari kekayaan intelektual, inovasi pangan, hingga pemberdayaan sosial — untuk membahagiakan masyarakat Indonesia.",
+    "address": "Jl. Mayjend. Jonosewojo No.Kav.3, Surabaya",
+    "phone": "+62 21 5555 8888",
+    "email": "hello@ptboba.id"
+  },
+  "socials": [
+    {
+      "icon": "Instagram",
+      "href": "https://instagram.com/ptboba",
+      "label": "Instagram"
+    },
+    {
+      "icon": "Twitter",
+      "href": "https://twitter.com/ptboba",
+      "label": "Twitter/X"
+    },
+    {
+      "icon": "Linkedin",
+      "href": "https://linkedin.com/company/ptboba",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "Youtube",
+      "href": "https://youtube.com/@ptboba",
+      "label": "YouTube"
+    }
+  ],
+  "navGroups": [
+    {
+      "title": "Perusahaan",
+      "links": [
+        {
+          "label": "Tentang Kami",
+          "href": "#about"
+        },
+        {
+          "label": "Tim PT BOBA",
+          "href": "#struktur"
+        },
+        {
+          "label": "Visi & Misi",
+          "href": "#about"
+        },
+        {
+          "label": "Subholding BOBA Group",
+          "href": "#struktur"
+        },
+        {
+          "label": "Ekosistem Bisnis",
+          "href": "#struktur"
+        },
+        {
+          "label": "Investor Relations",
+          "href": "/investor-relations"
+        }
+      ]
+    },
+    {
+      "title": "Komoditas Alam",
+      "links": [
+        {
+          "label": "Pertanian & Perkebunan",
+          "href": "#products"
+        },
+        {
+          "label": "Perikanan & Energi",
+          "href": "#products"
+        },
+        {
+          "label": "Kerajinan & Tekstil",
+          "href": "#products"
+        },
+        {
+          "label": "Ekspor Internasional",
+          "href": "#services"
+        },
+        {
+          "label": "Distribusi Nasional",
+          "href": "#services"
+        }
+      ]
+    },
+    {
+      "title": "Layanan & Program",
+      "links": [
+        {
+          "label": "Lisensi Merek & IP",
+          "href": "#services"
+        },
+        {
+          "label": "Sistem Waralaba",
+          "href": "#services"
+        },
+        {
+          "label": "Sewa Paten Teknologi",
+          "href": "#services"
+        },
+        {
+          "label": "Donasi Bencana Alam",
+          "href": "#services"
+        },
+        {
+          "label": "Pemberdayaan UMKM Lokal",
+          "href": "#services"
+        }
+      ]
+    },
+    {
+      "title": "Kemitraan & Kontak",
+      "links": [
+        {
+          "label": "Mitra Strategis",
+          "href": "#partner"
+        },
+        {
+          "label": "Daftar UMKM Binaan",
+          "href": "#contact"
+        },
+        {
+          "label": "Ekspor & Kerjasama",
+          "href": "#contact"
+        },
+        {
+          "label": "Hubungi Kami",
+          "href": "#contact"
+        },
+        {
+          "label": "Konsultasi Gratis",
+          "href": "#contact"
+        }
+      ]
+    }
+  ],
+  "newsletter": {
+    "title": "Dapatkan Update Terbaru BOBA Group",
+    "subtitle": "Informasi layanan, program sosial, dan peluang kemitraan langsung ke inbox Anda.",
+    "placeholder": "Email Anda...",
+    "ctaLabel": "Subscribe"
+  },
+  "bottomLinks": [
+    "Kebijakan Privasi",
+    "Syarat & Ketentuan",
+    "Sitemap"
+  ],
+  "copyright": "PT Bikin Orang Bahagia. Seluruh hak cipta dilindungi."
+}

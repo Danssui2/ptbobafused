@@ -1,0 +1,46 @@
+{
+  "autoplayDuration": 7000,
+  "slides": [
+    {
+      "id": 1,
+      "src": "https://www.pexels.com/download/video/37099184/",
+      "poster": "https://images.pexels.com/videos/3571264/free-video-3571264.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1280",
+      "title": "Perdaganan Lintas Benua",
+      "subtitle": "Menghadirkan solusi perdagangan bahan baku alam terbaik",
+      "tag": "Visi & Misi",
+      "cta": { "primary": "Pelajari Lebih Lanjut", "href": "#about", "secondary": "Lihat Produk", "href2": "#products" }
+    },
+    {
+      "id": 2,
+      "src": "https://www.pexels.com/download/video/8328046/",
+      "poster": "https://images.pexels.com/videos/2169880/free-video-2169880.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1280",
+      "title": "Inovasi Tanpa Batas",
+      "subtitle": "Mendorong transformasi digital di sektor energi nasional",
+      "tag": "Inovasi",
+      "cta": { "primary": "Tentang Kami", "href": "#about", "secondary": "Investor", "href2": "/investor-relations" }
+    },
+    {
+      "id": 3,
+      "src": "https://www.pexels.com/download/video/7692917/",
+      "poster": "https://images.pexels.com/videos/2792369/free-video-2792369.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1280",
+      "title": "Mitra Strategis Bangsa",
+      "subtitle": "Berkomitmen menjadi perusahaan energi nasional kelas dunia",
+      "tag": "Kemitraan",
+      "cta": { "primary": "Hubungi Kami", "href": "#contact", "secondary": "Partner", "href2": "#partner" }
+    },
+    {
+      "id": 4,
+      "src": "https://www.pexels.com/download/video/35639012/",
+      "poster": "https://images.pexels.com/videos/3163534/free-video-3163534.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1280",
+      "title": "Keberlanjutan untuk Masa Depan",
+      "subtitle": "Bergerak menuju energi hijau yang ramah lingkungan dan berkelanjutan",
+      "tag": "Sustainability",
+      "cta": { "primary": "Program ESG", "href": "#services", "secondary": "Brand Kami", "href2": "#brands" }
+    }
+  ],
+  "floatingStats": [
+    { "value": "6+",    "label": "Lini Bisnis" },
+    { "value": "120+",  "label": "Mitra Strategis" },
+    { "value": "99.9%", "label": "Uptime Layanan" }
+  ]
+}

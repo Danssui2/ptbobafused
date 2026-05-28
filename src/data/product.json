@@ -1,0 +1,365 @@
+{
+  "waNumber": "6281200000000",
+  "contactEmail": "hello@ptboba.id",
+  "header": {
+    "chip": "Portfolio Produk",
+    "title": "Produk Alam",
+    "titleHighlight": "Unggulan",
+    "titleEnd": "Indonesia",
+    "desc": "Komoditas pertanian, perkebunan, perikanan, dan kerajinan alam berkualitas tinggi — tersedia untuk pasar nasional dan ekspor internasional.",
+    "ctaLabel": "Lihat semua produk",
+    "ctaHref": "#products"
+  },
+  "categories": [
+    "Semua",
+    "Pertanian & Perkebunan",
+    "Perikanan & Energi",
+    "Kerajinan & Tekstil"
+  ],
+  "marqueeItems": [
+    "Kelapa Muda",
+    "Kelapa Tua",
+    "Ubi Jalar",
+    "Rempah-rempah",
+    "Singkong",
+    "Manggis",
+    "Madu Hutan",
+    "Alpukat Tropis",
+    "Arang Kayu",
+    "Teri Kering",
+    "Kerajinan Kayu",
+    "Kerajinan Bambu",
+    "Batik Autentik"
+  ],
+  "cta": {
+    "eyebrow": "Kemitraan & Distribusi",
+    "title": "Siap Bermitra untuk Suplai Komoditas Alam?",
+    "desc": "Kami menyediakan komoditas bahan baku alam berkualitas tinggi dalam jumlah besar, siap untuk distribusi nasional maupun ekspor.",
+    "buttons": [
+      {
+        "label": "Hubungi Kami",
+        "href": "#contact",
+        "variant": "white"
+      },
+      {
+        "label": "Lihat Layanan",
+        "href": "#services",
+        "variant": "outline"
+      }
+    ]
+  },
+  "brands": [
+    {
+      "id": 1,
+      "name": "Kelapa Muda",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Segar, Alami, Siap Ekspor",
+      "desc": "Kelapa muda segar dengan air yang menyegarkan dan daging yang lembut. Ideal untuk konsumsi segar, minuman kemasan, dan industri makanan-minuman.",
+      "featured": true,
+      "color": "#2E8B57",
+      "initials": "KM",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Partai Besar",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/coconut-fruit.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 2,
+      "name": "Kelapa Tua",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Bahan Baku Santan & Minyak Kelapa",
+      "desc": "Kelapa tua pilihan dengan kandungan lemak tinggi. Cocok untuk produksi santan, minyak kelapa, dan kelapa parut kering (desiccated coconut).",
+      "featured": true,
+      "color": "#8B6914",
+      "initials": "KT",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Container Load",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/Mature.webp",
+      "website": "#contact"
+    },
+    {
+      "id": 3,
+      "name": "Ubi Jalar",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Komoditas Pangan Serbaguna",
+      "desc": "Ubi jalar segar dipanen pada kematangan optimal. Cocok untuk konsumsi langsung, tepung, camilan, dan kebutuhan industri pengolahan pangan.",
+      "featured": true,
+      "color": "#D2691E",
+      "initials": "UJ",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Partai Besar",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/sweet-potatoes-wooden-box.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 4,
+      "name": "Rempah-rempah",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Kunyit, Jahe & Kencur Pilihan",
+      "desc": "Rempah segar khas Indonesia — kunyit, jahe, dan kencur — dengan aroma kuat dan kualitas terjaga. Tersedia untuk kebutuhan kuliner dan industri.",
+      "featured": false,
+      "color": "#C41E3A",
+      "initials": "RP",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Partai Besar",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/top-view-saffron-other-spices-still-life-composition.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 5,
+      "name": "Singkong",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Bahan Baku Pangan & Industri",
+      "desc": "Singkong premium dengan kualitas stabil untuk kebutuhan pangan dan aplikasi industri — tepung tapioka, pakan ternak, dan produk olahan lainnya.",
+      "featured": false,
+      "color": "#6B8E23",
+      "initials": "SK",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Partai Besar",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/composition-nutritious-cassava-roots-sliced.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 6,
+      "name": "Manggis",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Ratu Buah Tropis Indonesia",
+      "desc": "Manggis kualitas ekspor dengan kesegaran dan penampilan premium. Kaya antioksidan xanthone, diminati pasar Asia, Eropa, dan Timur Tengah.",
+      "featured": false,
+      "color": "#8B0057",
+      "initials": "MG",
+      "stats": [
+        {
+          "v": "Musiman",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Ekspor & Partai",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Ekspor Global",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/fruit-punctured-stick.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 7,
+      "name": "Madu Hutan",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Madu Murni dari Hutan Tropis",
+      "desc": "Madu hutan mentah 100% alami, dipanen dari hutan tropis Indonesia. Kaya enzim dan antioksidan, tersedia dalam jeriken curah maupun kemasan botol.",
+      "featured": false,
+      "color": "#DAA520",
+      "initials": "MH",
+      "stats": [
+        {
+          "v": "Musiman",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Curah & Botol",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/Madu.webp",
+      "website": "#contact"
+    },
+    {
+      "id": 8,
+      "name": "Alpukat Tropis",
+      "category": "Pertanian & Perkebunan",
+      "tagline": "Tekstur Creamy, Kaya Nutrisi",
+      "desc": "Alpukat tropis dengan kandungan minyak tinggi dan daging tebal. Ideal untuk distribusi grosir, industri minuman kesehatan, dan ekstraksi minyak alpukat.",
+      "featured": false,
+      "color": "#556B2F",
+      "initials": "AT",
+      "stats": [
+        {
+          "v": "Musiman",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Grosir & Curah",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/avocado-products-made-from-avocados-food-nutrition-concept.webp",
+      "website": "#contact"
+    },
+    {
+      "id": 9,
+      "name": "Arang Kayu",
+      "category": "Perikanan & Energi",
+      "tagline": "Energi Bersih dari Kayu Pilihan",
+      "desc": "Arang kayu campuran berkualitas tinggi dengan performa pembakaran stabil. Cocok untuk kebutuhan rumah tangga, restoran, dan industri.",
+      "featured": false,
+      "color": "#2F4F4F",
+      "initials": "AK",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Partai Besar",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/01/still-life-ashes-with-charcoal.jpg",
+      "website": "#contact"
+    },
+    {
+      "id": 10,
+      "name": "Teri Kering Premium",
+      "category": "Perikanan & Energi",
+      "tagline": "Teri Nasi & Teri Medan Pilihan",
+      "desc": "Ikan teri kering berkualitas tinggi (Teri Nasi / Teri Medan), dibersihkan dan disortir dengan baik. Diawetkan secara alami tanpa bahan kimia berbahaya.",
+      "featured": false,
+      "color": "#4682B4",
+      "initials": "TK",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Karung & Vakum",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Nasional & Ekspor",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/Teri.webp",
+      "website": "#contact"
+    },
+    {
+      "id": 11,
+      "name": "Kerajinan Bambu",
+      "category": "Kerajinan & Tekstil",
+      "tagline": "Produk Ramah Lingkungan dari Bambu",
+      "desc": "Kerajinan bambu berkelanjutan — keranjang, lampu, dan aksesori fashion — diproses untuk ketahanan dan ketahanan terhadap hama. Ideal untuk pasar eco-lifestyle.",
+      "featured": false,
+      "color": "#5F8A4A",
+      "initials": "KB",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Grosir & Ekspor",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Ekspor Global",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/Bamboo.webp",
+      "website": "#contact"
+    },
+    {
+      "id": 12,
+      "name": "Batik Autentik",
+      "category": "Kerajinan & Tekstil",
+      "tagline": "Warisan Budaya Bernilai Global",
+      "desc": "Batik premium pada kain katun atau sutra, tersedia dalam Batik Tulis (tangan) maupun Batik Cap. Motif tradisional dengan kualitas ekspor untuk fashion dan interior.",
+      "featured": false,
+      "color": "#8B008B",
+      "initials": "BA",
+      "stats": [
+        {
+          "v": "Sepanjang Tahun",
+          "l": "Ketersediaan"
+        },
+        {
+          "v": "Gulungan & Garmen",
+          "l": "Jenis Suplai"
+        },
+        {
+          "v": "Ekspor Global",
+          "l": "Pasar"
+        }
+      ],
+      "img": "https://daunmudatradingindonesia.com/wp-content/uploads/2026/04/Batik.webp",
+      "website": "#contact"
+    }
+  ]
+}

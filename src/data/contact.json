@@ -1,0 +1,88 @@
+{
+  "header": {
+    "chip": "Hubungi Kami",
+    "title": "Ada yang Ingin Ditanyakan?",
+    "subtitle": "Tim PT BOBA siap membantu Anda — mulai dari pertanyaan produk, kemitraan, hingga layanan green technology."
+  },
+  "contactInfo": [
+    {
+      "icon": "MapPin",
+      "label": "Alamat",
+      "value": "Jl. Mayjend. Jonosewojo No.Kav.3, Surabaya",
+      "sub": "Kantor Pusat PT BOBA"
+    },
+    {
+      "icon": "Phone",
+      "label": "Telepon",
+      "value": "+62 21 5555 8888",
+      "sub": "Senin – Jumat, 09.00–17.00 WIB"
+    },
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "value": "hello@ptboba.id",
+      "sub": "Balasan dalam 1×24 jam"
+    }
+  ],
+  "form": {
+    "title": "Kirim Pesan",
+    "subtitle": "Isi formulir di bawah dan kami akan merespons dalam 1×24 jam.",
+    "privacyNote": "Dengan mengirim pesan, Anda menyetujui Kebijakan Privasi PT BOBA.",
+    "successTitle": "Pesan Terkirim!",
+    "successDesc": "Terima kasih telah menghubungi kami. Tim PT BOBA akan merespons pesan Anda dalam 1×24 jam kerja.",
+    "successReset": "Kirim pesan lain →",
+    "subjects": [
+      "Pertanyaan Umum",
+      "Pembelian Bahan Baku",
+      "Ekspor & Kemitraan Internasional",
+      "Kemitraan Distribusi Nasional",
+      "Program Sosial & CSR",
+      "Investor Relations",
+      "Lainnya"
+    ]
+  },
+  "map": {
+    "title": "Lokasi PT BOBA",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4029.715454857656!2d112.67497467508198!3d-7.289414792717991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc37c16803b9%3A0x209ab8b64b6905d0!2sSpazio!5e1!3m2!1sen!2sid!4v1778474717153!5m2!1sen!2sid"
+  },
+  "quickContact": [
+    {
+      "icon": "Phone",
+      "label": "Telepon Langsung",
+      "value": "+62 21 5555 8888",
+      "href": "tel:+622155558888"
+    },
+    {
+      "icon": "Mail",
+      "label": "Kirim Email",
+      "value": "hello@ptboba.id",
+      "href": "mailto:hello@ptboba.id"
+    }
+  ],
+  "whatsapp": {
+    "number": "622155558888",
+    "label": "Chat via WhatsApp"
+  },
+  "faq": {
+    "chip": "FAQ",
+    "title": "Pertanyaan yang Sering Ditanyakan",
+    "items": [
+      {
+        "q": "Bagaimana cara mendaftar sebagai mitra PT BOBA?",
+        "a": "Isi formulir kontak dengan subjek \"Kemitraan & Kolaborasi\", atau hubungi tim kami langsung via email hello@ptboba.id. Tim kami akan merespons dalam 1×24 jam."
+      },
+      {
+        "q": "Produk bahan baku apa saja yang diperdagangkan BOBA Group?",
+        "a": "BOBA Group memperdagangkan berbagai komoditas bahan baku alam unggulan Indonesia, mencakup kopi, kakao, kelapa sawit, karet, rempah-rempah, dan hasil perkebunan lainnya — tersedia untuk pembelian partai besar, distribusi nasional, maupun ekspor."
+      },
+      {
+        "q": "Bagaimana cara memesan layanan Green Services PT BOBA?",
+        "a": "Isi formulir dengan subjek \"Layanan Green Technology\" atau kunjungi halaman Services untuk detail harga dan cakupan layanan."
+      },
+      {
+        "q": "Apakah PT BOBA membuka peluang investasi?",
+        "a": "Ya. Kunjungi halaman Investor Relations atau hubungi kami dengan subjek \"Investor Relations\" untuk mendapatkan pitch deck dan jadwal pertemuan."
+      }
+    ]
+  }
+}

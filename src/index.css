@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #ffffff;
+    color: #0D5040;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-600 { animation-delay: 600ms; }
+  .animation-delay-700 { animation-delay: 700ms; }
+  .animation-delay-800 { animation-delay: 800ms; }
+
+  .text-shadow-lg { text-shadow: 0 4px 28px rgba(0,0,0,0.55); }
+
+  .glass {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.20);
+  }
+
+  /* Nav underline — white variant (on hero) */
+  .nav-link-underline { position: relative; }
+  .nav-link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0;
+    width: 0; height: 2px;
+    background: #2DD4B0;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+  .nav-link-underline:hover::after,
+  .nav-link-underline.active::after { width: 100%; }
+
+  /* Nav underline — dark variant (on white navbar) */
+  .nav-link-underline.active-dark::after { width: 100%; background: #1BA882; }
+
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(13,80,64,0.88) 0%,
+      rgba(27,168,130,0.20) 55%,
+      rgba(0,0,0,0.40) 100%
+    );
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-brand-green text-white font-semibold
+           px-6 py-3 rounded-lg hover:bg-brand-green-dark
+           transition-all duration-300
+           hover:shadow-[0_4px_24px_rgba(27,168,130,0.40)]
+           active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 bg-transparent text-white font-semibold
+           px-6 py-3 rounded-lg border border-white/40
+           hover:border-white hover:bg-white/10
+           transition-all duration-300 active:scale-95;
+  }
+
+  /* Brand card outline button (dark) */
+  .btn-brand {
+    @apply w-full inline-flex items-center justify-center gap-2
+           text-brand-green-deep font-semibold text-sm
+           px-4 py-3 rounded-xl border border-gray-200
+           hover:border-brand-green-mid hover:text-white hover:bg-brand-green-mid
+           transition-all duration-300 active:scale-[0.98];
+  }
+
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-marquee { animation: marquee 30s linear infinite; }
+
+  /* section chip */
+  .section-chip {
+    @apply inline-flex items-center gap-2 text-brand-green
+           text-[11px] font-bold tracking-[0.22em] uppercase mb-4;
+  }
+  .section-chip::before {
+    content: '';
+    display: inline-block;
+    width: 22px; height: 2px;
+    background: #1BA882;
+    border-radius: 2px;
+  }
+  .section-chip.centered { @apply justify-center; }
+  .section-chip.centered::before { display: none; }
+  .section-chip.centered::after {
+    content: '';
+    display: inline-block;
+    width: 22px; height: 2px;
+    background: #1BA882;
+    border-radius: 2px;
+  }
+}
