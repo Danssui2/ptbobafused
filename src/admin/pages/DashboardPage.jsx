@@ -60,7 +60,7 @@ export default function DashboardPage() {
             {lastUpdate?.updatedAt && <> · Terakhir update: <strong style={{ color: '#fff' }}>{formatDate(lastUpdate.updatedAt)}</strong></>}
           </p>
         </div>
-        <a href="http://localhost:5173" target="_blank" rel="noreferrer"
+        <a href="/" target="_blank" rel="noreferrer"
           style={{ padding: '9px 18px', borderRadius: 10, background: 'rgba(255,255,255,0.15)', color: '#fff', textDecoration: 'none', fontSize: 13, fontWeight: 600, border: '1px solid rgba(255,255,255,0.3)' }}>
           🔗 Lihat Website
         </a>
