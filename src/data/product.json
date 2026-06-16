@@ -1,5 +1,5 @@
 {
-  "waNumber": "6287860383724",
+  "waNumber": "6287874588706",
   "contactEmail": "hello@ptboba.id",
   "header": {
     "chip": "Katalog Produk 2026",
@@ -1591,7 +1591,9 @@
       "website": ""
     },
     {
-      "id": 1780902249694,
+      "id": {
+        "$numberLong": "1780902249694"
+      },
       "name": "Kayu Apel",
       "category": "Kayu & Material",
       "tagline": "Premium 1 m³",
@@ -1609,7 +1611,9 @@
       ]
     },
     {
-      "id": 1780902615451,
+      "id": {
+        "$numberLong": "1780902615451"
+      },
       "name": "Kayu Jeruk",
       "category": "Kayu & Material",
       "tagline": "Premium 1 m³",
@@ -1627,7 +1631,9 @@
       ]
     },
     {
-      "id": 1780902855055,
+      "id": {
+        "$numberLong": "1780902855055"
+      },
       "name": "Cengkeh",
       "category": "Kopi & Rempah",
       "tagline": "Cengkeh Premium",
@@ -1645,7 +1651,9 @@
       ]
     },
     {
-      "id": 1780902856342,
+      "id": {
+        "$numberLong": "1780902856342"
+      },
       "name": "Vanilla Grade A",
       "category": "Kopi & Rempah",
       "tagline": "Grade A",
@@ -1663,7 +1671,9 @@
       ]
     },
     {
-      "id": 1780902857872,
+      "id": {
+        "$numberLong": "1780902857872"
+      },
       "name": "Vanilla Grade B",
       "category": "Kopi & Rempah",
       "tagline": "Grade B",
@@ -1681,7 +1691,9 @@
       ]
     },
     {
-      "id": 1780902859090,
+      "id": {
+        "$numberLong": "1780902859090"
+      },
       "name": "Vanilla Grade C",
       "category": "Kopi & Rempah",
       "tagline": "Grade C",
@@ -1699,7 +1711,9 @@
       ]
     },
     {
-      "id": 1780902860107,
+      "id": {
+        "$numberLong": "1780902860107"
+      },
       "name": "Vanilla Powder",
       "category": "Kopi & Rempah",
       "tagline": "Soft Powder",

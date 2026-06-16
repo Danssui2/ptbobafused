@@ -11,16 +11,10 @@
         "photo": "/founders/bachrul-ullum-assrori.jpg"
       },
       {
-        "name": "Ellen Sinta Budirahayu",
-        "role": "Marketing Manager",
-        "desc": "Bertanggung jawab dalam merancang dan menjalankan strategi pemasaran, membangun identitas brand, serta memperluas jangkauan pasar BOBA Group.",
-        "photo": "/founders/ellen-sinta-budirahayu.jpg"
-      },
-      {
         "name": "Shely Nilam Sari",
         "role": "Administrasi",
-        "desc": "Bertanggung jawab dalam pengelolaan administrasi perusahaan, koordinasi dokumen, serta mendukung kelancaran operasional harian BOBA Group.",
-        "photo": "/founders/shelly.jpg"
+        "desc": "Bertanggung jawab dalam pengelolaan administrasi perusahaan, strategi pemasaran, membangun identitas brand, koordinasi dokumen, serta mendukung kelancaran operasional harian BOBA Group.",
+        "photo": "https://res.cloudinary.com/dftolrwwi/image/upload/f_auto,q_auto/bachrul-ullum-assrori_celmmk"
       }
     ]
   },
@@ -56,8 +50,8 @@
       }
     ],
     "subholdingsChip": "Struktur Subholding",
-    "subholdingsTitle": "4 Subholding BOBA Group",
-    "subholdingsSubtitle": "Empat entitas bisnis strategis yang beroperasi di bawah naungan BOBA Group dalam perdagangan bahan baku alam nasional dan ekspor.",
+    "subholdingsTitle": "3 Subholding BOBA Group",
+    "subholdingsSubtitle": "Tiga entitas bisnis strategis yang beroperasi di bawah naungan BOBA Group dalam perdagangan bahan baku alam nasional dan ekspor.",
     "subholdings": [
       {
         "id": 1,
@@ -72,20 +66,6 @@
           "Rempah segar: kunyit, jahe, kencur (nasional & ekspor)",
           "Buah tropis premium: manggis dan alpukat",
           "Ubi jalar, singkong, dan madu hutan murni"
-        ]
-      },
-      {
-        "id": 2,
-        "icon": "Zap",
-        "accentFrom": "#0369A1",
-        "accentTo": "#38BDF8",
-        "name": "BOBA Marine & Energy",
-        "label": "Subholding Perikanan & Energi",
-        "focus": "Perdagangan hasil perikanan olahan dan komoditas energi biomassa berkualitas tinggi untuk kebutuhan industri, ekspor, dan pasar gourmet internasional.",
-        "products": [
-          "Teri kering premium: Teri Nasi & Teri Medan",
-          "Bekicot olahan (frozen/canned) untuk pasar gourmet ekspor",
-          "Arang kayu campuran berkualitas tinggi untuk industri & rumah tangga"
         ]
       },
       {

@@ -14,13 +14,13 @@
     {
       "icon": "Phone",
       "label": "Telepon",
-      "value": "+62 21 5555 8888",
+      "value": "+6287874588706",
       "sub": "Senin – Jumat, 09.00–17.00 WIB"
     },
     {
       "icon": "Mail",
       "label": "Email",
-      "value": "hello@ptboba.id",
+      "value": "ptboba26@gmail.com",
       "sub": "Balasan dalam 1×24 jam"
     }
   ],
@@ -49,18 +49,18 @@
     {
       "icon": "Phone",
       "label": "Telepon Langsung",
-      "value": "+62 21 5555 8888",
-      "href": "tel:+622155558888"
+      "value": "+6287874588706",
+      "href": "tel:+6287874588706"
     },
     {
       "icon": "Mail",
       "label": "Kirim Email",
-      "value": "hello@ptboba.id",
-      "href": "mailto:hello@ptboba.id"
+      "value": "ptboba26@gmail.com",
+      "href": "mailto:ptboba26@gmail.com"
     }
   ],
   "whatsapp": {
-    "number": "622155558888",
+    "number": "6287874588706",
     "label": "Chat via WhatsApp"
   },
   "faq": {

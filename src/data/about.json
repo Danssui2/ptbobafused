@@ -7,7 +7,7 @@
     "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
     "imageAlt": "Tim PT BOBA",
     "imageLabel": "Tim Profesional Kami",
-    "imageSub": "1.000+ karyawan berdedikasi",
+    "imageSub": "20+ karyawan berdedikasi",
     "badge": {
       "value": "Indonesia 100%",
       "sub": "National Identity"
@@ -28,28 +28,28 @@
   "stats": [
     {
       "icon": "TrendingUp",
-      "value": 75,
+      "value": 3,
       "suffix": "+",
       "label": "Tahun Pengalaman",
-      "sub": "sejak 1957"
+      "sub": "sejak 2024"
     },
     {
       "icon": "Users",
-      "value": 31000,
+      "value": 20,
       "suffix": "+",
       "label": "Karyawan Aktif",
       "sub": "seluruh Indonesia"
     },
     {
       "icon": "Globe",
-      "value": 13,
-      "suffix": "",
+      "value": 10,
+      "suffix": "+",
       "label": "Negara Operasional",
       "sub": "ekspansi global"
     },
     {
       "icon": "Award",
-      "value": 100,
+      "value": 10,
       "suffix": "+",
       "label": "Penghargaan",
       "sub": "nasional & internasional"
@@ -107,20 +107,20 @@
     "defaultYear": "2025",
     "milestones": [
       {
-        "year": "2015",
+        "year": "2024",
         "event": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional."
-      },
-      {
-        "year": "2018",
-        "event": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional."
-      },
-      {
-        "year": "2022",
-        "event": "Masuk daftar Fortune Global 500 dan memperkuat komitmen energi terbarukan."
       },
       {
         "year": "2025",
+        "event": "Masuk daftar Fortune Global 500 dan memperkuat komitmen energi terbarukan."
+      },
+      {
+        "year": "2026",
         "event": "Akselerasi transisi energi — target 23% portofolio dari renewable energy."
+      },
+      {
+        "year": "2027",
+        "event": "Inovasi pedagangan internasional berbasis ai untuk menunjang kebutuhan ekspor negeri"
       }
     ]
   },

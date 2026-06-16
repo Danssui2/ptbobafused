@@ -1,231 +1,231 @@
 {
-  "hero": {
-    "badge": "Investor Relations",
-    "title": "Investor Relations",
-    "titleHighlight": "PT BOBA",
-    "desc": "Halaman khusus bagi investor nasional dan internasional yang ingin memahami profil bisnis, potensi pertumbuhan, dan komitmen ESG PT Bikin Orang Bahagia.",
-    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "ctaPrimary": {
-      "label": "Kirim Inquiry",
-      "href": "#investor-form"
+    "hero": {
+      "badge": "Investor Relations",
+      "title": "Investor Relations",
+      "titleHighlight": "PT BOBA",
+      "desc": "Halaman khusus bagi investor nasional dan internasional yang ingin memahami profil bisnis, potensi pertumbuhan, dan komitmen ESG PT Bikin Orang Bahagia.",
+      "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "ctaPrimary": {
+        "label": "Kirim Inquiry",
+        "href": "#investor-form"
+      },
+      "ctaSecondary": {
+        "label": "Lihat Roadmap",
+        "href": "#investor-roadmap"
+      },
+      "floatingStats": [
+        {
+          "icon": "Building2",
+          "value": "3",
+          "label": "Unit Bisnis",
+          "sub": "BOBA Agro · BOBA Global · BOBA Nusantara"
+        },
+        {
+          "icon": "Leaf",
+          "value": "500+",
+          "label": "Ton/tahun (target)",
+          "sub": "Ton komoditas/tahun (target)"
+        },
+        {
+          "icon": "Globe2",
+          "value": "2",
+          "label": "Bidang Bisnis",
+          "sub": "Fashion & Green Technology"
+        },
+        {
+          "icon": "TrendingUp",
+          "value": "120+",
+          "label": "Ton CO₂e reduksi/tahun",
+          "sub": "Komitmen ESG BOBA Group"
+        }
+      ]
     },
-    "ctaSecondary": {
-      "label": "Lihat Roadmap",
-      "href": "#investor-roadmap"
+    "whyBoba": {
+      "chip": "Profil Perusahaan",
+      "title": "Mengapa PT BOBA?",
+      "subtitle": "PT BOBA adalah perusahaan multi-sektor yang menggabungkan industri tekstil, fashion brand, dan layanan green technology dalam satu ekosistem terintegrasi.",
+      "subtitleHighlight": "diversifikasi pendapatan + dampak ESG",
+      "items": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Risiko Terdiversifikasi",
+          "desc": "Tiga brand kuat di sektor berbeda meminimalkan risiko konsentrasi bisnis."
+        },
+        {
+          "icon": "Zap",
+          "title": "Skalabilitas Tinggi",
+          "desc": "Ekspansi cepat jaringan distribusi bahan baku alam ke seluruh Indonesia dan pasar ekspor."
+        },
+        {
+          "icon": "Leaf",
+          "title": "Kepatuhan ESG",
+          "desc": "Komitmen perdagangan bahan baku alam yang berkelanjutan sesuai standar ESG global."
+        },
+        {
+          "icon": "Users",
+          "title": "Tim Profesional",
+          "desc": "Pendiri berpengalaman dengan fokus pertumbuhan jangka panjang dan transparan."
+        }
+      ]
     },
-    "floatingStats": [
-      {
-        "icon": "Building2",
-        "value": "3",
-        "label": "Unit Bisnis",
-        "sub": "BOBA Agro · BOBA Global · BOBA Nusantara"
-      },
-      {
-        "icon": "Leaf",
-        "value": "500+",
-        "label": "Ton/tahun (target)",
-        "sub": "Ton komoditas/tahun (target)"
-      },
-      {
-        "icon": "Globe2",
-        "value": "2",
-        "label": "Bidang Bisnis",
-        "sub": "Fashion & Green Technology"
-      },
-      {
-        "icon": "TrendingUp",
-        "value": "120+",
-        "label": "Ton CO₂e reduksi/tahun",
-        "sub": "Komitmen ESG BOBA Group"
-      }
-    ]
-  },
-  "whyBoba": {
-    "chip": "Profil Perusahaan",
-    "title": "Mengapa PT BOBA?",
-    "subtitle": "PT BOBA adalah perusahaan multi-sektor yang menggabungkan industri tekstil, fashion brand, dan layanan green technology dalam satu ekosistem terintegrasi.",
-    "subtitleHighlight": "diversifikasi pendapatan + dampak ESG",
-    "items": [
-      {
-        "icon": "ShieldCheck",
-        "title": "Risiko Terdiversifikasi",
-        "desc": "Tiga brand kuat di sektor berbeda meminimalkan risiko konsentrasi bisnis."
-      },
-      {
-        "icon": "Zap",
-        "title": "Skalabilitas Tinggi",
-        "desc": "Ekspansi cepat jaringan distribusi bahan baku alam ke seluruh Indonesia dan pasar ekspor."
-      },
-      {
-        "icon": "Leaf",
-        "title": "Kepatuhan ESG",
-        "desc": "Komitmen perdagangan bahan baku alam yang berkelanjutan sesuai standar ESG global."
-      },
-      {
-        "icon": "Users",
-        "title": "Tim Profesional",
-        "desc": "Pendiri berpengalaman dengan fokus pertumbuhan jangka panjang dan transparan."
-      }
-    ]
-  },
-  "metrics": {
-    "chip": "Key Metrics",
-    "title": "Angka yang Bicara",
-    "items": [
-      {
-        "icon": "Building2",
-        "value": 3,
-        "suffix": "",
-        "label": "Unit Bisnis",
-        "sub": "BOBA Agro · BOBA Global · BOBA Nusantara"
-      },
-      {
-        "icon": "BarChart3",
-        "value": 2,
-        "suffix": "",
-        "label": "Bidang Bisnis",
-        "sub": "Fashion & Green Technology"
-      },
-      {
-        "icon": "Target",
-        "value": 12,
-        "suffix": "+",
-        "label": "Kategori Produk",
-        "sub": "Fashion & lifestyle items"
-      },
-      {
-        "icon": "Leaf",
-        "value": 500,
-        "suffix": "+",
-        "label": "Ton/tahun (target)",
-        "sub": "Ton komoditas/tahun (target)"
-      },
-      {
-        "icon": "TrendingUp",
-        "value": 120,
-        "suffix": "+",
-        "label": "Ton CO₂e/tahun (target)",
-        "sub": "Reduksi emisi karbon"
-      },
-      {
-        "icon": "Globe2",
-        "value": null,
-        "suffix": "",
-        "label": "Potensi Pasar",
-        "sub": "Lokal & Internasional"
-      }
-    ]
-  },
-  "roadmap": {
-    "chip": "Roadmap & Milestones",
-    "title": "Perjalanan PT BOBA",
-    "items": [
-      {
-        "year": "2024",
-        "month": "Januari",
-        "title": "Pendirian PT BOBA",
-        "desc": "PT Bikin Orang Bahagia resmi didirikan dengan visi industri tekstil, fashion, dan green technology.",
-        "active": false,
-        "upcoming": false
-      },
-      {
-        "year": "2024",
-        "month": "Maret",
-        "title": "Peluncuran Unit BOBA Agro & BOBA Nusantara",
-        "desc": "Unit perdagangan komoditas pertanian dan distribusi nasional resmi beroperasi.",
-        "active": false,
-        "upcoming": false
-      },
-      {
-        "year": "2024",
-        "month": "Juli",
-        "title": "Peluncuran BOBA Global",
-        "desc": "Unit ekspor internasional BOBA Global resmi beroperasi, membuka akses pasar global untuk komoditas alam Indonesia.",
-        "active": false,
-        "upcoming": false
-      },
-      {
-        "year": "2026",
-        "month": "April",
-        "title": "Ekspansi Marketplace Digital",
-        "desc": "PT BOBA meluncurkan marketplace digital terintegrasi untuk produk fashion dan layanan green technology.",
-        "active": true,
-        "upcoming": false
-      },
-      {
-        "year": "2027",
-        "month": "",
-        "title": "Visi Pertumbuhan Internasional",
-        "desc": "Rencana ekspansi ke pasar Asia Tenggara dan kerja sama investor strategis nasional/internasional.",
-        "active": false,
-        "upcoming": true
-      }
-    ]
-  },
-  "documents": {
-    "chip": "Company Documents",
-    "title": "Dokumen Perusahaan",
-    "items": [
-      {
-        "icon": "FileText",
-        "tag": "Profile",
-        "tagColor": "bg-brand-green text-white",
-        "title": "Company Profile PT BOBA 2026",
-        "desc": "Profil lengkap perusahaan PT Bikin Orang Bahagia.",
-        "status": "2026 Coming Soon"
-      },
-      {
-        "icon": "TrendingUp",
-        "tag": "Investor",
-        "tagColor": "bg-brand-green-deep text-white",
-        "title": "Pitch Deck Investor",
-        "desc": "Materi presentasi peluang investasi PT BOBA.",
-        "status": "2026 Coming Soon"
-      },
-      {
-        "icon": "Leaf",
-        "tag": "ESG",
-        "tagColor": "bg-emerald-600 text-white",
-        "title": "Laporan Keberlanjutan BOBA Group",
-        "desc": "Laporan keberlanjutan perdagangan bahan baku alam BOBA Group.",
-        "status": "2026 Coming Soon"
-      }
-    ]
-  },
-  "form": {
-    "chip": "Hubungi Kami",
-    "title": "Hubungi Tim Investor Relations",
-    "subtitle": "Kami terbuka untuk diskusi serius tentang investasi, kemitraan strategis, dan kerja sama jangka panjang.",
-    "contacts": [
-      {
-        "icon": "Mail",
-        "label": "Email Investor Relations",
-        "value": "investor@ptboba.co.id",
-        "href": "mailto:investor@ptboba.co.id"
-      },
-      {
-        "icon": "Phone",
-        "label": "Telepon Langsung",
-        "value": "+62 812-0000-0000",
-        "href": "tel:+628120000000"
-      }
-    ],
-    "commitment": "Tim Investor Relations PT BOBA akan menghubungi Anda kembali dalam 2×24 jam kerja untuk mendiskusikan peluang investasi lebih lanjut.",
-    "successTitle": "Inquiry Terkirim!",
-    "successDesc": "Terima kasih atas minat Anda. Tim Investor Relations PT BOBA akan menghubungi Anda dalam 2×24 jam kerja.",
-    "privacyNote": "Dengan mengirim inquiry, Anda menyetujui Kebijakan Privasi PT BOBA.",
-    "rangeOptions": [
-      "< Rp 1 M",
-      "Rp 1 M – 5 M",
-      "Rp 5 M – 25 M",
-      "Rp 25 M – 100 M",
-      "> Rp 100 M"
-    ],
-    "interestOptions": [
-      "Komoditas Pertanian & Perkebunan (BOBA Agro)",
-      "Ekspor Internasional (BOBA Global)",
-      "Perdagangan Nasional (BOBA Nusantara)",
-      "Lainnya"
-    ]
+    "metrics": {
+      "chip": "Key Metrics",
+      "title": "Angka yang Bicara",
+      "items": [
+        {
+          "icon": "Building2",
+          "value": 3,
+          "suffix": "",
+          "label": "Unit Bisnis",
+          "sub": "BOBA Agro · BOBA Global · BOBA Nusantara"
+        },
+        {
+          "icon": "BarChart3",
+          "value": 2,
+          "suffix": "",
+          "label": "Bidang Bisnis",
+          "sub": "Fashion & Green Technology"
+        },
+        {
+          "icon": "Target",
+          "value": 12,
+          "suffix": "+",
+          "label": "Kategori Produk",
+          "sub": "Fashion & lifestyle items"
+        },
+        {
+          "icon": "Leaf",
+          "value": 500,
+          "suffix": "+",
+          "label": "Ton/tahun (target)",
+          "sub": "Ton komoditas/tahun (target)"
+        },
+        {
+          "icon": "TrendingUp",
+          "value": 120,
+          "suffix": "+",
+          "label": "Ton CO₂e/tahun (target)",
+          "sub": "Reduksi emisi karbon"
+        },
+        {
+          "icon": "Globe2",
+          "value": null,
+          "suffix": "",
+          "label": "Potensi Pasar",
+          "sub": "Lokal & Internasional"
+        }
+      ]
+    },
+    "roadmap": {
+      "chip": "Roadmap & Milestones",
+      "title": "Perjalanan PT BOBA",
+      "items": [
+        {
+          "year": "2024",
+          "month": "Januari",
+          "title": "Pendirian PT BOBA",
+          "desc": "PT Bikin Orang Bahagia resmi didirikan dengan visi industri tekstil, fashion, dan green technology.",
+          "active": false,
+          "upcoming": false
+        },
+        {
+          "year": "2024",
+          "month": "Maret",
+          "title": "Peluncuran Unit BOBA Agro & BOBA Nusantara",
+          "desc": "Unit perdagangan komoditas pertanian dan distribusi nasional resmi beroperasi.",
+          "active": false,
+          "upcoming": false
+        },
+        {
+          "year": "2024",
+          "month": "Juli",
+          "title": "Peluncuran BOBA Global",
+          "desc": "Unit ekspor internasional BOBA Global resmi beroperasi, membuka akses pasar global untuk komoditas alam Indonesia.",
+          "active": false,
+          "upcoming": false
+        },
+        {
+          "year": "2026",
+          "month": "April",
+          "title": "Ekspansi Marketplace Digital",
+          "desc": "PT BOBA meluncurkan marketplace digital terintegrasi untuk produk fashion dan layanan green technology.",
+          "active": true,
+          "upcoming": false
+        },
+        {
+          "year": "2027",
+          "month": "",
+          "title": "Visi Pertumbuhan Internasional",
+          "desc": "Rencana ekspansi ke pasar Asia Tenggara dan kerja sama investor strategis nasional/internasional.",
+          "active": false,
+          "upcoming": true
+        }
+      ]
+    },
+    "documents": {
+      "chip": "Company Documents",
+      "title": "Dokumen Perusahaan",
+      "items": [
+        {
+          "icon": "FileText",
+          "tag": "Profile",
+          "tagColor": "bg-brand-green text-white",
+          "title": "Company Profile PT BOBA 2026",
+          "desc": "Profil lengkap perusahaan PT Bikin Orang Bahagia.",
+          "status": "2026 Coming Soon"
+        },
+        {
+          "icon": "TrendingUp",
+          "tag": "Investor",
+          "tagColor": "bg-brand-green-deep text-white",
+          "title": "Pitch Deck Investor",
+          "desc": "Materi presentasi peluang investasi PT BOBA.",
+          "status": "2026 Coming Soon"
+        },
+        {
+          "icon": "Leaf",
+          "tag": "ESG",
+          "tagColor": "bg-emerald-600 text-white",
+          "title": "Laporan Keberlanjutan BOBA Group",
+          "desc": "Laporan keberlanjutan perdagangan bahan baku alam BOBA Group.",
+          "status": "2026 Coming Soon"
+        }
+      ]
+    },
+    "form": {
+      "chip": "Hubungi Kami",
+      "title": "Hubungi Tim Investor Relations",
+      "subtitle": "Kami terbuka untuk diskusi serius tentang investasi, kemitraan strategis, dan kerja sama jangka panjang.",
+      "contacts": [
+        {
+          "icon": "Mail",
+          "label": "Email Investor Relations",
+          "value": "ptboba26@gmail.com",
+          "href": "mailto:ptboba26@gmai.com"
+        },
+        {
+          "icon": "Phone",
+          "label": "Telepon Langsung",
+          "value": "+6287874588706",
+          "href": "tel:+6287874588706"
+        }
+      ],
+      "commitment": "Tim Investor Relations PT BOBA akan menghubungi Anda kembali dalam 2×24 jam kerja untuk mendiskusikan peluang investasi lebih lanjut.",
+      "successTitle": "Inquiry Terkirim!",
+      "successDesc": "Terima kasih atas minat Anda. Tim Investor Relations PT BOBA akan menghubungi Anda dalam 2×24 jam kerja.",
+      "privacyNote": "Dengan mengirim inquiry, Anda menyetujui Kebijakan Privasi PT BOBA.",
+      "rangeOptions": [
+        "< Rp 1 M",
+        "Rp 1 M – 5 M",
+        "Rp 5 M – 25 M",
+        "Rp 25 M – 100 M",
+        "> Rp 100 M"
+      ],
+      "interestOptions": [
+        "Komoditas Pertanian & Perkebunan (BOBA Agro)",
+        "Ekspor Internasional (BOBA Global)",
+        "Perdagangan Nasional (BOBA Nusantara)",
+        "Lainnya"
+      ]
+    }
   }
-}

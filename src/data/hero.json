@@ -4,7 +4,7 @@
     {
       "id": 1,
       "src": "",
-      "poster": "https://images.pexels.com/photos/30517083/pexels-photo-30517083.jpeg",
+      "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-wolfgang-weiser-467045605-30517083_p9ijf2.jpg",
       "title": "Perdaganan Lintas Benua",
       "subtitle": "Menghadirkan solusi perdagangan bahan baku alam terbaik",
       "tag": "Visi & Misi",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "src": "",
-      "poster": "https://images.pexels.com/photos/8439008/pexels-photo-8439008.jpeg",
+      "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589119/pexels-pavel-danilyuk-8439008_mnxcvl.jpg",
       "title": "Inovasi Tanpa Batas",
       "subtitle": "Mendorong transformasi digital di sektor perdagangan nasional",
       "tag": "Inovasi",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "src": "",
-      "poster": "https://images.pexels.com/photos/5520322/pexels-photo-5520322.jpeg",
+      "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-pavel-danilyuk-5520322_ejfzp5.jpg",
       "title": "Mitra Strategis Bangsa",
       "subtitle": "Berkomitmen menjadi perusahaan perdagangan internasional kelas dunia",
       "tag": "Kemitraan",
@@ -46,7 +46,7 @@
     {
       "id": 4,
       "src": "",
-      "poster": "https://images.pexels.com/photos/28578392/pexels-photo-28578392.jpeg",
+      "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-andre-ulysses-de-salis-2100065-8299631_phlohp.jpg",
       "title": "Keberlanjutan untuk Masa Depan",
       "subtitle": "Bergerak menuju perdagangan hijau yang ramah lingkungan dan berkelanjutan",
       "tag": "Sustainability",
