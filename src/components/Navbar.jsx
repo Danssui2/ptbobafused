@@ -1,6 +1,7 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import { useLang } from '../hooks/useLang'
 
 const NAV_LINKS = [
   { label: 'Home',     href: '#home',     section: 'home'     },
@@ -47,8 +48,9 @@ export default function Navbar() {
   const [scrolled,  setScrolled]  = useState(false)
   const [menuOpen,  setMenuOpen]  = useState(false)
   const [active,    setActive]    = useState('Home')
-  const location = useLocation()
-  const navigate = useNavigate()
+  const location   = useLocation()
+  const navigate   = useNavigate()
+  const { lang, toggle: toggleLang } = useLang()
   const isInvestor = location.pathname === '/investor-relations'
 
   /* ── scroll: transparent → solid ── */
@@ -155,26 +157,52 @@ export default function Navbar() {
             {NAV_LINKS.map((link) => (
               <li key={link.label}>
                 {link.section === null ? (
-                  /* Investor — prominent pill button */
                   <Link to={link.href} className={investorCls(link.label)}>
                     {link.label}
                   </Link>
                 ) : (
-                  /* Section links */
-                  <button
-                    onClick={() => handleNavClick(link)}
-                    className={linkCls(link.label)}
-                  >
+                  <button onClick={() => handleNavClick(link)} className={linkCls(link.label)}>
                     {link.label}
                     <span className={underlineCls(link.label)} />
                   </button>
                 )}
               </li>
             ))}
+
+            {/* ── Language Toggle ── */}
+            <li className="ml-3">
+              <button
+                onClick={toggleLang}
+                aria-label="Switch language"
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full
+                            text-[11px] font-bold tracking-widest border transition-all duration-300
+                            ${scrolled
+                              ? 'border-gray-200 text-brand-gray-dark hover:border-brand-green hover:text-brand-green'
+                              : 'border-white/25 text-white/80 hover:border-white hover:text-white'
+                            }`}
+              >
+                <span className={lang === 'id' ? 'opacity-100' : 'opacity-40'}>ID</span>
+                <span className={`w-[1px] h-3 ${scrolled ? 'bg-gray-300' : 'bg-white/30'}`} />
+                <span className={lang === 'en' ? 'opacity-100' : 'opacity-40'}>EN</span>
+              </button>
+            </li>
           </ul>
 
-          {/* Mobile hamburger */}
-          <div className="xl:hidden flex items-center ml-auto">
+          {/* Mobile: lang toggle + hamburger */}
+          <div className="xl:hidden flex items-center gap-2 ml-auto">
+            <button
+              onClick={toggleLang}
+              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-full
+                          text-[10px] font-bold tracking-widest border transition-all duration-200
+                          ${scrolled
+                            ? 'border-gray-200 text-brand-gray-dark'
+                            : 'border-white/25 text-white/80'
+                          }`}
+            >
+              <span className={lang === 'id' ? 'opacity-100' : 'opacity-35'}>ID</span>
+              <span className={`w-[1px] h-2.5 inline-block ${scrolled ? 'bg-gray-300' : 'bg-white/30'}`} />
+              <span className={lang === 'en' ? 'opacity-100' : 'opacity-35'}>EN</span>
+            </button>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className={`p-2 transition-colors ${scrolled ? 'text-brand-gray-dark' : 'text-white/80 hover:text-white'}`}
@@ -241,6 +269,29 @@ export default function Navbar() {
                 </button>
               )
             )}
+          </div>
+
+          {/* Drawer footer — language switcher */}
+          <div className="px-6 py-4 border-t border-gray-100">
+            <p className="text-[10px] text-gray-400 font-semibold uppercase tracking-widest mb-3">
+              {lang === 'id' ? 'Bahasa' : 'Language'}
+            </p>
+            <div className="flex gap-2">
+              {['id', 'en'].map(l => (
+                <button
+                  key={l}
+                  onClick={() => { toggleLang(); if (l === lang) return }}
+                  className={`flex-1 py-2 rounded-lg text-sm font-bold uppercase tracking-wider
+                              transition-all duration-200 border
+                              ${lang === l
+                                ? 'bg-brand-green text-white border-brand-green'
+                                : 'bg-white text-gray-400 border-gray-200 hover:border-brand-green hover:text-brand-green'
+                              }`}
+                >
+                  {l === 'id' ? '🇮🇩 Indonesia' : '🇬🇧 English'}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>

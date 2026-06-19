@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import {
   Building2, ShoppingBag, Store,
@@ -72,7 +73,8 @@ export default function StrukturSection() {
   const [ecoRef,     ecoInView]     = useInView()
   const [investRef,  investInView]  = useInView()
 
-  const { data } = useContent('struktur')
+  const { data: rawData } = useContent('struktur')
+  const data = useLocalizedData(rawData)
   const { founders, ecosystem, investment } = data ?? {}
   const subholdings = ecosystem?.subholdings ?? []
   const investCard  = investment?.card ?? {}

@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import {
   TrendingUp, Building2, Leaf, Users, BarChart3, Globe2,
@@ -60,7 +61,8 @@ function MetricCard({ item, inView, delay }) {
 }
 
 export default function InvestorPage() {
-  const { data } = useContent('investor')
+  const { data: rawData } = useContent('investor')
+  const data = useLocalizedData(rawData)
   const { hero, whyBoba, metrics, roadmap, documents, form: formData } = data ?? {}
 
   /* ── Scroll ke atas saat halaman pertama kali dibuka ── */

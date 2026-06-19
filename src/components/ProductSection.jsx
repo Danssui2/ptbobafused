@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useState, useEffect, useRef } from 'react'
 import { ArrowRight, ExternalLink, Star, X, Mail, MessageCircle } from 'lucide-react'
 
@@ -261,17 +262,21 @@ function FeaturedShowcase({ brands, onOpenModal }) {
 /* ─────────────────────────────────────────────────────────────── */
 
 export default function ProductSection() {
-  const { data } = useContent('products')
+  const { data: rawData } = useContent('products')
+  const data = useLocalizedData(rawData)
   const { header, categories = [], brands = [], marqueeItems = [], cta, waNumber, contactEmail } = data ?? {}
   const FEATURED = brands.filter(b => b.featured || b.id <= 3)
 
-  const [activeCategory, setActiveCategory] = useState('Semua')
+  const [activeCategory, setActiveCategory] = useState(null)   // null = show all
   const [hoveredId,      setHoveredId]      = useState(null)
   const [selectedBrand,  setSelectedBrand]  = useState(null)
   const [headerRef, headerInView] = useInView(0.1)
   const [gridRef,   gridInView]   = useInView(0.08)
 
-  const filtered = activeCategory === 'Semua' ? brands : brands.filter(b => b.category === activeCategory)
+  // Filter by categoryKey (language-neutral) — null means "All"
+  const filtered = activeCategory
+    ? brands.filter(b => b.categoryKey === activeCategory)
+    : brands
 
   return (
     <section id="products" className="bg-white overflow-hidden">
@@ -305,12 +310,12 @@ export default function ProductSection() {
           {/* Filter bar */}
           <div ref={gridRef} className="flex items-center gap-2 flex-wrap mb-7">
             {categories.map(cat => (
-              <button key={cat} onClick={() => setActiveCategory(cat)}
+              <button key={cat.key} onClick={() => setActiveCategory(cat.key === 'all' ? null : cat.key)}
                 className={`px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200
-                            ${activeCategory === cat
+                            ${(cat.key === 'all' ? activeCategory === null : activeCategory === cat.key)
                               ? 'bg-brand-green text-white shadow-[0_4px_16px_rgba(27,168,130,0.3)]'
                               : 'bg-white text-brand-gray-mid border border-gray-200 hover:border-brand-green hover:text-brand-green'}`}>
-                {cat}
+                {cat.label}
               </button>
             ))}
             <span className="ml-2 text-brand-gray-mid text-xs font-medium hidden sm:inline">

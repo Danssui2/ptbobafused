@@ -1,57 +1,132 @@
 {
   "founders": {
-    "chip": "Struktur Perusahaan",
-    "title": "Tim PT BOBA",
-    "subtitle": "Tim profesional yang menggerakkan PT Bikin Orang Bahagia.",
+    "chip": {
+      "id": "Struktur Perusahaan",
+      "en": "Company Structure"
+    },
+    "title": {
+      "id": "Tim PT BOBA",
+      "en": "PT BOBA Team"
+    },
+    "subtitle": {
+      "id": "Tim profesional yang menggerakkan PT Bikin Orang Bahagia.",
+      "en": "The professional team powering PT Bikin Orang Bahagia."
+    },
     "members": [
       {
         "name": "Bachrul Ullum Assrori",
-        "role": "Direktur",
-        "desc": "Bertanggung jawab atas pengambilan keputusan utama, arah bisnis perusahaan, pengembangan brand, kerja sama strategis, serta pengawasan operasional BOBA Group.",
+        "role": {
+          "id": "Direktur",
+          "en": "Director"
+        },
+        "desc": {
+          "id": "Bertanggung jawab atas pengambilan keputusan utama, arah bisnis perusahaan, pengembangan brand, kerja sama strategis, serta pengawasan operasional BOBA Group.",
+          "en": "Responsible for key decision-making, company business direction, brand development, strategic partnerships, and operational oversight of BOBA Group."
+        },
         "photo": "/founders/bachrul-ullum-assrori.jpg"
       },
       {
         "name": "Shely Nilam Sari",
-        "role": "Administrasi",
-        "desc": "Bertanggung jawab dalam pengelolaan administrasi perusahaan, strategi pemasaran, membangun identitas brand, koordinasi dokumen, serta mendukung kelancaran operasional harian BOBA Group.",
+        "role": {
+          "id": "Administrasi",
+          "en": "Administration"
+        },
+        "desc": {
+          "id": "Bertanggung jawab dalam pengelolaan administrasi perusahaan, strategi pemasaran, membangun identitas brand, koordinasi dokumen, serta mendukung kelancaran operasional harian BOBA Group.",
+          "en": "Responsible for managing company administration, marketing strategy, building brand identity, document coordination, and supporting the smooth daily operations of BOBA Group."
+        },
         "photo": "https://res.cloudinary.com/dftolrwwi/image/upload/f_auto,q_auto/bachrul-ullum-assrori_celmmk"
       }
     ]
   },
   "ecosystem": {
-    "chip": "Business Ecosystem",
-    "title": "Ekosistem Bisnis BOBA Group",
-    "holdingLabel": "BOBA Group",
-    "holdingDesc": "Holding Company",
+    "chip": {
+      "id": "Business Ecosystem",
+      "en": "Business Ecosystem"
+    },
+    "title": {
+      "id": "Ekosistem Bisnis BOBA Group",
+      "en": "BOBA Group Business Ecosystem"
+    },
+    "holdingLabel": {
+      "id": "BOBA Group",
+      "en": "BOBA Group"
+    },
+    "holdingDesc": {
+      "id": "Holding Company",
+      "en": "Holding Company"
+    },
     "items": [
       {
         "icon": "Building2",
-        "name": "Holding",
-        "sub": "BOBA Group",
+        "name": {
+          "id": "Holding",
+          "en": "Holding"
+        },
+        "sub": {
+          "id": "BOBA Group",
+          "en": "BOBA Group"
+        },
         "desc": null
       },
       {
         "icon": "Leaf",
-        "name": "BOBA Agro",
-        "sub": "Komoditas Pertanian & Perkebunan",
-        "desc": "Kopi, sawit, kakao, karet, dan komoditas agro unggulan"
+        "name": {
+          "id": "BOBA Agro",
+          "en": "BOBA Agro"
+        },
+        "sub": {
+          "id": "Komoditas Pertanian & Perkebunan",
+          "en": "Agricultural & Plantation Commodities"
+        },
+        "desc": {
+          "id": "Kopi, sawit, kakao, karet, dan komoditas agro unggulan",
+          "en": "Coffee, palm oil, cocoa, rubber, and premium agro commodities"
+        }
       },
       {
         "icon": "Zap",
-        "name": "BOBA Global",
-        "sub": "Ekspor Internasional",
-        "desc": "Distribusi bahan baku alam ke pasar global"
+        "name": {
+          "id": "BOBA Global",
+          "en": "BOBA Global"
+        },
+        "sub": {
+          "id": "Ekspor Internasional",
+          "en": "International Export"
+        },
+        "desc": {
+          "id": "Distribusi bahan baku alam ke pasar global",
+          "en": "Natural raw material distribution to global markets"
+        }
       },
       {
         "icon": "ShoppingBag",
-        "name": "BOBA Nusantara",
-        "sub": "Perdagangan Nasional",
-        "desc": "Jaringan distribusi bahan baku alam di seluruh Indonesia"
+        "name": {
+          "id": "BOBA Nusantara",
+          "en": "BOBA Nusantara"
+        },
+        "sub": {
+          "id": "Perdagangan Nasional",
+          "en": "National Trade"
+        },
+        "desc": {
+          "id": "Jaringan distribusi bahan baku alam di seluruh Indonesia",
+          "en": "Natural raw material distribution network across Indonesia"
+        }
       }
     ],
-    "subholdingsChip": "Struktur Subholding",
-    "subholdingsTitle": "3 Subholding BOBA Group",
-    "subholdingsSubtitle": "Tiga entitas bisnis strategis yang beroperasi di bawah naungan BOBA Group dalam perdagangan bahan baku alam nasional dan ekspor.",
+    "subholdingsChip": {
+      "id": "Struktur Subholding",
+      "en": "Subholding Structure"
+    },
+    "subholdingsTitle": {
+      "id": "3 Subholding BOBA Group",
+      "en": "3 BOBA Group Subholdings"
+    },
+    "subholdingsSubtitle": {
+      "id": "Tiga entitas bisnis strategis yang beroperasi di bawah naungan BOBA Group dalam perdagangan bahan baku alam nasional dan ekspor.",
+      "en": "Three strategic business entities operating under BOBA Group in national and export natural raw material trading."
+    },
     "subholdings": [
       {
         "id": 1,
@@ -59,13 +134,31 @@
         "accentFrom": "#1BA882",
         "accentTo": "#2DD4B0",
         "name": "BOBA Agro",
-        "label": "Subholding Pertanian & Perkebunan",
-        "focus": "Perdagangan komoditas pertanian dan perkebunan unggulan Indonesia — kelapa, ubi jalar, singkong, rempah-rempah, manggis, alpukat tropis, dan madu hutan — untuk pasar nasional dan ekspor.",
+        "label": {
+          "id": "Subholding Pertanian & Perkebunan",
+          "en": "Agricultural & Plantation Subholding"
+        },
+        "focus": {
+          "id": "Perdagangan komoditas pertanian dan perkebunan unggulan Indonesia — kelapa, ubi jalar, singkong, rempah-rempah, manggis, alpukat tropis, dan madu hutan — untuk pasar nasional dan ekspor.",
+          "en": "Trading of premium Indonesian agricultural and plantation commodities — coconut, sweet potato, cassava, spices, mangosteen, tropical avocado, and forest honey — for domestic and export markets."
+        },
         "products": [
-          "Kelapa muda & kelapa tua untuk santan, minyak, dan ekspor",
-          "Rempah segar: kunyit, jahe, kencur (nasional & ekspor)",
-          "Buah tropis premium: manggis dan alpukat",
-          "Ubi jalar, singkong, dan madu hutan murni"
+          {
+            "id": "Kelapa muda & kelapa tua untuk santan, minyak, dan ekspor",
+            "en": "Young & mature coconut for coconut milk, oil, and export"
+          },
+          {
+            "id": "Rempah segar: kunyit, jahe, kencur (nasional & ekspor)",
+            "en": "Fresh spices: turmeric, ginger, kencur (domestic & export)"
+          },
+          {
+            "id": "Buah tropis premium: manggis dan alpukat",
+            "en": "Premium tropical fruits: mangosteen and avocado"
+          },
+          {
+            "id": "Ubi jalar, singkong, dan madu hutan murni",
+            "en": "Sweet potato, cassava, and pure forest honey"
+          }
         ]
       },
       {
@@ -74,12 +167,27 @@
         "accentFrom": "#D97706",
         "accentTo": "#FBBF24",
         "name": "BOBA Craft",
-        "label": "Subholding Kerajinan & Tekstil",
-        "focus": "Perdagangan kerajinan tangan artisanal dan tekstil tradisional Indonesia berbasis bahan alam — kayu, bambu, dan batik — bernilai ekspor tinggi.",
+        "label": {
+          "id": "Subholding Kerajinan & Tekstil",
+          "en": "Craft & Textile Subholding"
+        },
+        "focus": {
+          "id": "Perdagangan kerajinan tangan artisanal dan tekstil tradisional Indonesia berbasis bahan alam — kayu, bambu, dan batik — bernilai ekspor tinggi.",
+          "en": "Trading of artisanal handicrafts and traditional Indonesian textiles from natural materials — wood, bamboo, and batik — with high export value."
+        },
         "products": [
-          "Kerajinan kayu artisanal: jati, mahoni, sonokeling",
-          "Kerajinan bambu berkelanjutan: keranjang, lampu, aksesori",
-          "Batik autentik: Batik Tulis & Cap untuk fashion dan interior ekspor"
+          {
+            "id": "Kerajinan kayu artisanal: jati, mahoni, sonokeling",
+            "en": "Artisanal wood crafts: teak, mahogany, rosewood"
+          },
+          {
+            "id": "Kerajinan bambu berkelanjutan: keranjang, lampu, aksesori",
+            "en": "Sustainable bamboo crafts: baskets, lamps, accessories"
+          },
+          {
+            "id": "Batik autentik: Batik Tulis & Cap untuk fashion dan interior ekspor",
+            "en": "Authentic batik: Hand-drawn & Stamped Batik for fashion and export interiors"
+          }
         ]
       },
       {
@@ -88,47 +196,107 @@
         "accentFrom": "#7C3AED",
         "accentTo": "#A78BFA",
         "name": "BOBA Foundation",
-        "label": "Subholding Kelembagaan Sosial",
-        "focus": "Tanggung Jawab Sosial Perusahaan (CSR), filantropi, dan program pemberdayaan masyarakat berbasis komunitas petani dan pengrajin lokal.",
+        "label": {
+          "id": "Subholding Kelembagaan Sosial",
+          "en": "Social Institution Subholding"
+        },
+        "focus": {
+          "id": "Tanggung Jawab Sosial Perusahaan (CSR), filantropi, dan program pemberdayaan masyarakat berbasis komunitas petani dan pengrajin lokal.",
+          "en": "Corporate Social Responsibility (CSR), philanthropy, and community empowerment programs based on local farmers and artisans."
+        },
         "products": [
-          "Donasi bencana alam: logistik, pakaian, dan kebutuhan darurat",
-          "Donasi ke panti asuhan & lansia",
-          "Dapur umum & distribusi gizi untuk komunitas rentan",
-          "Pemberdayaan UMKM petani dan pengrajin lokal"
+          {
+            "id": "Donasi bencana alam: logistik, pakaian, dan kebutuhan darurat",
+            "en": "Natural disaster relief: logistics, clothing, and emergency supplies"
+          },
+          {
+            "id": "Donasi ke panti asuhan & lansia",
+            "en": "Donations to orphanages & elderly care homes"
+          },
+          {
+            "id": "Dapur umum & distribusi gizi untuk komunitas rentan",
+            "en": "Community kitchen & nutrition distribution for vulnerable communities"
+          },
+          {
+            "id": "Pemberdayaan UMKM petani dan pengrajin lokal",
+            "en": "Empowerment of local farmer and artisan SMEs"
+          }
         ]
       }
     ]
   },
   "investment": {
-    "badge": "Investment Opportunity",
-    "title": "Peluang Investasi PT BOBA",
-    "desc": "PT BOBA membuka peluang kerja sama strategis bagi investor nasional dan internasional. Dengan ekosistem fashion + green technology yang terintegrasi, PT BOBA memiliki potensi pertumbuhan tinggi di pasar lokal maupun ekspor.",
+    "badge": {
+      "id": "Investment Opportunity",
+      "en": "Investment Opportunity"
+    },
+    "title": {
+      "id": "Peluang Investasi PT BOBA",
+      "en": "PT BOBA Investment Opportunities"
+    },
+    "desc": {
+      "id": "PT BOBA membuka peluang kerja sama strategis bagi investor nasional dan internasional. Dengan ekosistem fashion + green technology yang terintegrasi, PT BOBA memiliki potensi pertumbuhan tinggi di pasar lokal maupun ekspor.",
+      "en": "PT BOBA opens strategic partnership opportunities for national and international investors. With an integrated fashion + green technology ecosystem, PT BOBA has high growth potential in both local and export markets."
+    },
     "points": [
-      "Diversifikasi pendapatan: fashion + jasa lingkungan.",
-      "Komitmen ESG & ekonomi sirkular via Green Services PT BOBA.",
-      "Skalabilitas tinggi melalui marketplace digital.",
-      "Tim pendiri berpengalaman lintas sektor."
+      {
+        "id": "Diversifikasi pendapatan: fashion + jasa lingkungan.",
+        "en": "Revenue diversification: fashion + environmental services."
+      },
+      {
+        "id": "Komitmen ESG & ekonomi sirkular via Green Services PT BOBA.",
+        "en": "ESG commitment & circular economy via PT BOBA Green Services."
+      },
+      {
+        "id": "Skalabilitas tinggi melalui marketplace digital.",
+        "en": "High scalability through digital marketplace."
+      },
+      {
+        "id": "Tim pendiri berpengalaman lintas sektor.",
+        "en": "Experienced founding team across multiple sectors."
+      }
     ],
     "card": {
-      "title": "Tertarik Berinvestasi?",
-      "desc": "Akses Investor Relations untuk profil lengkap, pitch deck, dan jadwal pertemuan.",
+      "title": {
+        "id": "Tertarik Berinvestasi?",
+        "en": "Interested in Investing?"
+      },
+      "desc": {
+        "id": "Akses Investor Relations untuk profil lengkap, pitch deck, dan jadwal pertemuan.",
+        "en": "Access Investor Relations for a complete profile, pitch deck, and meeting schedule."
+      },
       "stats": [
         {
           "v": "3",
-          "l": "Entitas Bisnis"
+          "l": {
+            "id": "Entitas Bisnis",
+            "en": "Business Entities"
+          }
         },
         {
           "v": "2026",
-          "l": "Tahun Berdiri"
+          "l": {
+            "id": "Tahun Berdiri",
+            "en": "Founded"
+          }
         },
         {
           "v": "ASEAN",
-          "l": "Target Pasar"
+          "l": {
+            "id": "Target Pasar",
+            "en": "Target Market"
+          }
         }
       ],
-      "ctaLabel": "Buka Investor Relations",
+      "ctaLabel": {
+        "id": "Buka Investor Relations",
+        "en": "Open Investor Relations"
+      },
       "ctaHref": "/investor-relations",
-      "secondaryLabel": "Hubungi Tim Kami",
+      "secondaryLabel": {
+        "id": "Hubungi Tim Kami",
+        "en": "Contact Our Team"
+      },
       "secondaryHref": "#contact"
     }
   }

@@ -1,87 +1,249 @@
 {
   "header": {
-    "chip": "Hubungi Kami",
-    "title": "Ada yang Ingin Ditanyakan?",
-    "subtitle": "Tim PT BOBA siap membantu Anda — mulai dari pertanyaan produk, kemitraan, hingga layanan green technology."
+    "chip": {
+      "id": "Hubungi Kami",
+      "en": "Contact Us"
+    },
+    "title": {
+      "id": "Ada yang Ingin Ditanyakan?",
+      "en": "Have a Question?"
+    },
+    "subtitle": {
+      "id": "Tim PT BOBA siap membantu Anda — mulai dari pertanyaan produk, kemitraan, hingga layanan green technology.",
+      "en": "The PT BOBA team is ready to help — from product inquiries and partnerships to green technology services."
+    }
   },
   "contactInfo": [
     {
       "icon": "MapPin",
-      "label": "Alamat",
+      "label": {
+        "id": "Alamat",
+        "en": "Address"
+      },
       "value": "Jl. Mayjend. Jonosewojo No.Kav.3, Surabaya",
-      "sub": "Kantor Pusat PT BOBA"
+      "sub": {
+        "id": "Kantor Pusat PT BOBA",
+        "en": "PT BOBA Head Office"
+      }
     },
     {
       "icon": "Phone",
-      "label": "Telepon",
+      "label": {
+        "id": "Telepon",
+        "en": "Phone"
+      },
       "value": "+6287874588706",
-      "sub": "Senin – Jumat, 09.00–17.00 WIB"
+      "sub": {
+        "id": "Senin – Jumat, 09.00–17.00 WIB",
+        "en": "Monday – Friday, 09:00–17:00 WIB"
+      }
     },
     {
       "icon": "Mail",
-      "label": "Email",
+      "label": {
+        "id": "Email",
+        "en": "Email"
+      },
       "value": "ptboba26@gmail.com",
-      "sub": "Balasan dalam 1×24 jam"
+      "sub": {
+        "id": "Balasan dalam 1×24 jam",
+        "en": "Reply within 24 hours"
+      }
     }
   ],
   "form": {
-    "title": "Kirim Pesan",
-    "subtitle": "Isi formulir di bawah dan kami akan merespons dalam 1×24 jam.",
-    "privacyNote": "Dengan mengirim pesan, Anda menyetujui Kebijakan Privasi PT BOBA.",
-    "successTitle": "Pesan Terkirim!",
-    "successDesc": "Terima kasih telah menghubungi kami. Tim PT BOBA akan merespons pesan Anda dalam 1×24 jam kerja.",
-    "successReset": "Kirim pesan lain →",
+    "title": {
+      "id": "Kirim Pesan",
+      "en": "Send a Message"
+    },
+    "subtitle": {
+      "id": "Isi formulir di bawah dan kami akan merespons dalam 1×24 jam.",
+      "en": "Fill in the form below and we'll respond within 24 hours."
+    },
+    "privacyNote": {
+      "id": "Dengan mengirim pesan, Anda menyetujui Kebijakan Privasi PT BOBA.",
+      "en": "By sending a message, you agree to PT BOBA's Privacy Policy."
+    },
+    "successTitle": {
+      "id": "Pesan Terkirim!",
+      "en": "Message Sent!"
+    },
+    "successDesc": {
+      "id": "Terima kasih telah menghubungi kami. Tim PT BOBA akan merespons pesan Anda dalam 1×24 jam kerja.",
+      "en": "Thank you for reaching out. The PT BOBA team will respond to your message within 1 business day."
+    },
+    "successReset": {
+      "id": "Kirim pesan lain →",
+      "en": "Send another message →"
+    },
+    "fields": {
+      "name": {
+        "id": "Nama",
+        "en": "Name"
+      },
+      "email": {
+        "id": "Email",
+        "en": "Email"
+      },
+      "phone": {
+        "id": "Telepon",
+        "en": "Phone"
+      },
+      "company": {
+        "id": "Perusahaan",
+        "en": "Company"
+      },
+      "subject": {
+        "id": "Subjek",
+        "en": "Subject"
+      },
+      "message": {
+        "id": "Pesan",
+        "en": "Message"
+      },
+      "namePh": {
+        "id": "Nama lengkap Anda",
+        "en": "Your full name"
+      },
+      "emailPh": {
+        "id": "nama@email.com",
+        "en": "name@email.com"
+      },
+      "phonePh": {
+        "id": "+62 8xx xxxx xxxx",
+        "en": "+62 8xx xxxx xxxx"
+      },
+      "companyPh": {
+        "id": "Nama perusahaan",
+        "en": "Company name"
+      },
+      "messagePh": {
+        "id": "Tulis pesan Anda...",
+        "en": "Write your message..."
+      },
+      "subjectPh": {
+        "id": "Pilih subjek...",
+        "en": "Select a subject..."
+      },
+      "submit": {
+        "id": "Kirim Pesan",
+        "en": "Send Message"
+      }
+    },
     "subjects": [
-      "Pertanyaan Umum",
-      "Pembelian Bahan Baku",
-      "Ekspor & Kemitraan Internasional",
-      "Kemitraan Distribusi Nasional",
-      "Program Sosial & CSR",
-      "Investor Relations",
-      "Lainnya"
+      {
+        "id": "Pertanyaan Umum",
+        "en": "General Inquiry"
+      },
+      {
+        "id": "Pembelian Bahan Baku",
+        "en": "Raw Material Purchase"
+      },
+      {
+        "id": "Ekspor & Kemitraan Internasional",
+        "en": "Export & International Partnership"
+      },
+      {
+        "id": "Kemitraan Distribusi Nasional",
+        "en": "National Distribution Partnership"
+      },
+      {
+        "id": "Program Sosial & CSR",
+        "en": "Social Program & CSR"
+      },
+      {
+        "id": "Investor Relations",
+        "en": "Investor Relations"
+      },
+      {
+        "id": "Lainnya",
+        "en": "Other"
+      }
     ]
   },
   "map": {
-    "title": "Lokasi PT BOBA",
+    "title": {
+      "id": "Lokasi PT BOBA",
+      "en": "PT BOBA Location"
+    },
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4029.715454857656!2d112.67497467508198!3d-7.289414792717991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc37c16803b9%3A0x209ab8b64b6905d0!2sSpazio!5e1!3m2!1sen!2sid!4v1778474717153!5m2!1sen!2sid"
   },
   "quickContact": [
     {
       "icon": "Phone",
-      "label": "Telepon Langsung",
+      "label": {
+        "id": "Telepon Langsung",
+        "en": "Call Directly"
+      },
       "value": "+6287874588706",
       "href": "tel:+6287874588706"
     },
     {
       "icon": "Mail",
-      "label": "Kirim Email",
+      "label": {
+        "id": "Kirim Email",
+        "en": "Send Email"
+      },
       "value": "ptboba26@gmail.com",
       "href": "mailto:ptboba26@gmail.com"
     }
   ],
   "whatsapp": {
     "number": "6287874588706",
-    "label": "Chat via WhatsApp"
+    "label": {
+      "id": "Chat via WhatsApp",
+      "en": "Chat via WhatsApp"
+    }
   },
   "faq": {
-    "chip": "FAQ",
-    "title": "Pertanyaan yang Sering Ditanyakan",
+    "chip": {
+      "id": "FAQ",
+      "en": "FAQ"
+    },
+    "title": {
+      "id": "Pertanyaan yang Sering Ditanyakan",
+      "en": "Frequently Asked Questions"
+    },
     "items": [
       {
-        "q": "Bagaimana cara mendaftar sebagai mitra PT BOBA?",
-        "a": "Isi formulir kontak dengan subjek \"Kemitraan & Kolaborasi\", atau hubungi tim kami langsung via email hello@ptboba.id. Tim kami akan merespons dalam 1×24 jam."
+        "q": {
+          "id": "Bagaimana cara mendaftar sebagai mitra PT BOBA?",
+          "en": "How do I register as a PT BOBA partner?"
+        },
+        "a": {
+          "id": "Isi formulir kontak dengan subjek \"Kemitraan & Kolaborasi\", atau hubungi tim kami langsung via email hello@ptboba.id. Tim kami akan merespons dalam 1×24 jam.",
+          "en": "Fill in the contact form with the subject \"Partnership & Collaboration\", or contact our team directly via email hello@ptboba.id. Our team will respond within 24 hours."
+        }
       },
       {
-        "q": "Produk bahan baku apa saja yang diperdagangkan BOBA Group?",
-        "a": "BOBA Group memperdagangkan berbagai komoditas bahan baku alam unggulan Indonesia, mencakup kopi, kakao, kelapa sawit, karet, rempah-rempah, dan hasil perkebunan lainnya — tersedia untuk pembelian partai besar, distribusi nasional, maupun ekspor."
+        "q": {
+          "id": "Produk bahan baku apa saja yang diperdagangkan BOBA Group?",
+          "en": "What raw material products does BOBA Group trade?"
+        },
+        "a": {
+          "id": "BOBA Group memperdagangkan berbagai komoditas bahan baku alam unggulan Indonesia, mencakup kopi, kakao, kelapa sawit, karet, rempah-rempah, dan hasil perkebunan lainnya — tersedia untuk pembelian partai besar, distribusi nasional, maupun ekspor.",
+          "en": "BOBA Group trades a variety of Indonesia's premium natural raw material commodities, including coffee, cocoa, palm oil, rubber, spices, and other plantation products — available for bulk purchase, national distribution, or export."
+        }
       },
       {
-        "q": "Bagaimana cara memesan layanan Green Services PT BOBA?",
-        "a": "Isi formulir dengan subjek \"Layanan Green Technology\" atau kunjungi halaman Services untuk detail harga dan cakupan layanan."
+        "q": {
+          "id": "Bagaimana cara memesan layanan Green Services PT BOBA?",
+          "en": "How do I order PT BOBA Green Services?"
+        },
+        "a": {
+          "id": "Isi formulir dengan subjek \"Layanan Green Technology\" atau kunjungi halaman Services untuk detail harga dan cakupan layanan.",
+          "en": "Fill in the form with the subject \"Green Technology Services\" or visit the Services page for pricing and service coverage details."
+        }
       },
       {
-        "q": "Apakah PT BOBA membuka peluang investasi?",
-        "a": "Ya. Kunjungi halaman Investor Relations atau hubungi kami dengan subjek \"Investor Relations\" untuk mendapatkan pitch deck dan jadwal pertemuan."
+        "q": {
+          "id": "Apakah PT BOBA membuka peluang investasi?",
+          "en": "Does PT BOBA offer investment opportunities?"
+        },
+        "a": {
+          "id": "Ya. Kunjungi halaman Investor Relations atau hubungi kami dengan subjek \"Investor Relations\" untuk mendapatkan pitch deck dan jadwal pertemuan.",
+          "en": "Yes. Visit the Investor Relations page or contact us with the subject \"Investor Relations\" to receive a pitch deck and schedule a meeting."
+        }
       }
     ]
   }

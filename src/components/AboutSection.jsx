@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, ShieldCheck, Leaf, Zap, Users, TrendingUp, Award, Globe, ChevronRight } from 'lucide-react'
 
@@ -36,7 +37,8 @@ function Counter({ to, suffix = '', duration = 1800 }) {
 }
 
 export default function AboutSection() {
-  const { data } = useContent('about')
+  const { data: rawData } = useContent('about')
+  const data = useLocalizedData(rawData)
   const [activeYear, setActiveYear] = useState(null)
   useEffect(() => { if (data?.timeline?.defaultYear) setActiveYear(data.timeline.defaultYear) }, [data])
 

@@ -1,4 +1,5 @@
 // ─── Reusable UI Components untuk Admin Panel PT BOBA ─────────────────────────
+import { useState } from 'react'
 
 export const Field = ({ label, children, hint, required }) => (
   <div style={{ marginBottom: 18 }}>
@@ -30,6 +31,81 @@ export const Textarea = ({ value, onChange, rows = 3, placeholder, disabled }) =
     onBlur={e => e.target.style.borderColor = '#e5e7eb'}
   />
 )
+
+// ─── Bilingual ({ id, en }) field detection helper ────────────────────────────
+const isBilingual = (v) =>
+  v !== null && typeof v === 'object' && !Array.isArray(v) &&
+  ('id' in v || 'en' in v)
+
+const LangTabs = ({ tab, setTab }) => (
+  <div style={{ display: 'inline-flex', gap: 2, marginBottom: 6, background: '#f3f4f6', borderRadius: 7, padding: 2 }}>
+    {['id', 'en'].map(l => (
+      <button key={l} type="button" onClick={() => setTab(l)}
+        style={{
+          padding: '3px 11px', fontSize: 11, fontWeight: 700, letterSpacing: '0.04em',
+          borderRadius: 5, border: 'none', cursor: 'pointer',
+          background: tab === l ? '#1BA882' : 'transparent',
+          color: tab === l ? '#fff' : '#9ca3af',
+          transition: 'all 0.15s',
+        }}>
+        {l === 'id' ? '🇮🇩 ID' : '🇬🇧 EN'}
+      </button>
+    ))}
+  </div>
+)
+
+/**
+ * LocalizedInput — drop-in replacement for <Input>.
+ * If `value` is a bilingual object ({ id, en }), shows an ID/EN tab switcher
+ * and edits the active language only, preserving the other.
+ * If `value` is a plain string/number/null, behaves exactly like <Input>.
+ */
+export const LocalizedInput = ({ value, onChange, placeholder, type = 'text', disabled, style = {} }) => {
+  const [tab, setTab] = useState('id')
+
+  if (!isBilingual(value)) {
+    return <Input value={value} onChange={onChange} placeholder={placeholder} type={type} disabled={disabled} style={style} />
+  }
+
+  return (
+    <div>
+      <LangTabs tab={tab} setTab={setTab} />
+      <Input
+        value={value[tab] ?? ''}
+        onChange={v => onChange && onChange({ ...value, [tab]: v })}
+        placeholder={placeholder}
+        type={type}
+        disabled={disabled}
+        style={style}
+      />
+    </div>
+  )
+}
+
+/**
+ * LocalizedTextarea — drop-in replacement for <Textarea>.
+ * Same bilingual ID/EN tab behavior as LocalizedInput.
+ */
+export const LocalizedTextarea = ({ value, onChange, rows = 3, placeholder, disabled }) => {
+  const [tab, setTab] = useState('id')
+
+  if (!isBilingual(value)) {
+    return <Textarea value={value} onChange={onChange} rows={rows} placeholder={placeholder} disabled={disabled} />
+  }
+
+  return (
+    <div>
+      <LangTabs tab={tab} setTab={setTab} />
+      <Textarea
+        value={value[tab] ?? ''}
+        onChange={v => onChange && onChange({ ...value, [tab]: v })}
+        rows={rows}
+        placeholder={placeholder}
+        disabled={disabled}
+      />
+    </div>
+  )
+}
 
 export const Select = ({ value, onChange, children, disabled }) => (
   <select

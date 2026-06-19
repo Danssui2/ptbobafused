@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import { Mail, Phone, MapPin, Send, CheckCircle2, ChevronDown, MessageSquare } from 'lucide-react'
 
@@ -19,7 +20,8 @@ function useInView(threshold = 0.1) {
 }
 
 export default function ContactSection() {
-  const { data } = useContent('contact')
+  const { data: rawData } = useContent('contact')
+  const data = useLocalizedData(rawData)
   const { header, contactInfo = [], form: formData = {}, map = {}, quickContact = [], whatsapp = {}, faq } = data ?? {}
   const [headerRef, headerInView] = useInView(0.1)
   const [formRef,   formInView]   = useInView(0.08)

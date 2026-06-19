@@ -1,24 +1,66 @@
 {
   "waNumber": "6287874588706",
-  "contactEmail": "hello@ptboba.id",
+  "contactEmail": "ptboba26@gmail.com",
   "header": {
-    "chip": "Katalog Produk 2026",
-    "title": "70+ Komoditas",
-    "titleHighlight": "Ekspor Unggulan",
-    "titleEnd": "PT BOBA",
-    "desc": "Rempah, herbal, buah kering, kopi specialty, hingga kayu premium — semua tersedia dengan standar ekspor, bersertifikasi, dan siap pengiriman ke seluruh dunia.",
-    "ctaLabel": "Lihat semua produk",
+    "chip": {
+      "id": "Katalog Produk 2026",
+      "en": "2026 Product Catalog"
+    },
+    "title": {
+      "id": "70+ Komoditas",
+      "en": "70+ Commodities"
+    },
+    "titleHighlight": {
+      "id": "Ekspor Unggulan",
+      "en": "Premium Export"
+    },
+    "titleEnd": {
+      "id": "PT BOBA",
+      "en": "PT BOBA"
+    },
+    "desc": {
+      "id": "Rempah, herbal, buah kering, kopi specialty, hingga kayu premium — semua tersedia dengan standar ekspor, bersertifikasi, dan siap pengiriman ke seluruh dunia.",
+      "en": "Spices, herbs, dried fruits, specialty coffee, and premium timber — all available to export standards, certified, and ready to ship worldwide."
+    },
+    "ctaLabel": {
+      "id": "Lihat semua produk",
+      "en": "View all products"
+    },
     "ctaHref": "#products"
   },
   "categories": [
-    "Semua",
-    "Buah & Produk Segar",
-    "Kopi & Rempah",
-    "Herbal & Empon",
-    "Daun & Herba",
-    "Bubuk & Biji",
-    "Kacang & Buah Kering",
-    "Kayu & Material"
+    {
+      "id": "Semua",
+      "en": "All"
+    },
+    {
+      "id": "Buah & Produk Segar",
+      "en": "Fruit & Fresh Produce"
+    },
+    {
+      "id": "Kopi & Rempah",
+      "en": "Coffee & Spices"
+    },
+    {
+      "id": "Herbal & Empon",
+      "en": "Herbs & Rhizomes"
+    },
+    {
+      "id": "Daun & Herba",
+      "en": "Leaves & Herbs"
+    },
+    {
+      "id": "Bubuk & Biji",
+      "en": "Powder & Seeds"
+    },
+    {
+      "id": "Kacang & Buah Kering",
+      "en": "Nuts & Dried Fruit"
+    },
+    {
+      "id": "Kayu & Material",
+      "en": "Wood & Materials"
+    }
   ],
   "marqueeItems": [
     "Premium Belondo Starfruit",
@@ -63,17 +105,32 @@
     "Kencur Kering"
   ],
   "cta": {
-    "eyebrow": "Butuh Penawaran Harga?",
-    "title": "Hubungi Kami untuk Harga Terbaik",
-    "desc": "Kami melayani pembelian partai besar (wholesale), ekspor, dan kemitraan distribusi. Tim kami siap merespons dalam 1×24 jam.",
+    "eyebrow": {
+      "id": "Butuh Penawaran Harga?",
+      "en": "Need a Price Quote?"
+    },
+    "title": {
+      "id": "Hubungi Kami untuk Harga Terbaik",
+      "en": "Contact Us for the Best Price"
+    },
+    "desc": {
+      "id": "Kami melayani pembelian partai besar (wholesale), ekspor, dan kemitraan distribusi. Tim kami siap merespons dalam 1×24 jam.",
+      "en": "We serve bulk wholesale purchases, exports, and distribution partnerships. Our team is ready to respond within 24 hours."
+    },
     "buttons": [
       {
-        "label": "Hubungi via WhatsApp",
+        "label": {
+          "id": "Hubungi via WhatsApp",
+          "en": "Contact via WhatsApp"
+        },
         "href": "#contact",
         "variant": "white"
       },
       {
-        "label": "Lihat Mitra",
+        "label": {
+          "id": "Lihat Mitra",
+          "en": "View Partners"
+        },
         "href": "#partner",
         "variant": "ghost"
       }
@@ -83,1511 +140,2543 @@
     {
       "id": 1,
       "name": "Premium Belondo Starfruit",
-      "category": "Buah & Produk Segar",
-      "tagline": "Belimbing Bintang Grade A Jawa Timur",
-      "desc": "Belimbing bintang Grade A asal Jawa Timur, warna kuning cerah dengan kilap alami dan rasa manis-asam yang seimbang khas. Dipanen dari kebun terseleksi dengan pengawasan ketat untuk menjaga kesegaran dan standar kualitas ekspor premium. Bersertifikat Organik & Prima 3, cocok untuk pasar Asia, Eropa, dan Timur Tengah. Kapasitas 15 ton/bulan, MOQ 500 kg.",
+      "category": {
+        "id": "Buah & Produk Segar",
+        "en": "Fruit & Fresh Produce"
+      },
+      "tagline": {
+        "id": "Belimbing Bintang Grade A Jawa Timur",
+        "en": "Grade A Star Fruit — East Java"
+      },
+      "desc": {
+        "id": "Belimbing bintang Grade A asal Jawa Timur, warna kuning cerah dengan kilap alami dan rasa manis-asam yang seimbang khas. Dipanen dari kebun terseleksi dengan pengawasan ketat untuk menjaga kesegaran dan standar kualitas ekspor premium. Bersertifikat Organik & Prima 3, cocok untuk pasar Asia, Eropa, dan Timur Tengah. Kapasitas 15 ton/bulan, MOQ 500 kg.",
+        "en": "Grade A star fruit from East Java, vibrant yellow with a natural sheen and a distinctively balanced sweet-sour taste. Harvested from selected orchards under strict supervision to maintain freshness and premium export quality. Certified Organic & Prima 3, suitable for Asian, European, and Middle Eastern markets. Capacity 15 tons/month, MOQ 500 kg."
+      },
+      "featured": true,
       "initials": "BS",
       "color": "#F59E0B",
       "img": "https://images.pexels.com/photos/31757891/pexels-photo-31757891.jpeg",
       "stats": [
         {
           "v": "15 ton",
-          "l": "Kapasitas/bulan"
+          "l": {
+            "id": "Kapasitas/bulan",
+            "en": "Capacity/month"
+          }
         },
         {
           "v": "500 kg",
-          "l": "MOQ"
+          "l": {
+            "id": "MOQ",
+            "en": "MOQ"
+          }
         },
         {
           "v": "Organik",
-          "l": "Sertifikasi"
+          "l": {
+            "id": "Sertifikasi",
+            "en": "Certification"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 2,
       "name": "Nusantara Coffee",
-      "category": "Kopi & Rempah",
-      "tagline": "Specialty Grade — Dampit & Ijen",
-      "desc": "Kopi Specialty Grade medium-dark roast dari dua origin terbaik: Dampit (Malang, Jawa Timur) dan kawasan vulkanik Ijen (Bondowoso). Profil rasa kompleks dengan notes dark chocolate, karamel, dan subtle floral, ideal untuk espresso dan pour-over. Diproses dengan metode semi-wash dan wet-hull. Bersertifikat Organik & Fair Trade. Kapasitas 20 ton/bulan, MOQ 1 ton.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Specialty Grade — Dampit & Ijen",
+        "en": "Specialty Grade — Dampit & Ijen"
+      },
+      "desc": {
+        "id": "Kopi Specialty Grade medium-dark roast dari dua origin terbaik: Dampit (Malang, Jawa Timur) dan kawasan vulkanik Ijen (Bondowoso). Profil rasa kompleks dengan notes dark chocolate, karamel, dan subtle floral, ideal untuk espresso dan pour-over. Diproses dengan metode semi-wash dan wet-hull. Bersertifikat Organik & Fair Trade. Kapasitas 20 ton/bulan, MOQ 1 ton.",
+        "en": "Specialty Grade medium-dark roast coffee from two premium origins: Dampit (Malang, East Java) and the volcanic Ijen region (Bondowoso). Complex flavor profile with notes of dark chocolate, caramel, and subtle floral, ideal for espresso and pour-over. Processed using semi-wash and wet-hull methods. Certified Organic & Fair Trade. Capacity 20 tons/month, MOQ 1 ton."
+      },
+      "featured": true,
       "initials": "NC",
       "color": "#92400E",
       "img": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "20 ton",
-          "l": "Kapasitas/bulan"
+          "l": {
+            "id": "Kapasitas/bulan",
+            "en": "Capacity/month"
+          }
         },
         {
           "v": "1 ton",
-          "l": "MOQ"
+          "l": {
+            "id": "MOQ",
+            "en": "MOQ"
+          }
         },
         {
           "v": "Fair Trade",
-          "l": "Sertifikasi"
+          "l": {
+            "id": "Sertifikasi",
+            "en": "Certification"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 3,
       "name": "Vanilla Bean Premium",
-      "category": "Kopi & Rempah",
-      "tagline": "Grade A Gourmet — Kadar Air 25–30%",
-      "desc": "Polong vanila Grade A Gourmet dengan kandungan vanillin tinggi dan kadar air 25–30%, menghasilkan aroma yang kuat dan konsisten. Dipetik saat matang optimal dari perkebunan terverifikasi, diproses secara tradisional melalui blanching dan pengeringan bertahap. Bersertifikat Organik & ISO 22000, dikemas vakum 1 kg untuk menjaga kualitas selama ekspor internasional.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Grade A Gourmet — Kadar Air 25–30%",
+        "en": "Grade A Gourmet — Moisture 25–30%"
+      },
+      "desc": {
+        "id": "Polong vanila Grade A Gourmet dengan kandungan vanillin tinggi dan kadar air 25–30%, menghasilkan aroma yang kuat dan konsisten. Dipetik saat matang optimal dari perkebunan terverifikasi, diproses secara tradisional melalui blanching dan pengeringan bertahap. Bersertifikat Organik & ISO 22000, dikemas vakum 1 kg untuk menjaga kualitas selama ekspor internasional.",
+        "en": "Grade A Gourmet vanilla pods with high vanillin content and 25–30% moisture, delivering a strong and consistent aroma. Harvested at optimal ripeness from verified plantations, traditionally processed through blanching and gradual drying. Certified Organic & ISO 22000, vacuum-packed in 1 kg units to preserve quality during international export."
+      },
+      "featured": false,
       "initials": "VB",
       "color": "#7C3AED",
       "img": "https://images.pexels.com/photos/4963318/pexels-photo-4963318.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "2 ton",
-          "l": "Kapasitas/bulan"
+          "l": {
+            "id": "Kapasitas/bulan",
+            "en": "Capacity/month"
+          }
         },
         {
           "v": "1 kg",
-          "l": "Min. Kemasan"
+          "l": {
+            "id": "Min. Kemasan",
+            "en": "Min. Kemasan"
+          }
         },
         {
           "v": "ISO 22000",
-          "l": "Sertifikasi"
+          "l": {
+            "id": "Sertifikasi",
+            "en": "Certification"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 4,
       "name": "Asam Jawa",
-      "category": "Kopi & Rempah",
-      "tagline": "Bersih & Sudah Dicuci — 25/50 kg",
-      "desc": "Asam jawa kualitas pilihan, bersih, telah melewati proses pencucian menyeluruh dan sortasi manual untuk membuang kontaminan dan biji yang tidak lolos standar. Mengandung asam tartarat dan asam sitrat alami yang tinggi, ideal untuk industri makanan, minuman, kosmetik, dan farmasi. Tersedia dalam kemasan 25/50 kg dengan kadar keasaman konsisten sesuai permintaan buyer.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Bersih & Sudah Dicuci — 25/50 kg",
+        "en": "Cleaned & Washed — 25/50 kg"
+      },
+      "desc": {
+        "id": "Asam jawa kualitas pilihan, bersih, telah melewati proses pencucian menyeluruh dan sortasi manual untuk membuang kontaminan dan biji yang tidak lolos standar. Mengandung asam tartarat dan asam sitrat alami yang tinggi, ideal untuk industri makanan, minuman, kosmetik, dan farmasi. Tersedia dalam kemasan 25/50 kg dengan kadar keasaman konsisten sesuai permintaan buyer.",
+        "en": "Premium quality tamarind, clean, thoroughly washed, and manually sorted to remove contaminants and off-grade seeds. Naturally high in tartaric and citric acids, ideal for food, beverage, cosmetics, and pharmaceutical industries. Available in 25/50 kg packaging with consistent acidity levels to buyer specifications."
+      },
+      "featured": false,
       "initials": "AJ",
       "color": "#D97706",
       "img": "https://images.pexels.com/photos/18495829/pexels-photo-18495829.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         },
         {
           "v": "Industri",
-          "l": "Target Pasar"
+          "l": {
+            "id": "Target Pasar",
+            "en": "Target Pasar"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 5,
       "name": "Biji Asam Jawa",
-      "category": "Kopi & Rempah",
-      "tagline": "Benih & Tanpa Benih — Toleransi Maks 7%",
-      "desc": "Biji asam jawa tersedia dalam dua jenis: benih (dengan seed coat) maupun tanpa benih (decorticated), toleransi biji cacat maksimal 7%. Cocok untuk industri pangan fungsional, pakan ternak, serta bahan baku ekstraksi xyloglucan dan tamarind kernel powder (TKP) yang diminati pasar Eropa dan Asia. Dikemas dalam karung 25/50 kg, siap ekspor.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Benih & Tanpa Benih — Toleransi Maks 7%",
+        "en": "Seeded & Seedless — Max 7% Tolerance"
+      },
+      "desc": {
+        "id": "Biji asam jawa tersedia dalam dua jenis: benih (dengan seed coat) maupun tanpa benih (decorticated), toleransi biji cacat maksimal 7%. Cocok untuk industri pangan fungsional, pakan ternak, serta bahan baku ekstraksi xyloglucan dan tamarind kernel powder (TKP) yang diminati pasar Eropa dan Asia. Dikemas dalam karung 25/50 kg, siap ekspor.",
+        "en": "Tamarind seeds available in two types: seeded (with seed coat) and seedless (decorticated), with a defective seed tolerance of max 7%. Suitable for functional food, livestock feed, and raw material extraction of xyloglucan and tamarind kernel powder (TKP) — highly sought in European and Asian markets. Packed in 25/50 kg sacks, ready for export."
+      },
+      "featured": false,
       "initials": "BA",
       "color": "#B45309",
       "img": "https://images.pexels.com/photos/20737581/pexels-photo-20737581.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "≤7%",
-          "l": "Toleransi Biji"
+          "l": {
+            "id": "Toleransi Biji",
+            "en": "Toleransi Biji"
+          }
         },
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 6,
       "name": "Lada Putih",
-      "category": "Kopi & Rempah",
-      "tagline": "Densitas 530 GL — Blower/Non-Blower",
-      "desc": "Lada putih dengan densitas 530 GL (gramme per litre), kadar abu 2%, kadar air 10–12%, memenuhi standar ECE/ONU dan ASTA. Tersedia dalam varian blower (sudah disortir mesin) dan non-blower, memberikan fleksibilitas bagi pembeli sesuai kebutuhan industri. Cocok untuk industri bumbu, saus, dan produk rempah retail premium. Dikemas karung 25/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Densitas 530 GL — Blower/Non-Blower",
+        "en": "Density 530 GL — Blower/Non-Blower"
+      },
+      "desc": {
+        "id": "Lada putih dengan densitas 530 GL (gramme per litre), kadar abu 2%, kadar air 10–12%, memenuhi standar ECE/ONU dan ASTA. Tersedia dalam varian blower (sudah disortir mesin) dan non-blower, memberikan fleksibilitas bagi pembeli sesuai kebutuhan industri. Cocok untuk industri bumbu, saus, dan produk rempah retail premium. Dikemas karung 25/50 kg.",
+        "en": "White pepper with 530 GL density, 2% ash content, 10–12% moisture, meeting ECE/ONU and ASTA standards. Available in blower (machine-sorted) and non-blower variants, offering flexibility for various industry needs. Suitable for seasoning, sauce, and premium retail spice products. Packed in 25/50 kg sacks."
+      },
+      "featured": false,
       "initials": "LP",
       "color": "#6B7280",
       "img": "https://cdn.pixabay.com/photo/2019/02/04/02/19/bean-3973842_1280.jpg",
       "stats": [
         {
           "v": "530 GL",
-          "l": "Densitas"
+          "l": {
+            "id": "Densitas",
+            "en": "Densitas"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         },
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 7,
       "name": "Lada Hitam",
-      "category": "Kopi & Rempah",
-      "tagline": "Densitas 630 GL — Blower/Non-Blower",
-      "desc": "Lada hitam dengan densitas 630 GL, kadar abu 2%, kadar air 10–12%, memenuhi standar ASTA dan ISO 959-2. Tersedia blower dan non-blower dengan ukuran mesh yang dapat disesuaikan. Kandungan piperin tinggi memberikan rasa pedas khas yang stabil. Dikemas dalam karung 25/50 kg, cocok untuk industri makanan, pengolahan bumbu, dan ekstrak farmasi.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Densitas 630 GL — Blower/Non-Blower",
+        "en": "Density 630 GL — Blower/Non-Blower"
+      },
+      "desc": {
+        "id": "Lada hitam dengan densitas 630 GL, kadar abu 2%, kadar air 10–12%, memenuhi standar ASTA dan ISO 959-2. Tersedia blower dan non-blower dengan ukuran mesh yang dapat disesuaikan. Kandungan piperin tinggi memberikan rasa pedas khas yang stabil. Dikemas dalam karung 25/50 kg, cocok untuk industri makanan, pengolahan bumbu, dan ekstrak farmasi.",
+        "en": "Black pepper with 630 GL density, 2% ash content, 10–12% moisture, meeting ASTA and ISO 959-2 standards. Available in blower and non-blower variants with adjustable mesh sizes. High piperine content delivers a stable, characteristic spicy heat. Packed in 25/50 kg sacks, suitable for food, seasoning, and pharmaceutical extract industries."
+      },
+      "featured": false,
       "initials": "LH",
       "color": "#1F2937",
       "img": "https://cdn.pixabay.com/photo/2019/01/05/11/23/peppercorns-3914937_1280.jpg",
       "stats": [
         {
           "v": "630 GL",
-          "l": "Densitas"
+          "l": {
+            "id": "Densitas",
+            "en": "Densitas"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         },
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 8,
       "name": "Pala Panjang",
-      "category": "Kopi & Rempah",
-      "tagline": "Tipe ABCD, SS, BWP — Kadar Air 10%",
-      "desc": "Pala panjang (Myristica fragrans) tipe ABCD, SS (Sound Splits), dan BWP (Broken, Wormy, Punky), mewakili berbagai segmen pasar dari premium hingga kebutuhan industri. Kadar air 10%, minyak atsiri tinggi dengan kandungan miristisin aktif. Digunakan dalam industri parfum, farmasi, makanan, dan minuman premium. Kemasan standar 25/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Tipe ABCD, SS, BWP — Kadar Air 10%",
+        "en": "Types ABCD, SS, BWP — Moisture 10%"
+      },
+      "desc": {
+        "id": "Pala panjang (Myristica fragrans) tipe ABCD, SS (Sound Splits), dan BWP (Broken, Wormy, Punky), mewakili berbagai segmen pasar dari premium hingga kebutuhan industri. Kadar air 10%, minyak atsiri tinggi dengan kandungan miristisin aktif. Digunakan dalam industri parfum, farmasi, makanan, dan minuman premium. Kemasan standar 25/50 kg.",
+        "en": "Long nutmeg (Myristica fragrans) in ABCD, SS (Sound Splits), and BWP (Broken, Wormy, Punky) types, covering market segments from premium to industrial grade. Moisture 10%, high essential oil with active myristicin content. Used in perfumery, pharmaceutical, premium food, and beverage industries. Standard 25/50 kg packaging."
+      },
+      "featured": false,
       "initials": "PP",
       "color": "#92400E",
       "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-36233009/oem_biji-pala-lonjong-panjang-100gram-100-gram_full02.jpg",
       "stats": [
         {
           "v": "ABCD/SS/BWP",
-          "l": "Tipe"
+          "l": {
+            "id": "Tipe",
+            "en": "Type"
+          }
         },
         {
           "v": "10%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         },
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 9,
       "name": "Pala",
-      "category": "Kopi & Rempah",
-      "tagline": "Kelas 1–3 — Kadar Air 10%",
-      "desc": "Buah pala bulat (Myristica fragrans) kelas 1 sampai 3, kadar air 10%, dipilih dari perkebunan di Banda dan Maluku — pusat pala terbaik dunia. Aroma hangat dan kaya dengan kandungan minyak atsiri yang stabil. Tersedia dalam bentuk utuh maupun kupas kulit, kemasan standar 25/50 kg, siap untuk pasar Eropa, Amerika, dan Asia.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Kelas 1–3 — Kadar Air 10%",
+        "en": "Grade 1–3 — Moisture 10%"
+      },
+      "desc": {
+        "id": "Buah pala bulat (Myristica fragrans) kelas 1 sampai 3, kadar air 10%, dipilih dari perkebunan di Banda dan Maluku — pusat pala terbaik dunia. Aroma hangat dan kaya dengan kandungan minyak atsiri yang stabil. Tersedia dalam bentuk utuh maupun kupas kulit, kemasan standar 25/50 kg, siap untuk pasar Eropa, Amerika, dan Asia.",
+        "en": "Round nutmeg (Myristica fragrans) grades 1 to 3, moisture 10%, selected from plantations in Banda and Maluku — the world's finest nutmeg origin. Warm, rich aroma with stable essential oil content. Available whole or peeled, standard 25/50 kg packaging, ready for European, American, and Asian markets."
+      },
+      "featured": false,
       "initials": "PA",
       "color": "#A16207",
       "img": "https://www.asterra.id/wp-content/uploads/2024/02/buah-pala-scaled.jpg",
       "stats": [
         {
           "v": "Kelas 1-3",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         },
         {
           "v": "10%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 10,
       "name": "Bunga Pala",
-      "category": "Kopi & Rempah",
-      "tagline": "Fuli — Utuh, Campuran, Rusak",
-      "desc": "Fuli atau bunga pala (mace) merupakan aril yang menyelimuti biji pala, memiliki aroma lebih halus dan kompleks dibanding biji pala sendiri. Tersedia dalam tiga kondisi sortir: utuh (whole), campuran (mixed grade), dan rusak (broken) untuk berbagai kebutuhan industri. Digunakan luas dalam industri parfum, kue premium, dan minuman. Kemasan 10/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Fuli — Utuh, Campuran, Rusak",
+        "en": "Mace — Whole, Mixed, Broken"
+      },
+      "desc": {
+        "id": "Fuli atau bunga pala (mace) merupakan aril yang menyelimuti biji pala, memiliki aroma lebih halus dan kompleks dibanding biji pala sendiri. Tersedia dalam tiga kondisi sortir: utuh (whole), campuran (mixed grade), dan rusak (broken) untuk berbagai kebutuhan industri. Digunakan luas dalam industri parfum, kue premium, dan minuman. Kemasan 10/50 kg.",
+        "en": "Mace (fuli) is the aril surrounding the nutmeg seed, with a finer and more complex aroma than the nutmeg itself. Available in three sorted conditions: whole (premium), mixed (mixed grade), and broken for various industry needs. Used widely in perfumery, premium pastry, and beverages. Packed in 10/50 kg."
+      },
+      "featured": false,
       "initials": "BPL",
       "color": "#D97706",
       "img": "https://infopublik.id/resources/album/pertanian-perikanan-perkebunan-peternakan/DSC_3560_compressed.JPG",
       "stats": [
         {
           "v": "3 Varian",
-          "l": "Sortir"
+          "l": {
+            "id": "Sortir",
+            "en": "Sortir"
+          }
         },
         {
           "v": "10/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 11,
       "name": "Cassia",
-      "category": "Kopi & Rempah",
-      "tagline": "Tipe ITU, KM, KF, KS, KB",
-      "desc": "Kayu manis jenis Cassia (Cinnamomum burmanni) dengan 5 tipe kualitas: ITU (Indonesian Tubular), KM (Keriting Medium), KF (Keriting Fine), KS (Keriting Split), dan KB (Keriting Broken). Kandungan cinnamaldehyde tinggi dengan aroma khas hangat. Cocok untuk industri makanan, minuman, kue, dan farmasi. Kemasan karung 25/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Tipe ITU, KM, KF, KS, KB",
+        "en": "Types ITU, KM, KF, KS, KB"
+      },
+      "desc": {
+        "id": "Kayu manis jenis Cassia (Cinnamomum burmanni) dengan 5 tipe kualitas: ITU (Indonesian Tubular), KM (Keriting Medium), KF (Keriting Fine), KS (Keriting Split), dan KB (Keriting Broken). Kandungan cinnamaldehyde tinggi dengan aroma khas hangat. Cocok untuk industri makanan, minuman, kue, dan farmasi. Kemasan karung 25/50 kg.",
+        "en": "Cassia cinnamon (Cinnamomum burmannii) in 5 quality types: ITU (Indonesian Tubular), KM (Keriting Medium), KF (Keriting Fine), KS (Keriting Split), and KB (Keriting Broken). High cinnamaldehyde content with a characteristically warm aroma. Suitable for food, beverage, confectionery, and pharmaceutical industries. Packed in 25/50 kg sacks."
+      },
+      "featured": false,
       "initials": "CA",
       "color": "#C2410C",
       "img": "https://images.pexels.com/photos/6176581/pexels-photo-6176581.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "5 Tipe",
-          "l": "Varian"
+          "l": {
+            "id": "Varian",
+            "en": "Variant"
+          }
         },
         {
           "v": "25/50 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 12,
       "name": "Cabe Jamu",
-      "category": "Kopi & Rempah",
-      "tagline": "Proses Blower — Kadar Air 10–12%",
-      "desc": "Cabe jamu (Piper retrofractum) atau cabai jawa diproses dengan metode blower untuk memisahkan kotoran, menghasilkan kadar abu bersih hanya 1% dan kadar air 10–12%. Kandungan chavicine dan piperine dimanfaatkan dalam industri jamu tradisional, suplemen kesehatan, dan bahan baku farmasi. Permintaan ekspor stabil ke pasar Asia dan Eropa. Kemasan 25/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Proses Blower — Kadar Air 10–12%",
+        "en": "Blower Process — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Cabe jamu (Piper retrofractum) atau cabai jawa diproses dengan metode blower untuk memisahkan kotoran, menghasilkan kadar abu bersih hanya 1% dan kadar air 10–12%. Kandungan chavicine dan piperine dimanfaatkan dalam industri jamu tradisional, suplemen kesehatan, dan bahan baku farmasi. Permintaan ekspor stabil ke pasar Asia dan Eropa. Kemasan 25/50 kg.",
+        "en": "Javanese long pepper (Piper retrofractum) processed using the blower method to separate impurities, resulting in a clean 1% ash content and 10–12% moisture. Chavicine and piperine content utilized in traditional jamu, health supplements, and pharmaceutical raw materials. Stable export demand in Asian and European markets. Packed in 25/50 kg."
+      },
+      "featured": false,
       "initials": "CJ",
       "color": "#DC2626",
       "img": "https://cdn.pixabay.com/photo/2022/06/25/12/40/herbs-7283387_1280.jpg",
       "stats": [
         {
           "v": "1%",
-          "l": "Kadar Abu"
+          "l": {
+            "id": "Kadar Abu",
+            "en": "Kadar Abu"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 13,
       "name": "Kemukus",
-      "category": "Kopi & Rempah",
-      "tagline": "Lada Ekor Grade A — Kadar Air 10–12%",
-      "desc": "Kemukus atau lada ekor (Piper cubeba) Grade A dengan kadar abu 1% dan kadar air 10–12%. Dikenal dalam farmakope herbal dunia sebagai bahan baku ekspektoran dan antiseptik saluran kemih alami. Aromanya unik dengan hints kamper dan mint, digunakan pula dalam industri parfum premium dan produk tembakau rasa khas. Kemasan 25/50 kg.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Lada Ekor Grade A — Kadar Air 10–12%",
+        "en": "Tail Pepper Grade A — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Kemukus atau lada ekor (Piper cubeba) Grade A dengan kadar abu 1% dan kadar air 10–12%. Dikenal dalam farmakope herbal dunia sebagai bahan baku ekspektoran dan antiseptik saluran kemih alami. Aromanya unik dengan hints kamper dan mint, digunakan pula dalam industri parfum premium dan produk tembakau rasa khas. Kemasan 25/50 kg.",
+        "en": "Cubeb pepper (Piper cubeba) Grade A with 1% ash content and 10–12% moisture. Recognized in global herbal pharmacopoeia as a natural expectorant and urinary antiseptic. Its unique aroma with camphor and mint hints is also used in premium perfumery and specialty tobacco products. Packed in 25/50 kg."
+      },
+      "featured": false,
       "initials": "KMK",
       "color": "#4B5563",
       "img": "https://sadabhumi.com/_next/image?url=https%3A%2F%2Fsadabhumi-cdn.sgp1.digitaloceanspaces.com%2Fcms%2F10a58687fa93b1a93bcff94e28f07aca.jpg&w=3840&q=75",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 14,
       "name": "Kunyit Kering",
-      "category": "Herbal & Empon",
-      "tagline": "Kurkumin 4% — Irisan Manual/Mesin",
-      "desc": "Irisan kunyit kering (Curcuma longa) yang diproses secara manual atau mesin dengan ketebalan seragam. Kandungan kurkumin 4%, kadar air 10–12%, memenuhi standar JECFA dan FDA untuk penggunaan pangan dan farmasi. Digunakan luas sebagai pewarna alami, agen anti-inflamasi, dan bahan baku suplemen kurkumin global. Kemasan pilihan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Kurkumin 4% — Irisan Manual/Mesin",
+        "en": "Curcumin 4% — Manual/Machine Sliced"
+      },
+      "desc": {
+        "id": "Irisan kunyit kering (Curcuma longa) yang diproses secara manual atau mesin dengan ketebalan seragam. Kandungan kurkumin 4%, kadar air 10–12%, memenuhi standar JECFA dan FDA untuk penggunaan pangan dan farmasi. Digunakan luas sebagai pewarna alami, agen anti-inflamasi, dan bahan baku suplemen kurkumin global. Kemasan pilihan 25/40 kg.",
+        "en": "Dried turmeric slices (Curcuma longa) processed manually or by machine with uniform thickness. Curcumin content min 4%, moisture 10–12%, meeting JECFA and FDA standards for food and pharmaceutical use. Widely used as a natural colorant, anti-inflammatory agent, and raw material for global curcumin supplements. Available in 25/40 kg packaging."
+      },
+      "featured": true,
       "initials": "KKR",
       "color": "#F59E0B",
       "img": "https://images.pexels.com/photos/31346461/pexels-photo-31346461.jpeg?auto=compress&cs=tinysrgb&w=800",
       "stats": [
         {
           "v": "4%",
-          "l": "Kurkumin"
+          "l": {
+            "id": "Kurkumin",
+            "en": "Kurkumin"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         },
         {
           "v": "25/40 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 15,
       "name": "Temulawak",
-      "category": "Herbal & Empon",
-      "tagline": "Irisan Koin/Cincang — Kadar Air 10–12%",
-      "desc": "Temulawak (Curcuma xanthorrhiza) tersedia dalam bentuk irisan koin atau cincang (chopped), kadar air 10–12%. Kandungan kurkuminoid dan xanthorrhizol tinggi yang menjadi bahan aktif dalam suplemen hepatoprotektif (kesehatan hati) dan produk jamu modern. Sangat diminati oleh pasar farmasi Eropa, Jepang, dan Korea. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Irisan Koin/Cincang — Kadar Air 10–12%",
+        "en": "Coin/Chopped Slices — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Temulawak (Curcuma xanthorrhiza) tersedia dalam bentuk irisan koin atau cincang (chopped), kadar air 10–12%. Kandungan kurkuminoid dan xanthorrhizol tinggi yang menjadi bahan aktif dalam suplemen hepatoprotektif (kesehatan hati) dan produk jamu modern. Sangat diminati oleh pasar farmasi Eropa, Jepang, dan Korea. Kemasan 25/40 kg.",
+        "en": "Javanese turmeric (Curcuma xanthorrhiza) available in coin slices or chopped form, moisture 10–12%. High curcuminoid and xanthorrhizol content, the active compounds in hepatoprotective supplements (liver health) and modern herbal products. Highly sought in pharmaceutical markets of Europe, Japan, and Korea. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "TW",
       "color": "#D97706",
       "img": "https://delimaasihsismamedika.com/wp-content/uploads/2019/04/manfaat-temulawak-untuk-kesehatan.png",
       "stats": [
         {
           "v": "Koin/Cincang",
-          "l": "Bentuk"
+          "l": {
+            "id": "Bentuk",
+            "en": "Form"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 16,
       "name": "Lengkuas",
-      "category": "Herbal & Empon",
-      "tagline": "Polished & Unpolished — Kadar Air 10–12%",
-      "desc": "Lengkuas kering (Alpinia galanga) tersedia dalam dua varian: polished (bersih tanpa kulit) dan unpolished (dengan kulit alami), kadar air 10–12%. Mengandung senyawa aktif 1'-acetoxychavicol acetate (ACA) yang memiliki sifat anti-jamur dan antimikroba terbukti. Digunakan dalam masakan Asia Tenggara, obat herbal, dan aromaterapi. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Polished & Unpolished — Kadar Air 10–12%",
+        "en": "Polished & Unpolished — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Lengkuas kering (Alpinia galanga) tersedia dalam dua varian: polished (bersih tanpa kulit) dan unpolished (dengan kulit alami), kadar air 10–12%. Mengandung senyawa aktif 1'-acetoxychavicol acetate (ACA) yang memiliki sifat anti-jamur dan antimikroba terbukti. Digunakan dalam masakan Asia Tenggara, obat herbal, dan aromaterapi. Kemasan 25/40 kg.",
+        "en": "Dried galangal (Alpinia galanga) in two variants: polished (clean, skinless) and unpolished (with natural skin), moisture 10–12%. Contains active 1'-acetoxychavicol acetate (ACA) with proven antifungal and antimicrobial properties. Used in Southeast Asian cuisine, herbal medicine, and aromatherapy. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "LGS",
       "color": "#065F46",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1777523227/attached_image/lengkuas.jpg",
       "stats": [
         {
           "v": "2 Varian",
-          "l": "Polished/Unpolished"
+          "l": {
+            "id": "Polished/Unpolished",
+            "en": "Polished/Unpolished"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 17,
       "name": "Jahe Gajah",
-      "category": "Herbal & Empon",
-      "tagline": "Gingerol 5–6% — Kadar Air 10–12%",
-      "desc": "Jahe gajah kering (Zingiber officinale var. officinale) dengan kandungan gingerol 5–6% dan kadar air 10–12%. Irisan seragam, aroma segar, dan rasa pedas hangat khas dengan aftertaste menyenangkan. Banyak diminati oleh industri minuman kesehatan, suplemen, dan kue internasional. Tersedia dalam potongan koin, irisan, atau utuh. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Gingerol 5–6% — Kadar Air 10–12%",
+        "en": "Gingerol 5–6% — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Jahe gajah kering (Zingiber officinale var. officinale) dengan kandungan gingerol 5–6% dan kadar air 10–12%. Irisan seragam, aroma segar, dan rasa pedas hangat khas dengan aftertaste menyenangkan. Banyak diminati oleh industri minuman kesehatan, suplemen, dan kue internasional. Tersedia dalam potongan koin, irisan, atau utuh. Kemasan 25/40 kg.",
+        "en": "Dried elephant ginger (Zingiber officinale var. officinale) with 5–6% gingerol content and 10–12% moisture. Uniform slices, fresh aroma, and a characteristically warm spicy taste with a pleasant aftertaste. Highly sought by the health beverage, supplement, and international confectionery industries. Available as coin cuts, slices, or whole. Packed in 25/40 kg."
+      },
+      "featured": true,
       "initials": "JG",
       "color": "#1BA882",
       "img": "https://bibitbunga.com/wp-content/uploads/2018/03/Umbi-jahe-gajah.jpg",
       "stats": [
         {
           "v": "5–6%",
-          "l": "Gingerol"
+          "l": {
+            "id": "Gingerol",
+            "en": "Gingerol"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         },
         {
           "v": "25/40 kg",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 18,
       "name": "Jahe Merah",
-      "category": "Herbal & Empon",
-      "tagline": "Gingerol 5–6% — Kadar Air 10–12%",
-      "desc": "Jahe merah kering (Zingiber officinale var. rubrum) dengan kandungan gingerol 5–6% yang lebih tinggi dan minyak atsiri lebih pekat dibanding jahe biasa. Kadar air 10–12%. Warna merah kecoklatan khas dengan rasa lebih pedas dan hangat. Sangat diminati untuk produk jamu premium, suplemen imunitas, dan minuman fungsional pasar global. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Gingerol 5–6% — Kadar Air 10–12%",
+        "en": "Gingerol 5–6% — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Jahe merah kering (Zingiber officinale var. rubrum) dengan kandungan gingerol 5–6% yang lebih tinggi dan minyak atsiri lebih pekat dibanding jahe biasa. Kadar air 10–12%. Warna merah kecoklatan khas dengan rasa lebih pedas dan hangat. Sangat diminati untuk produk jamu premium, suplemen imunitas, dan minuman fungsional pasar global. Kemasan 25/40 kg.",
+        "en": "Dried red ginger (Zingiber officinale var. rubrum) with 5–6% gingerol content and denser essential oil than regular ginger. Moisture 10–12%. Characteristic reddish-brown color with a sharper, warmer spiciness. Highly sought for premium jamu products, immunity supplements, and global functional beverage markets. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "JM",
       "color": "#DC2626",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/03/14014126/X-Manfaat-Jahe-Merah-untuk-Kesehatan-yang-Perlu-Diketahui-01.jpg.webp",
       "stats": [
         {
           "v": "5–6%",
-          "l": "Gingerol"
+          "l": {
+            "id": "Gingerol",
+            "en": "Gingerol"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 19,
       "name": "Jahe Emprit",
-      "category": "Herbal & Empon",
-      "tagline": "Gingerol 5–6% — Kadar Air 10–12%",
-      "desc": "Jahe emprit kering (Zingiber officinale var. amarum) berukuran lebih kecil namun memiliki gingerol 5–6% dan kandungan minyak atsiri lebih tinggi dibanding jahe gajah, sehingga dipilih untuk ekstraksi oleoresin dan essential oil jahe premium. Kadar air 10–12%. Banyak digunakan dalam industri farmasi, kosmetik, dan food flavoring internasional. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Gingerol 5–6% — Kadar Air 10–12%",
+        "en": "Gingerol 5–6% — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Jahe emprit kering (Zingiber officinale var. amarum) berukuran lebih kecil namun memiliki gingerol 5–6% dan kandungan minyak atsiri lebih tinggi dibanding jahe gajah, sehingga dipilih untuk ekstraksi oleoresin dan essential oil jahe premium. Kadar air 10–12%. Banyak digunakan dalam industri farmasi, kosmetik, dan food flavoring internasional. Kemasan 25/40 kg.",
+        "en": "Dried emprit ginger (Zingiber officinale var. amarum), smaller in size but with 5–6% gingerol and higher essential oil content than elephant ginger, making it the preferred choice for oleoresin and premium ginger essential oil extraction. Moisture 10–12%. Widely used in pharmaceutical, cosmetics, and international food flavoring industries. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "JE",
       "color": "#B45309",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1764241841/attached_image/jahe-emprit-si-rempah-mini-yang-pedas-dan-kaya-khasiat.jpg",
       "stats": [
         {
           "v": "5–6%",
-          "l": "Gingerol"
+          "l": {
+            "id": "Gingerol",
+            "en": "Gingerol"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 20,
       "name": "Kencur Kering",
-      "category": "Herbal & Empon",
-      "tagline": "Irisan Mesin — Kadar Air 10–12%",
-      "desc": "Kencur kering (Kaempferia galanga) irisan mesin dengan keseragaman ukuran tinggi dan kadar air 10–12%. Mengandung senyawa etil p-metoksisinamat yang bersifat anti-inflamasi dan analgesik terbukti dalam penelitian ilmiah. Digunakan dalam industri jamu tradisional Indonesia, kosmetik (hair care), dan food flavoring Asia. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Irisan Mesin — Kadar Air 10–12%",
+        "en": "Machine Sliced — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Kencur kering (Kaempferia galanga) irisan mesin dengan keseragaman ukuran tinggi dan kadar air 10–12%. Mengandung senyawa etil p-metoksisinamat yang bersifat anti-inflamasi dan analgesik terbukti dalam penelitian ilmiah. Digunakan dalam industri jamu tradisional Indonesia, kosmetik (hair care), dan food flavoring Asia. Kemasan 25/40 kg.",
+        "en": "Dried kencur (Kaempferia galanga) machine-sliced with high size uniformity and 10–12% moisture. Contains ethyl p-methoxycinnamate with scientifically proven anti-inflammatory and analgesic properties. Used in Indonesia's traditional jamu industry, cosmetics (hair care), and Asian food flavoring. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "KC",
       "color": "#15803D",
       "img": "https://down-id.img.susercontent.com/file/ab5c896fbd4bef9cbf8ebe7523c1e272",
       "stats": [
         {
           "v": "Irisan Mesin",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 21,
       "name": "Lempuyang Gajah",
-      "category": "Herbal & Empon",
-      "tagline": "Irisan Mesin — Kadar Air 10–12%",
-      "desc": "Lempuyang gajah kering (Zingiber zerumbet) irisan mesin dengan kadar air 10–12%. Mengandung zerumbon, senyawa yang secara ilmiah diteliti memiliki aktivitas anti-kanker, anti-inflamasi, dan antijamur yang menjanjikan. Banyak digunakan dalam industri jamu modern, suplemen herbal fungsional, dan formulasi nutraceutical Asia Timur. Kemasan 25/40 kg.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Irisan Mesin — Kadar Air 10–12%",
+        "en": "Machine Sliced — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Lempuyang gajah kering (Zingiber zerumbet) irisan mesin dengan kadar air 10–12%. Mengandung zerumbon, senyawa yang secara ilmiah diteliti memiliki aktivitas anti-kanker, anti-inflamasi, dan antijamur yang menjanjikan. Banyak digunakan dalam industri jamu modern, suplemen herbal fungsional, dan formulasi nutraceutical Asia Timur. Kemasan 25/40 kg.",
+        "en": "Dried lempuyang gajah (Zingiber zerumbet) machine-sliced with 10–12% moisture. Contains zerumbone, a compound scientifically studied for promising anti-cancer, anti-inflammatory, and antifungal activity. Widely used in modern jamu, functional herbal supplements, and East Asian nutraceutical formulations. Packed in 25/40 kg."
+      },
+      "featured": false,
       "initials": "LGJ",
       "color": "#166534",
       "img": "https://id-test-11.slatic.net/p/mdc/aa6f5d1820be9cb726b53fadba8ecfa4.jpg",
       "stats": [
         {
           "v": "Irisan Mesin",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 22,
       "name": "Lempuyang Emprit",
-      "category": "Herbal & Empon",
-      "tagline": "Irisan Mesin — Kadar Air 10–12%",
-      "desc": "Lempuyang emprit kering (Zingiber aromaticum) irisan mesin dengan kadar air 10–12%. Memiliki profil fitokimia kaya termasuk flavonoid dan terpenoid yang mendukung aktivitas antioksidan dan antibakteri. Digunakan dalam ramuan herbal tradisional untuk menjaga stamina, kesehatan pencernaan, dan sistem imun. Kemasan 25/40 kg, siap ekspor.",
+      "category": {
+        "id": "Herbal & Empon",
+        "en": "Herbs & Rhizomes"
+      },
+      "tagline": {
+        "id": "Irisan Mesin — Kadar Air 10–12%",
+        "en": "Machine Sliced — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Lempuyang emprit kering (Zingiber aromaticum) irisan mesin dengan kadar air 10–12%. Memiliki profil fitokimia kaya termasuk flavonoid dan terpenoid yang mendukung aktivitas antioksidan dan antibakteri. Digunakan dalam ramuan herbal tradisional untuk menjaga stamina, kesehatan pencernaan, dan sistem imun. Kemasan 25/40 kg, siap ekspor.",
+        "en": "Dried lempuyang emprit (Zingiber aromaticum) machine-sliced with 10–12% moisture. Rich phytochemical profile including flavonoids and terpenoids supporting antioxidant and antibacterial activity. Used in traditional herbal preparations for stamina, digestive health, and immune support. Packed in 25/40 kg, ready for export."
+      },
+      "featured": false,
       "initials": "LE",
       "color": "#14532D",
       "img": "https://down-id.img.susercontent.com/file/d1f1fb42a481d9518247b0cc2ef21665",
       "stats": [
         {
           "v": "Irisan Mesin",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 23,
       "name": "Daun Kunyit",
-      "category": "Daun & Herba",
-      "tagline": "Kelas A/B — Kadar Air 12–14%",
-      "desc": "Daun kunyit kering (Curcuma longa leaf) kelas A/B dengan variasi komposisi daun dan batang, kadar air 12–14%. Mengandung minyak atsiri dengan kandungan terpinen dan sabinen yang memberikan aroma unik berbeda dari rimpangnya. Digunakan sebagai pembungkus makanan tradisional, bumbu masak aromatik, dan bahan ekstraksi minyak atsiri. Tersedia dalam kemasan sesuai permintaan.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Kelas A/B — Kadar Air 12–14%",
+        "en": "Class A/B — Moisture 12–14%"
+      },
+      "desc": {
+        "id": "Daun kunyit kering (Curcuma longa leaf) kelas A/B dengan variasi komposisi daun dan batang, kadar air 12–14%. Mengandung minyak atsiri dengan kandungan terpinen dan sabinen yang memberikan aroma unik berbeda dari rimpangnya. Digunakan sebagai pembungkus makanan tradisional, bumbu masak aromatik, dan bahan ekstraksi minyak atsiri. Tersedia dalam kemasan sesuai permintaan.",
+        "en": "Dried turmeric leaves (Curcuma longa leaf) class A/B with varying leaf and stem composition ratios, moisture 12–14%. Contains essential oils with terpinene and sabinene that produce a unique aroma distinct from the rhizome. Used as traditional food wrapping, aromatic seasoning, and essential oil extraction raw material. Packaging available to buyer specification."
+      },
+      "featured": false,
       "initials": "DKN",
       "color": "#16A34A",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2025/07/07025501/daun-kunyit.jpg.webp",
       "stats": [
         {
           "v": "Kelas A/B",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         },
         {
           "v": "12–14%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 24,
       "name": "Orthosiphon Stamineus",
-      "category": "Daun & Herba",
-      "tagline": "Kumis Kucing — Hydraulic Pressed",
-      "desc": "Kumis kucing kering (Orthosiphon aristatus) diproses hydraulic pressed untuk kepadatan volume yang lebih tinggi sehingga lebih efisien dalam pengiriman. Kadar air 12–14%. Senyawa aktif sinensetin dan rosmarinic acid terbukti bermanfaat sebagai diuretik alami dan mendukung fungsi ginjal. Sangat diminati industri suplemen dan teh herbal premium Eropa, Jepang, dan Asia.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Kumis Kucing — Hydraulic Pressed",
+        "en": "Java Tea — Hydraulic Pressed"
+      },
+      "desc": {
+        "id": "Kumis kucing kering (Orthosiphon aristatus) diproses hydraulic pressed untuk kepadatan volume yang lebih tinggi sehingga lebih efisien dalam pengiriman. Kadar air 12–14%. Senyawa aktif sinensetin dan rosmarinic acid terbukti bermanfaat sebagai diuretik alami dan mendukung fungsi ginjal. Sangat diminati industri suplemen dan teh herbal premium Eropa, Jepang, dan Asia.",
+        "en": "Dried orthosiphon or java tea (Orthosiphon aristatus) processed using hydraulic pressing for higher volume density, reducing shipping costs. Moisture 12–14%. Active compounds sinensetin and rosmarinic acid proven beneficial as natural diuretics supporting kidney function. Highly sought by premium supplement and herbal tea industries in Europe, Japan, and Asia."
+      },
+      "featured": false,
       "initials": "OS",
       "color": "#0F766E",
       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/1538283/original.jpg",
       "stats": [
         {
           "v": "Hydraulic",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "12–14%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 25,
       "name": "Daun Patchouli",
-      "category": "Daun & Herba",
-      "tagline": "Nilam Grade A — Cokelat Terang",
-      "desc": "Daun nilam Grade A (Pogostemon cablin) dengan warna coklat terang dan kandungan minyak atsiri yang tinggi, kadar air 12–14%. Merupakan bahan baku utama minyak nilam (patchouli oil) yang digunakan luas di industri parfum kelas dunia, kosmetik premium, dan aromaterapi. Indonesia adalah produsen dan pengekspor patchouli terbesar secara global. Kemasan sesuai permintaan.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Nilam Grade A — Cokelat Terang",
+        "en": "Nilam Grade A — Light Brown"
+      },
+      "desc": {
+        "id": "Daun nilam Grade A (Pogostemon cablin) dengan warna coklat terang dan kandungan minyak atsiri yang tinggi, kadar air 12–14%. Merupakan bahan baku utama minyak nilam (patchouli oil) yang digunakan luas di industri parfum kelas dunia, kosmetik premium, dan aromaterapi. Indonesia adalah produsen dan pengekspor patchouli terbesar secara global. Kemasan sesuai permintaan.",
+        "en": "Grade A patchouli leaves (Pogostemon cablin) with light brown color and high essential oil content, moisture 12–14%. Primary raw material for patchouli oil widely used in the world's luxury perfume industry, premium cosmetics, and aromatherapy. Indonesia is the largest global producer and exporter of patchouli. Packaging to buyer specification."
+      },
+      "featured": false,
       "initials": "DPT",
       "color": "#78350F",
       "img": "https://cdn.britannica.com/16/211716-050-E4CA4AC2/Leaves-patchouli-plant-Pogostemon-cablin.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–14%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 26,
       "name": "Daun Kelor",
-      "category": "Daun & Herba",
-      "tagline": "Moringa — Kelas A/B Standar Ekspor",
-      "desc": "Daun kelor kering (Moringa oleifera) kelas A/B dengan berbagai pilihan komposisi daun dan batang, memenuhi standar ekspor internasional. Merupakan superfood dengan kandungan protein, vitamin A, C, E, kalsium, dan zat besi yang sangat tinggi, menjadikannya bahan fortifikasi pangan terkemuka. Digunakan dalam industri suplemen global, teh kesehatan, dan kosmetik organik. Sertifikasi organik tersedia.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Moringa — Kelas A/B Standar Ekspor",
+        "en": "Moringa — Class A/B Export Standard"
+      },
+      "desc": {
+        "id": "Daun kelor kering (Moringa oleifera) kelas A/B dengan berbagai pilihan komposisi daun dan batang, memenuhi standar ekspor internasional. Merupakan superfood dengan kandungan protein, vitamin A, C, E, kalsium, dan zat besi yang sangat tinggi, menjadikannya bahan fortifikasi pangan terkemuka. Digunakan dalam industri suplemen global, teh kesehatan, dan kosmetik organik. Sertifikasi organik tersedia.",
+        "en": "Dried moringa leaves (Moringa oleifera) class A/B with various leaf and stem composition options, meeting international export standards. A superfood with exceptionally high protein, vitamins A, C, E, calcium, and iron content, making it a leading food fortification ingredient. Used in the global supplement industry, health teas, and organic cosmetics. Organic certification available."
+      },
+      "featured": true,
       "initials": "DKL",
       "color": "#15803D",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/10/05094444/X-Manfaat-Daun-Kelor-untuk-Kesehatan-yang-Jarang-Diketahui-headline-list-manfaat-dan-penjelasan-CTA.jpg",
       "stats": [
         {
           "v": "Kelas A/B",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         },
         {
           "v": "Ekspor",
-          "l": "Standar"
+          "l": {
+            "id": "Standar",
+            "en": "Standar"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 27,
       "name": "Bubuk Kelor",
-      "category": "Bubuk & Biji",
-      "tagline": "Hijau Cerah — Mesh Adjustable",
-      "desc": "Bubuk daun kelor (Moringa oleifera powder) berwarna hijau cerah dengan ukuran kehalusan mesh yang dapat disesuaikan sesuai permintaan buyer. Diproduksi dengan proses pengeringan suhu rendah untuk mempertahankan kandungan nutrisi dan fitokimia secara optimal. Kaya protein, vitamin, mineral, dan antioksidan. Cocok untuk suplemen, fortifikasi pangan, smoothie, dan industri kosmetik organik.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Hijau Cerah — Mesh Adjustable",
+        "en": "Bright Green — Adjustable Mesh"
+      },
+      "desc": {
+        "id": "Bubuk daun kelor (Moringa oleifera powder) berwarna hijau cerah dengan ukuran kehalusan mesh yang dapat disesuaikan sesuai permintaan buyer. Diproduksi dengan proses pengeringan suhu rendah untuk mempertahankan kandungan nutrisi dan fitokimia secara optimal. Kaya protein, vitamin, mineral, dan antioksidan. Cocok untuk suplemen, fortifikasi pangan, smoothie, dan industri kosmetik organik.",
+        "en": "Moringa leaf powder (Moringa oleifera powder) in bright green color with adjustable mesh fineness to buyer specification. Produced via low-temperature drying to optimally preserve nutrient and phytochemical content. Rich in protein, vitamins, minerals, and antioxidants. Suitable for supplements, food fortification, smoothies, and the organic cosmetics industry."
+      },
+      "featured": false,
       "initials": "BKL",
       "color": "#22C55E",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1717771936/attached_image/7-manfaat-daun-kelor-untuk-wanita-yang-jarang-diketahui.jpg",
       "stats": [
         {
           "v": "Custom Mesh",
-          "l": "Kehalusan"
+          "l": {
+            "id": "Kehalusan",
+            "en": "Kehalusan"
+          }
         },
         {
           "v": "Hijau Cerah",
-          "l": "Warna"
+          "l": {
+            "id": "Warna",
+            "en": "Color"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 28,
       "name": "Moringa Seeds",
-      "category": "Bubuk & Biji",
-      "tagline": "Biji Kelor Utuh — Carton Box/PP Bag",
-      "desc": "Biji kelor utuh (Moringa oleifera seeds) dipilih secara manual untuk memastikan keseragaman dan kualitas terbaik. Kaya kandungan protein, asam lemak esensial, dan senyawa antioksidan kuat. Dimanfaatkan sebagai bahan baku pengolahan air bersih alami (natural coagulant), suplemen nutrisi, dan bahan aktif kosmetik. Dikemas dalam carton box atau PP bag dengan standar ekspor yang ketat.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Biji Kelor Utuh — Carton Box/PP Bag",
+        "en": "Whole Moringa Seeds — Carton Box/PP Bag"
+      },
+      "desc": {
+        "id": "Biji kelor utuh (Moringa oleifera seeds) dipilih secara manual untuk memastikan keseragaman dan kualitas terbaik. Kaya kandungan protein, asam lemak esensial, dan senyawa antioksidan kuat. Dimanfaatkan sebagai bahan baku pengolahan air bersih alami (natural coagulant), suplemen nutrisi, dan bahan aktif kosmetik. Dikemas dalam carton box atau PP bag dengan standar ekspor yang ketat.",
+        "en": "Whole moringa seeds (Moringa oleifera seeds) manually selected for uniformity and premium quality. Rich in protein, essential fatty acids, and potent antioxidant compounds. Used as a raw material for natural water purification (natural coagulant), nutritional supplements, and active cosmetics ingredients. Packed in carton boxes or PP bags to strict export standards."
+      },
+      "featured": false,
       "initials": "MS",
       "color": "#16A34A",
       "img": "https://chinapeanutmachinery.com/wp-content/uploads/2023/05/2023051707474457.jpg",
       "stats": [
         {
           "v": "Carton/PP Bag",
-          "l": "Kemasan"
+          "l": {
+            "id": "Kemasan",
+            "en": "Packaging"
+          }
         },
         {
           "v": "Ekspor",
-          "l": "Standar"
+          "l": {
+            "id": "Standar",
+            "en": "Standar"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 29,
       "name": "Moringa Seeds Peeled",
-      "category": "Bubuk & Biji",
-      "tagline": "Biji Kelor Kupas — Standar Ekspor",
-      "desc": "Biji kelor kupas (Moringa oleifera peeled seeds) dengan kulit ari yang telah dibuang untuk kemudahan konsumsi langsung dan efisiensi ekstraksi. Mengandung Moringa oil (Ben oil) yang berharga tinggi untuk aplikasi kosmetik premium dan perawatan kulit anti-penuaan. Dipersiapkan khusus dengan standar kualitas ekspor ketat, menjadikannya pilihan utama buyer industri kecantikan global.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Biji Kelor Kupas — Standar Ekspor",
+        "en": "Peeled Moringa Seeds — Export Standard"
+      },
+      "desc": {
+        "id": "Biji kelor kupas (Moringa oleifera peeled seeds) dengan kulit ari yang telah dibuang untuk kemudahan konsumsi langsung dan efisiensi ekstraksi. Mengandung Moringa oil (Ben oil) yang berharga tinggi untuk aplikasi kosmetik premium dan perawatan kulit anti-penuaan. Dipersiapkan khusus dengan standar kualitas ekspor ketat, menjadikannya pilihan utama buyer industri kecantikan global.",
+        "en": "Peeled moringa seeds (Moringa oleifera peeled seeds) with the seed coat removed for ease of direct consumption and extraction efficiency. Contains highly valued Moringa oil (Ben oil) for premium cosmetics and anti-aging skincare applications. Specially prepared to strict export quality standards, making it the top choice for global beauty industry buyers."
+      },
+      "featured": false,
       "initials": "MSP",
       "color": "#15803D",
       "img": "https://shop.thatsthespirit.nu/cdn/shop/files/Peeled-Moringa-Seeds-100-grams.png?v=1759582131",
       "stats": [
         {
           "v": "Kupas",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "Ekspor",
-          "l": "Standar"
+          "l": {
+            "id": "Standar",
+            "en": "Standar"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 30,
       "name": "Rosella",
-      "category": "Daun & Herba",
-      "tagline": "Grade A — Ukuran 2–4 cm",
-      "desc": "Bunga rosella kering (Hibiscus sabdariffa) Grade A dengan ukuran 2–4 cm dan kadar air 10–12%. Warna merah cerah khas dengan kandungan antosianin dan vitamin C yang sangat tinggi. Digunakan untuk teh herbal premium, pewarna alami pangan, dan minuman fungsional antioksidan. Sangat diminati oleh pasar Eropa, Amerika, dan Asia untuk produk wellness dan kesehatan premium.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A — Ukuran 2–4 cm",
+        "en": "Grade A — Size 2–4 cm"
+      },
+      "desc": {
+        "id": "Bunga rosella kering (Hibiscus sabdariffa) Grade A dengan ukuran 2–4 cm dan kadar air 10–12%. Warna merah cerah khas dengan kandungan antosianin dan vitamin C yang sangat tinggi. Digunakan untuk teh herbal premium, pewarna alami pangan, dan minuman fungsional antioksidan. Sangat diminati oleh pasar Eropa, Amerika, dan Asia untuk produk wellness dan kesehatan premium.",
+        "en": "Dried roselle flowers (Hibiscus sabdariffa) Grade A, size 2–4 cm, moisture 10–12%. Vibrant characteristic red color with very high anthocyanin and vitamin C content. Used for premium herbal teas, natural food colorings, and antioxidant functional beverages. Highly sought by European, American, and Asian markets for premium wellness and health products."
+      },
+      "featured": false,
       "initials": "RS",
       "color": "#E11D48",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/12/13040651/Jarang-Diketahui-Ini-X-Manfaat-Bunga-Rosella-untuk-Kesehatan.jpg.webp",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "2–4 cm",
-          "l": "Ukuran"
+          "l": {
+            "id": "Ukuran",
+            "en": "Size"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 31,
       "name": "Serai Kering",
-      "category": "Daun & Herba",
-      "tagline": "Grade A — Kadar Air 10–12%",
-      "desc": "Batang dan daun serai kering (Cymbopogon citratus) Grade A dengan kadar air 10–12%. Mengandung sitral dan geraniol tinggi yang memberikan aroma lemon segar dan khas. Banyak digunakan untuk teh herbal relaksasi, bumbu masak kering Asia, industri parfum dan sabun, serta insektisida alami. Tersedia dalam irisan tipis maupun batangan, kemasan fleksibel sesuai kebutuhan buyer.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 10–12%",
+        "en": "Grade A — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Batang dan daun serai kering (Cymbopogon citratus) Grade A dengan kadar air 10–12%. Mengandung sitral dan geraniol tinggi yang memberikan aroma lemon segar dan khas. Banyak digunakan untuk teh herbal relaksasi, bumbu masak kering Asia, industri parfum dan sabun, serta insektisida alami. Tersedia dalam irisan tipis maupun batangan, kemasan fleksibel sesuai kebutuhan buyer.",
+        "en": "Dried lemongrass stems and leaves (Cymbopogon citratus) Grade A with 10–12% moisture. High in citral and geraniol providing a characteristic fresh lemon aroma. Widely used for relaxation herbal teas, dried Asian seasoning, the perfumery and soap industry, and natural insecticides. Available as thin slices or stalks, flexible packaging to buyer needs."
+      },
+      "featured": false,
       "initials": "SK",
       "color": "#84CC16",
       "img": "https://image.made-in-china.com/202f0j00QofbLznWbhcy/Lemongrass-Dried-Cut-Stalks-Wholesale-Loose-Herb-Tea-Food-Aroma-Spices.webp",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 32,
       "name": "Mengkudu Kering",
-      "category": "Daun & Herba",
-      "tagline": "Grade A Merah — Kadar Air 10–12%",
-      "desc": "Buah mengkudu kering (Morinda citrifolia) Grade A merah dengan kadar air 10–12%. Mengandung senyawa xeronin, scopoletin, dan damnacanthal yang dikenal memiliki efek antioksidan, imunomodulator, dan adaptogenik. Permintaan ekspor tumbuh pesat untuk industri suplemen herbal, jus fungsional (noni juice), dan produk nutraceutical Amerika dan Eropa. Tersedia dalam irisan maupun utuh.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A Merah — Kadar Air 10–12%",
+        "en": "Grade A Red — Moisture 10–12%"
+      },
+      "desc": {
+        "id": "Buah mengkudu kering (Morinda citrifolia) Grade A merah dengan kadar air 10–12%. Mengandung senyawa xeronin, scopoletin, dan damnacanthal yang dikenal memiliki efek antioksidan, imunomodulator, dan adaptogenik. Permintaan ekspor tumbuh pesat untuk industri suplemen herbal, jus fungsional (noni juice), dan produk nutraceutical Amerika dan Eropa. Tersedia dalam irisan maupun utuh.",
+        "en": "Dried noni fruit (Morinda citrifolia) Grade A red with 10–12% moisture. Contains xeronin, scopoletin, and damnacanthal known for antioxidant, immunomodulatory, and adaptogenic effects. Export demand growing rapidly for the herbal supplement industry, functional juices (noni juice), and American and European nutraceutical products. Available sliced or whole."
+      },
+      "featured": false,
       "initials": "MKD",
       "color": "#B91C1C",
       "img": "https://id-test-11.slatic.net/p/94d0cacb55c6d819f6b01d9a2262bddc.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "10–12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 33,
       "name": "Daun Jambu Biji",
-      "category": "Daun & Herba",
-      "tagline": "Grade A Hijau — Kadar Air 12%",
-      "desc": "Daun jambu biji kering (Psidium guajava) Grade A warna hijau dengan kadar air 12%. Kaya tanin, flavonoid, dan quercetin yang mendukung fungsi antidiabetes, antimikroba, dan anti-diare yang telah terbukti secara klinis. Semakin diminati oleh industri nutraceutical dan teh herbal di Jepang, Korea, Eropa, dan Amerika untuk formulasi suplemen herbal modern. Tersedia dalam irisan maupun utuh.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A Hijau — Kadar Air 12%",
+        "en": "Grade A Green — Moisture 12%"
+      },
+      "desc": {
+        "id": "Daun jambu biji kering (Psidium guajava) Grade A warna hijau dengan kadar air 12%. Kaya tanin, flavonoid, dan quercetin yang mendukung fungsi antidiabetes, antimikroba, dan anti-diare yang telah terbukti secara klinis. Semakin diminati oleh industri nutraceutical dan teh herbal di Jepang, Korea, Eropa, dan Amerika untuk formulasi suplemen herbal modern. Tersedia dalam irisan maupun utuh.",
+        "en": "Dried guava leaves (Psidium guajava) Grade A green color with 12% moisture. Rich in tannins, flavonoids, and quercetin supporting clinically proven antidiabetic, antimicrobial, and antidiarrheal functions. Increasingly sought by the nutraceutical and herbal tea industries in Japan, Korea, Europe, and America for modern herbal supplement formulations. Available sliced or whole."
+      },
+      "featured": false,
       "initials": "DJB",
       "color": "#4ADE80",
       "img": "https://rumahdukaelim.com/wp-content/uploads/2023/12/manfaat-daun-jambu-biji-1.jpeg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 34,
       "name": "Pegagan",
-      "category": "Daun & Herba",
-      "tagline": "Centella Asiatica Grade A — Kadar Air 12%",
-      "desc": "Daun pegagan kering (Centella asiatica) Grade A warna hijau dengan kadar air 12%. Mengandung triterpenoid asiaticoside dan madecassoside yang terbukti klinis mempercepat penyembuhan luka, meningkatkan memori, dan menjaga kesehatan kulit. Bahan baku premium yang kian populer untuk suplemen kecantikan dari dalam, kosmetik anti-penuaan, dan teh herbal premium. Sangat diminati pasar Korea dan Eropa.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Centella Asiatica Grade A — Kadar Air 12%",
+        "en": "Centella Asiatica Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Daun pegagan kering (Centella asiatica) Grade A warna hijau dengan kadar air 12%. Mengandung triterpenoid asiaticoside dan madecassoside yang terbukti klinis mempercepat penyembuhan luka, meningkatkan memori, dan menjaga kesehatan kulit. Bahan baku premium yang kian populer untuk suplemen kecantikan dari dalam, kosmetik anti-penuaan, dan teh herbal premium. Sangat diminati pasar Korea dan Eropa.",
+        "en": "Dried pegagan leaves (Centella asiatica) Grade A green color with 12% moisture. Contains triterpenoids asiaticoside and madecassoside clinically proven to accelerate wound healing, improve memory, and maintain skin health. A premium raw material growing in popularity for beauty-from-within supplements, anti-aging cosmetics, and premium herbal teas. Highly sought in Korean and European markets."
+      },
+      "featured": false,
       "initials": "PG",
       "color": "#22D3EE",
       "img": "https://4.bp.blogspot.com/-h2RCXUIGaj8/Vwck6InIlfI/AAAAAAAAAWM/oPWDsanNHbMHFfgQ_TtkE8g5bOE32RIzw/s1600/pegagan%2B%25281%2529.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 35,
       "name": "Daun Jeruk",
-      "category": "Daun & Herba",
-      "tagline": "Purut/Nipis — Hijau Segar",
-      "desc": "Daun jeruk purut atau nipis kering (Citrus hystrix / Citrus aurantifolia) Grade A warna hijau segar dengan kadar air 12%. Mengandung minyak atsiri sitronelal dan linalol yang memberikan aroma jeruk segar dan khas. Digunakan sebagai bumbu masak kering untuk masakan Asia Tenggara, minyak atsiri, dan produk flavoring premium. Kemasan dapat disesuaikan sesuai kebutuhan buyer.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Purut/Nipis — Hijau Segar",
+        "en": "Kaffir/Lime — Fresh Green"
+      },
+      "desc": {
+        "id": "Daun jeruk purut atau nipis kering (Citrus hystrix / Citrus aurantifolia) Grade A warna hijau segar dengan kadar air 12%. Mengandung minyak atsiri sitronelal dan linalol yang memberikan aroma jeruk segar dan khas. Digunakan sebagai bumbu masak kering untuk masakan Asia Tenggara, minyak atsiri, dan produk flavoring premium. Kemasan dapat disesuaikan sesuai kebutuhan buyer.",
+        "en": "Dried kaffir lime or lime leaves (Citrus hystrix / Citrus aurantifolia) Grade A fresh green color with 12% moisture. Contains essential oils citronellal and linalool providing a characteristic fresh citrus aroma. Used as a dried seasoning for Southeast Asian cuisine, essential oils, and premium flavoring products. Packaging can be customized to buyer needs."
+      },
+      "featured": false,
       "initials": "DJ",
       "color": "#A3E635",
       "img": "https://img-cdn.medkomtek.com/1oBKbdBcW2sN-Pfcj8VgLWYj51Q=/0x0/smart/filters:quality(100):format(webp)/article/8vGVdgx5XdKrauJ9NyOfI/original/024131300_1642496942-Daun-Jeruk-2.jpg",
       "stats": [
         {
           "v": "Purut/Nipis",
-          "l": "Varian"
+          "l": {
+            "id": "Varian",
+            "en": "Variant"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 36,
       "name": "Bunga Telang",
-      "category": "Daun & Herba",
-      "tagline": "Butterfly Pea Grade A — Kadar Air 12%",
-      "desc": "Bunga telang kering (Clitoria ternatea) Grade A dengan kadar air 12%. Mengandung antosianin tinggi yang menghasilkan warna biru-ungu alami yang kuat dan stabil, diakui sebagai pewarna pangan alami oleh banyak regulasi global. Digunakan untuk teh herbal premium, minuman berwarna alami (color-changing drinks), kosmetik organik, dan suplemen antioksidan. Permintaan ekspor sangat tinggi dari pasar Jepang, Korea, Eropa, dan Amerika.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Butterfly Pea Grade A — Kadar Air 12%",
+        "en": "Butterfly Pea Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Bunga telang kering (Clitoria ternatea) Grade A dengan kadar air 12%. Mengandung antosianin tinggi yang menghasilkan warna biru-ungu alami yang kuat dan stabil, diakui sebagai pewarna pangan alami oleh banyak regulasi global. Digunakan untuk teh herbal premium, minuman berwarna alami (color-changing drinks), kosmetik organik, dan suplemen antioksidan. Permintaan ekspor sangat tinggi dari pasar Jepang, Korea, Eropa, dan Amerika.",
+        "en": "Dried butterfly pea flowers (Clitoria ternatea) Grade A with 12% moisture. High anthocyanin content producing a strong, stable natural blue-violet color recognized as a natural food colorant by many global regulations. Used for premium herbal teas, naturally colored beverages (color-changing drinks), organic cosmetics, and antioxidant supplements. Very high export demand from Japanese, Korean, European, and American markets."
+      },
+      "featured": false,
       "initials": "BT",
       "color": "#7C3AED",
       "img": "https://i0.wp.com/rsum.bandaacehkota.go.id/wp-content/uploads/2025/01/bunga-telang.webp?fit=702%2C465&ssl=1",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 37,
       "name": "Mahkota Dewa",
-      "category": "Daun & Herba",
-      "tagline": "Irisan Kering Grade A — Kadar Air 12%",
-      "desc": "Irisan buah mahkota dewa kering (Phaleria macrocarpa) Grade A dengan kadar air 12%. Mengandung saponin, flavonoid, dan alkaloid aktif yang berperan sebagai antioksidan kuat, anti-inflamasi, dan imunomodulator dalam sistem pengobatan herbal. Banyak digunakan dalam industri jamu modern Indonesia dan formulasi suplemen herbal nutraceutical pasar Asia. Tersedia dalam irisan kering standar ekspor.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Irisan Kering Grade A — Kadar Air 12%",
+        "en": "Dried Slice Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Irisan buah mahkota dewa kering (Phaleria macrocarpa) Grade A dengan kadar air 12%. Mengandung saponin, flavonoid, dan alkaloid aktif yang berperan sebagai antioksidan kuat, anti-inflamasi, dan imunomodulator dalam sistem pengobatan herbal. Banyak digunakan dalam industri jamu modern Indonesia dan formulasi suplemen herbal nutraceutical pasar Asia. Tersedia dalam irisan kering standar ekspor.",
+        "en": "Dried mahkota dewa fruit slices (Phaleria macrocarpa) Grade A with 12% moisture. Contains active saponins, flavonoids, and alkaloids acting as potent antioxidants, anti-inflammatories, and immunomodulators in herbal medicine systems. Widely used in modern Indonesian jamu and nutraceutical herbal supplement formulations for Asian markets. Available in standard export-grade dry slices."
+      },
+      "featured": false,
       "initials": "MD",
       "color": "#9D174D",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/10/17033623/X-Manfaat-Mahkota-Dewa-dan-Cara-Mengolahnya.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 38,
       "name": "Daun Mint",
-      "category": "Daun & Herba",
-      "tagline": "Grade A — Kadar Air 12%",
-      "desc": "Daun mint kering (Mentha piperita/spicata) Grade A dengan kadar air 12%. Mengandung menthol dan minyak atsiri tinggi yang memberikan efek pendingin dan menyegarkan yang khas. Digunakan dalam industri teh herbal premium, permen, pasta gigi, produk perawatan mulut, parfum, dan farmasi. Tersedia dalam daun utuh maupun serpihan halus sesuai kebutuhan spesifik pembeli.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12%",
+        "en": "Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Daun mint kering (Mentha piperita/spicata) Grade A dengan kadar air 12%. Mengandung menthol dan minyak atsiri tinggi yang memberikan efek pendingin dan menyegarkan yang khas. Digunakan dalam industri teh herbal premium, permen, pasta gigi, produk perawatan mulut, parfum, dan farmasi. Tersedia dalam daun utuh maupun serpihan halus sesuai kebutuhan spesifik pembeli.",
+        "en": "Dried mint leaves (Mentha piperita/spicata) Grade A with 12% moisture. High in menthol and essential oils providing a characteristic cooling and refreshing effect. Used in the premium herbal tea, confectionery, toothpaste, oral care, perfumery, and pharmaceutical industries. Available as whole leaves or fine flakes to specific buyer requirements."
+      },
+      "featured": false,
       "initials": "DM",
       "color": "#10B981",
       "img": "https://digitani.ipb.ac.id/wp-content/uploads/2024/11/daun-mint-1024x724.png",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 39,
       "name": "Gynura Procumbens",
-      "category": "Daun & Herba",
-      "tagline": "Daun Samsit Grade A — Kadar Air 12%",
-      "desc": "Daun samsit kering (Gynura procumbens) Grade A dengan kadar air maksimal 12%. Dikenal dalam pengobatan tradisional Asia sebagai bahan herbal antidiabetes, antihipertensi, dan anti-inflamasi dengan senyawa aktif flavonoid, tanin, dan saponin. Semakin diminati industri nutraceutical Asia Timur, Eropa, dan Amerika Utara untuk formulasi suplemen herbal modern yang berbasis evidence.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Daun Samsit Grade A — Kadar Air 12%",
+        "en": "Samsit Leaf Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Daun samsit kering (Gynura procumbens) Grade A dengan kadar air maksimal 12%. Dikenal dalam pengobatan tradisional Asia sebagai bahan herbal antidiabetes, antihipertensi, dan anti-inflamasi dengan senyawa aktif flavonoid, tanin, dan saponin. Semakin diminati industri nutraceutical Asia Timur, Eropa, dan Amerika Utara untuk formulasi suplemen herbal modern yang berbasis evidence.",
+        "en": "Dried samsit leaves (Gynura procumbens) Grade A with maximum 12% moisture. Known in Asian traditional medicine as an antidiabetic, antihypertensive, and anti-inflammatory herbal ingredient with active flavonoids, tannins, and saponins. Growing demand in East Asian, European, and North American nutraceutical industries for modern evidence-based herbal supplement formulations."
+      },
+      "featured": false,
       "initials": "GP",
       "color": "#059669",
       "img": "https://down-id.img.susercontent.com/file/sg-11134201-22120-8vdtrdvs6rkv8e",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "≤12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 40,
       "name": "Bay Leaves",
-      "category": "Daun & Herba",
-      "tagline": "Daun Salam Grade A — Kadar Air 12%",
-      "desc": "Daun salam kering (Syzygium polyanthum / Indonesian bay leaf) Grade A dengan kadar air 12%. Berbeda dari bay laurel Mediterania, daun salam Indonesia memiliki profil aroma lebih lembut, manis, dan khas yang dicari para chef internasional. Digunakan dalam masakan Asia Tenggara, industri bumbu instan, dan minuman herbal. Diminati importir bumbu dari Asia, Eropa, dan Timur Tengah.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Daun Salam Grade A — Kadar Air 12%",
+        "en": "Indonesian Bay Leaf Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Daun salam kering (Syzygium polyanthum / Indonesian bay leaf) Grade A dengan kadar air 12%. Berbeda dari bay laurel Mediterania, daun salam Indonesia memiliki profil aroma lebih lembut, manis, dan khas yang dicari para chef internasional. Digunakan dalam masakan Asia Tenggara, industri bumbu instan, dan minuman herbal. Diminati importir bumbu dari Asia, Eropa, dan Timur Tengah.",
+        "en": "Dried Indonesian bay leaves (Syzygium polyanthum) Grade A with 12% moisture. Different from Mediterranean bay laurel, Indonesian bay leaf has a softer, sweeter, and distinctive aroma profile sought after by international chefs. Used in Southeast Asian cuisine, instant seasoning, and herbal beverages. Sought by spice importers from Asia, Europe, and the Middle East."
+      },
+      "featured": false,
       "initials": "BL",
       "color": "#047857",
       "img": "https://fk.umsu.ac.id/wp-content/uploads/2023/06/khasiat-daun-salam-bagi-kesehatan-700x375.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 41,
       "name": "Mahogany Seed",
-      "category": "Daun & Herba",
-      "tagline": "Biji Mahoni Grade A — Kadar Air 12%",
-      "desc": "Biji buah mahoni (Swietenia mahagoni) Grade A dengan kadar air 12%. Mengandung senyawa swietenin dan limonoid yang telah diteliti memiliki aktivitas anti-hipertensi, antidiabetes, dan antifungal yang menjanjikan. Digunakan dalam industri suplemen herbal tradisional, obat-obatan herbal, dan penelitian fitofarmaka. Tersedia dalam biji utuh yang memenuhi standar ekspor internasional.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Biji Mahoni Grade A — Kadar Air 12%",
+        "en": "Mahogany Seed Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Biji buah mahoni (Swietenia mahagoni) Grade A dengan kadar air 12%. Mengandung senyawa swietenin dan limonoid yang telah diteliti memiliki aktivitas anti-hipertensi, antidiabetes, dan antifungal yang menjanjikan. Digunakan dalam industri suplemen herbal tradisional, obat-obatan herbal, dan penelitian fitofarmaka. Tersedia dalam biji utuh yang memenuhi standar ekspor internasional.",
+        "en": "Mahogany seeds (Swietenia mahagoni) Grade A with 12% moisture. Contains swietenin and limonoid compounds studied for promising antihypertensive, antidiabetic, and antifungal activity. Used in the traditional herbal supplement industry, herbal medicines, and phytopharmaceutical research. Available as whole seeds meeting international export standards."
+      },
+      "featured": false,
       "initials": "MHS",
       "color": "#78350F",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1766042012/attached_image/5-manfaat-biji-mahoni-untuk-wanita-dan-hal-hal-yang-perlu-diperhatikan.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 42,
       "name": "Akar Alang",
-      "category": "Daun & Herba",
-      "tagline": "Alang-Alang Grade A — Kadar Air 12%",
-      "desc": "Akar alang-alang kering (Imperata cylindrica) Grade A dengan kadar air 12%. Mengandung saccharan, manitol, dan kalium yang dikenal sebagai diuretik alami efektif dalam pengobatan tradisional dan herbal. Digunakan dalam industri teh herbal penyejuk dan suplemen kesehatan ginjal dan saluran kemih. Banyak diminati importir bahan baku herbal di Asia Timur dan pasar herbal Eropa.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Alang-Alang Grade A — Kadar Air 12%",
+        "en": "Cogon Grass Grade A — Moisture 12%"
+      },
+      "desc": {
+        "id": "Akar alang-alang kering (Imperata cylindrica) Grade A dengan kadar air 12%. Mengandung saccharan, manitol, dan kalium yang dikenal sebagai diuretik alami efektif dalam pengobatan tradisional dan herbal. Digunakan dalam industri teh herbal penyejuk dan suplemen kesehatan ginjal dan saluran kemih. Banyak diminati importir bahan baku herbal di Asia Timur dan pasar herbal Eropa.",
+        "en": "Dried cogon grass roots (Imperata cylindrica) Grade A with 12% moisture. Contains saccharan, mannitol, and potassium known as effective natural diuretics in traditional and herbal medicine. Used in cooling herbal teas and kidney and urinary tract health supplements. Highly sought by herbal raw material importers in East Asia and the European herbal market."
+      },
+      "featured": false,
       "initials": "AA",
       "color": "#A16207",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1691408275/attached_image/5-manfaat-akar-alang-alang-untuk-kesehatan.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 43,
       "name": "Sambiloto",
-      "category": "Daun & Herba",
-      "tagline": "Herba Kering Grade A — Cokelat",
-      "desc": "Herba sambiloto kering (Andrographis paniculata) Grade A warna coklat khas dengan kadar air 12%. Mengandung andrographolide, senyawa aktif yang dikenal luas sebagai imunomodulator kuat dan antiviral. Permintaan ekspor melonjak signifikan dalam beberapa tahun terakhir untuk produk suplemen imunitas dan anti-infeksi. Tersedia dalam herba utuh atau irisan memenuhi standar ekspor global.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Herba Kering Grade A — Cokelat",
+        "en": "Dried Herb Grade A — Brown"
+      },
+      "desc": {
+        "id": "Herba sambiloto kering (Andrographis paniculata) Grade A warna coklat khas dengan kadar air 12%. Mengandung andrographolide, senyawa aktif yang dikenal luas sebagai imunomodulator kuat dan antiviral. Permintaan ekspor melonjak signifikan dalam beberapa tahun terakhir untuk produk suplemen imunitas dan anti-infeksi. Tersedia dalam herba utuh atau irisan memenuhi standar ekspor global.",
+        "en": "Dried sambiloto herb (Andrographis paniculata) Grade A characteristic brown color with 12% moisture. Contains andrographolide, an active compound widely known as a potent immunomodulator and antiviral. Export demand has risen significantly in recent years for immunity and anti-infection supplement products. Available as whole herb or slices meeting global export standards."
+      },
+      "featured": false,
       "initials": "SBL",
       "color": "#B45309",
       "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//104/MTA-56953408/no-brand_chuan-xin-lian-daun-sambiloto-kering-100-gram_full01.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 44,
       "name": "Sage Whole",
-      "category": "Daun & Herba",
-      "tagline": "Grade A Utuh — Kadar Air 12–13%",
-      "desc": "Daun sage utuh kering (Salvia officinalis) Grade A dengan kadar air 12–13%. Mengandung asam rosmarinat, ursolic acid, dan thujone yang memberikan aroma khas kuat dan aktivitas antioksidan tinggi. Digunakan dalam kuliner premium (bumbu daging, pasta, saus), teh herbal, produk farmasi, dan kosmetik. Sangat diminati importir dari Eropa, Amerika, dan Timur Tengah untuk kebutuhan industri dan retail.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A Utuh — Kadar Air 12–13%",
+        "en": "Whole Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun sage utuh kering (Salvia officinalis) Grade A dengan kadar air 12–13%. Mengandung asam rosmarinat, ursolic acid, dan thujone yang memberikan aroma khas kuat dan aktivitas antioksidan tinggi. Digunakan dalam kuliner premium (bumbu daging, pasta, saus), teh herbal, produk farmasi, dan kosmetik. Sangat diminati importir dari Eropa, Amerika, dan Timur Tengah untuk kebutuhan industri dan retail.",
+        "en": "Whole dried sage leaves (Salvia officinalis) Grade A with 12–13% moisture. Contains rosmarinic acid, ursolic acid, and thujone providing a characteristically strong aroma and high antioxidant activity. Used in premium culinary applications (meat seasoning, pasta, sauces), herbal teas, pharmaceutical products, and cosmetics. Highly sought by importers from Europe, America, and the Middle East."
+      },
+      "featured": false,
       "initials": "SW",
       "color": "#6D28D9",
       "img": "https://id-test-11.slatic.net/p/ea37271ee4ad63c9a9e9c594af6d660a.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 45,
       "name": "Oregano",
-      "category": "Daun & Herba",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Daun oregano kering (Origanum vulgare) Grade A dengan kadar air 12–13%. Kaya carvacrol dan timol, dua senyawa dengan sifat antimikroba dan antioksidan yang sangat kuat dan telah terbukti secara ilmiah. Banyak digunakan dalam industri makanan Italia dan Mediterania, produk pizza dan pasta, suplemen herbal, serta ekstraksi minyak esensial oregano premium. Kemasan bulk dan retail tersedia.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun oregano kering (Origanum vulgare) Grade A dengan kadar air 12–13%. Kaya carvacrol dan timol, dua senyawa dengan sifat antimikroba dan antioksidan yang sangat kuat dan telah terbukti secara ilmiah. Banyak digunakan dalam industri makanan Italia dan Mediterania, produk pizza dan pasta, suplemen herbal, serta ekstraksi minyak esensial oregano premium. Kemasan bulk dan retail tersedia.",
+        "en": "Dried oregano leaves (Origanum vulgare) Grade A with 12–13% moisture. Rich in carvacrol and thymol, two compounds with very strong and scientifically proven antimicrobial and antioxidant properties. Widely used in Italian and Mediterranean food industries, pizza and pasta products, herbal supplements, and premium oregano essential oil extraction. Bulk and retail packaging available."
+      },
+      "featured": false,
       "initials": "OR",
       "color": "#7C3AED",
       "img": "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/img/VqbcmM/2023/10/27/5e18a28e-d550-4ce1-bd96-64b4287850d8.jpg~tplv-aphluv4xwc-resize-jpeg:700:0.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 46,
       "name": "Parsley",
-      "category": "Daun & Herba",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Daun peterseli kering (Petroselinum crispum) Grade A dengan kadar air 12–13%. Kaya vitamin K, vitamin C, folat, dan apigenin yang bermanfaat untuk kesehatan tulang, anti-inflamasi, dan fungsi kardiovaskular. Digunakan luas dalam industri bumbu kering, sup instan, makanan olahan, dan suplemen herbal. Sangat diminati importir makanan dari kawasan Timur Tengah, Eropa, dan Amerika Utara.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun peterseli kering (Petroselinum crispum) Grade A dengan kadar air 12–13%. Kaya vitamin K, vitamin C, folat, dan apigenin yang bermanfaat untuk kesehatan tulang, anti-inflamasi, dan fungsi kardiovaskular. Digunakan luas dalam industri bumbu kering, sup instan, makanan olahan, dan suplemen herbal. Sangat diminati importir makanan dari kawasan Timur Tengah, Eropa, dan Amerika Utara.",
+        "en": "Dried parsley leaves (Petroselinum crispum) Grade A with 12–13% moisture. Rich in vitamin K, vitamin C, folate, and apigenin beneficial for bone health, anti-inflammation, and cardiovascular function. Widely used in the dried seasoning, instant soup, processed food, and herbal supplement industries. Highly sought by food importers from the Middle East, Europe, and North America."
+      },
+      "featured": false,
       "initials": "PL",
       "color": "#15803D",
       "img": "https://cairofood.id/wp-content/uploads/gambar-daun-parsley-bubuk-cairo-food-660x440.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 47,
       "name": "Rosemary Short",
-      "category": "Daun & Herba",
-      "tagline": "Potongan Pendek Grade A — Kadar Air 12–13%",
-      "desc": "Daun rosemary kering potongan pendek (Rosmarinus officinalis) Grade A dengan kadar air 12–13%. Potongan pendek memudahkan penggunaan langsung dalam masakan, seasoning kering, dan blending rempah industri. Kaya asam karnosat dan rosmarinat dengan aktivitas antioksidan sangat tinggi. Cocok untuk produsen bumbu, industri daging, dan teh herbal. Tersedia dalam kemasan bulk 25 kg standar ekspor.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Potongan Pendek Grade A — Kadar Air 12–13%",
+        "en": "Short Cut Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun rosemary kering potongan pendek (Rosmarinus officinalis) Grade A dengan kadar air 12–13%. Potongan pendek memudahkan penggunaan langsung dalam masakan, seasoning kering, dan blending rempah industri. Kaya asam karnosat dan rosmarinat dengan aktivitas antioksidan sangat tinggi. Cocok untuk produsen bumbu, industri daging, dan teh herbal. Tersedia dalam kemasan bulk 25 kg standar ekspor.",
+        "en": "Short-cut dried rosemary leaves (Rosmarinus officinalis) Grade A with 12–13% moisture. Short cuts facilitate direct use in cooking, dry seasoning, and industrial spice blending. Rich in carnosic acid and rosmarinic acid with very high antioxidant activity. Suitable for seasoning manufacturers, meat industry, and herbal teas. Available in 25 kg bulk packaging to export standards."
+      },
+      "featured": false,
       "initials": "RSH",
       "color": "#4F46E5",
       "img": "https://s.alicdn.com/@sc04/kf/H4f2562198809434f82df839647043e8eU.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 48,
       "name": "Rosemary Long",
-      "category": "Daun & Herba",
-      "tagline": "Potongan Panjang Grade A — Kadar Air 12–13%",
-      "desc": "Daun rosemary kering potongan panjang (Rosmarinus officinalis) Grade A dengan kadar air 12–13%. Potongan panjang mempertahankan aroma lebih tahan lama dan lebih estetik untuk digunakan dalam infused oil premium, marinasi daging, dan dekorasi kuliner fine dining. Kaya antioksidan dan antiseptik alami. Tersedia dalam kemasan bulk standar ekspor untuk kebutuhan industri kuliner.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Potongan Panjang Grade A — Kadar Air 12–13%",
+        "en": "Long Cut Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun rosemary kering potongan panjang (Rosmarinus officinalis) Grade A dengan kadar air 12–13%. Potongan panjang mempertahankan aroma lebih tahan lama dan lebih estetik untuk digunakan dalam infused oil premium, marinasi daging, dan dekorasi kuliner fine dining. Kaya antioksidan dan antiseptik alami. Tersedia dalam kemasan bulk standar ekspor untuk kebutuhan industri kuliner.",
+        "en": "Long-cut dried rosemary leaves (Rosmarinus officinalis) Grade A with 12–13% moisture. Long cuts preserve the aroma longer and are more aesthetically pleasing for use in premium infused oils, meat marinades, and fine dining culinary decoration. Rich in antioxidants and natural antiseptics. Available in bulk export-standard packaging for the culinary industry."
+      },
+      "featured": false,
       "initials": "RL",
       "color": "#4338CA",
       "img": "https://s3-publishing-cmn-svc-prd.s3.ap-southeast-1.amazonaws.com/article/N5gkZfFiV8q36SY9vs0aU/original/041653400_1545043600-Benarkah-Daun-Rosemary-Bisa-Perbaiki-Daya-Ingat-By-Topotishka-Shutterstock.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 49,
       "name": "Thyme",
-      "category": "Daun & Herba",
-      "tagline": "Premium Grade A — Kadar Air 12–13%",
-      "desc": "Daun thyme kering premium (Thymus vulgaris) Grade A dengan kadar air 12–13%. Kaya timol dan carvacrol yang memiliki sifat antimikroba dan antiseptik sangat kuat, serta digunakan secara farmasi sebagai ekspektoran alami. Banyak digunakan dalam masakan Mediterania dan Perancis, bumbu daging dan unggas, minuman herbal, serta formulasi kosmetik. Kemasan standar ekspor untuk pasar global.",
+      "category": {
+        "id": "Daun & Herba",
+        "en": "Leaves & Herbs"
+      },
+      "tagline": {
+        "id": "Premium Grade A — Kadar Air 12–13%",
+        "en": "Premium Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Daun thyme kering premium (Thymus vulgaris) Grade A dengan kadar air 12–13%. Kaya timol dan carvacrol yang memiliki sifat antimikroba dan antiseptik sangat kuat, serta digunakan secara farmasi sebagai ekspektoran alami. Banyak digunakan dalam masakan Mediterania dan Perancis, bumbu daging dan unggas, minuman herbal, serta formulasi kosmetik. Kemasan standar ekspor untuk pasar global.",
+        "en": "Premium dried thyme leaves (Thymus vulgaris) Grade A with 12–13% moisture. Rich in thymol and carvacrol with very strong antimicrobial and antiseptic properties, also used pharmaceutically as a natural expectorant. Widely used in Mediterranean and French cuisine, meat and poultry seasoning, herbal beverages, and cosmetic formulations. Export-standard packaging for global markets."
+      },
+      "featured": false,
       "initials": "TH",
       "color": "#3730A3",
       "img": "https://ecdn6-nc.globalso.com/upload/p/2392/image_product/2025-03/main-image_compressed.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 50,
       "name": "Merica Sichuan",
-      "category": "Kopi & Rempah",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Merica Sichuan (Zanthoxylum bungeanum) Grade A khas Tiongkok dengan kadar air 12–13%. Memberikan sensasi mati rasa unik (numbing sensation) akibat kandungan hydroxy-alpha-sanshool, berbeda dari lada biasa. Digunakan dalam masakan Sichuan autentik, bumbu hotpot, produk flavor Asia Timur, dan makanan fusion. Permintaan ekspor terus meningkat dari industri bumbu dan restoran internasional.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Merica Sichuan (Zanthoxylum bungeanum) Grade A khas Tiongkok dengan kadar air 12–13%. Memberikan sensasi mati rasa unik (numbing sensation) akibat kandungan hydroxy-alpha-sanshool, berbeda dari lada biasa. Digunakan dalam masakan Sichuan autentik, bumbu hotpot, produk flavor Asia Timur, dan makanan fusion. Permintaan ekspor terus meningkat dari industri bumbu dan restoran internasional.",
+        "en": "Sichuan pepper (Zanthoxylum bungeanum) Grade A characteristic of China with 12–13% moisture. Delivers a unique numbing sensation due to hydroxy-alpha-sanshool content, distinct from regular pepper. Used in authentic Sichuan cuisine, hotpot seasoning, East Asian flavor products, and fusion foods. Export demand continues rising from the international seasoning and restaurant industries."
+      },
+      "featured": false,
       "initials": "MCH",
       "color": "#991B1B",
       "img": "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/img/VqbcmM/2021/12/11/ce1c4034-e18e-47b1-ba0d-fcd449b869e8.jpg~tplv-aphluv4xwc-resize-jpeg:700:0.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 51,
       "name": "Biji Selasih",
-      "category": "Bubuk & Biji",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Biji selasih kering (Ocimum basilicum seeds / basil seeds) Grade A dengan kadar air 12–13%. Mengandung serat larut tinggi yang mengembang dan membentuk gel saat direndam air, memberikan sensasi kenyang dan manfaat pencernaan. Populer dalam minuman kesehatan, es campur, dessert, dan produk functional drink Asia Tenggara, India, dan Timur Tengah. Permintaan ekspor terus tumbuh.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Biji selasih kering (Ocimum basilicum seeds / basil seeds) Grade A dengan kadar air 12–13%. Mengandung serat larut tinggi yang mengembang dan membentuk gel saat direndam air, memberikan sensasi kenyang dan manfaat pencernaan. Populer dalam minuman kesehatan, es campur, dessert, dan produk functional drink Asia Tenggara, India, dan Timur Tengah. Permintaan ekspor terus tumbuh.",
+        "en": "Dried basil seeds (Ocimum basilicum seeds / basil seeds) Grade A with 12–13% moisture. High soluble fiber content that swells and forms a gel when soaked in water, providing a satiety effect and digestive benefits. Popular in health beverages, es campur, desserts, and functional drink products in Southeast Asia, India, and the Middle East. Export demand continues to grow."
+      },
+      "featured": false,
       "initials": "BSL",
       "color": "#0284C7",
       "img": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/11/03054941/Tidak-Sama-Ini-Bedanya-Chia-Seed-dan-Biji-Selasih.jpg.webp",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 52,
       "name": "Biji Wijen",
-      "category": "Bubuk & Biji",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Biji wijen pilihan (Sesamum indicum) Grade A dengan kadar air 12–13%. Kaya asam lemak tak jenuh, lignan sesamin dan sesamolin, serta vitamin E yang mendukung kesehatan kardiovaskular dan anti-inflamasi. Digunakan dalam industri makanan (roti, pasta tahini, minyak wijen premium), kosmetik, dan pakan. Tersedia dalam varian putih, coklat, dan hitam sesuai permintaan pembeli internasional.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Biji wijen pilihan (Sesamum indicum) Grade A dengan kadar air 12–13%. Kaya asam lemak tak jenuh, lignan sesamin dan sesamolin, serta vitamin E yang mendukung kesehatan kardiovaskular dan anti-inflamasi. Digunakan dalam industri makanan (roti, pasta tahini, minyak wijen premium), kosmetik, dan pakan. Tersedia dalam varian putih, coklat, dan hitam sesuai permintaan pembeli internasional.",
+        "en": "Selected sesame seeds (Sesamum indicum) Grade A with 12–13% moisture. Rich in unsaturated fatty acids, sesamin and sesamolin lignans, and vitamin E supporting cardiovascular health and anti-inflammation. Used in the food industry (bread, tahini paste, premium sesame oil), cosmetics, and feed. Available in white, brown, and black variants to international buyer specification."
+      },
+      "featured": false,
       "initials": "BW",
       "color": "#D97706",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1631251653/attached_image/mengulik-manfaat-biji-wijen-untuk-kesehatan.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 53,
       "name": "Chia Seeds",
-      "category": "Bubuk & Biji",
-      "tagline": "Superfood Grade A — Kadar Air 12–13%",
-      "desc": "Biji chia superfood (Salvia hispanica) Grade A dengan kadar air 12–13%. Salah satu sumber asam lemak omega-3 (ALA) terbaik dari nabati, ditambah kandungan serat tinggi, protein lengkap, kalsium, dan antioksidan yang luar biasa. Menjadi salah satu superfood paling diminati secara global untuk yogurt, smoothie, pudding, energy bar, dan produk kesehatan premium. Tersedia dalam kemasan bulk maupun retail.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Superfood Grade A — Kadar Air 12–13%",
+        "en": "Superfood Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Biji chia superfood (Salvia hispanica) Grade A dengan kadar air 12–13%. Salah satu sumber asam lemak omega-3 (ALA) terbaik dari nabati, ditambah kandungan serat tinggi, protein lengkap, kalsium, dan antioksidan yang luar biasa. Menjadi salah satu superfood paling diminati secara global untuk yogurt, smoothie, pudding, energy bar, dan produk kesehatan premium. Tersedia dalam kemasan bulk maupun retail.",
+        "en": "Superfood chia seeds (Salvia hispanica) Grade A with 12–13% moisture. One of the best plant-based omega-3 fatty acid (ALA) sources, plus high fiber, complete protein, calcium, and exceptional antioxidants. One of the most globally sought superfoods for yogurt, smoothies, puddings, energy bars, and premium health products. Available in bulk and retail packaging."
+      },
+      "featured": true,
       "initials": "CS",
       "color": "#1D4ED8",
       "img": "https://images.alodokter.com/dk0z4ums3/image/upload/v1606208651/attached_image/manfaat-chia-seed-untuk-ibu-hamil-dan-efek-sampingnya.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "Superfood",
-          "l": "Kategori"
+          "l": {
+            "id": "Kategori",
+            "en": "Kategori"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 54,
       "name": "Bawang Putih Bubuk",
-      "category": "Bubuk & Biji",
-      "tagline": "Murni Grade A — Kadar Air 12–13%",
-      "desc": "Bawang putih bubuk murni (Allium sativum) Grade A dengan kadar air 12–13%, tanpa bahan pengisi, anti-caking, atau pengawet tambahan. Dibuat dari bawang putih pilihan yang dikeringkan dan digiling dengan teknologi pengolahan higienis. Kaya allicin dan senyawa sulfur organik untuk manfaat kesehatan kardiovaskular. Cocok untuk industri bumbu, makanan olahan, dan suplemen kesehatan.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Murni Grade A — Kadar Air 12–13%",
+        "en": "Pure Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Bawang putih bubuk murni (Allium sativum) Grade A dengan kadar air 12–13%, tanpa bahan pengisi, anti-caking, atau pengawet tambahan. Dibuat dari bawang putih pilihan yang dikeringkan dan digiling dengan teknologi pengolahan higienis. Kaya allicin dan senyawa sulfur organik untuk manfaat kesehatan kardiovaskular. Cocok untuk industri bumbu, makanan olahan, dan suplemen kesehatan.",
+        "en": "Pure garlic powder (Allium sativum) Grade A with 12–13% moisture, without fillers, anti-caking agents, or additives. Made from selected garlic dried and ground using hygienic processing technology. Rich in allicin and organic sulfur compounds for cardiovascular health benefits. Suitable for the seasoning, processed food, and health supplement industries."
+      },
+      "featured": false,
       "initials": "BPB",
       "color": "#E5E7EB",
       "img": "https://rricoid-assets.obs.ap-southeast-4.myhuaweicloud.com/berita/Batam/o/1750913317001-Screenshot_2025-06-25_214818/gkpqq042959v1h9.jpeg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 55,
       "name": "Bawang Bombay Bubuk",
-      "category": "Bubuk & Biji",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Bawang bombay bubuk (Allium cepa) Grade A dengan kadar air 12–13%, dibuat dari bawang merah/bombay pilihan yang dikeringkan sempurna tanpa aditif. Mengandung quercetin dan senyawa organosulfur bermanfaat. Digunakan luas dalam industri saus, bumbu instan, produk daging olahan, snack, dan soup mix. Tersedia dalam berbagai tingkat kehalusan (mesh) sesuai kebutuhan spesifik industri.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Bawang bombay bubuk (Allium cepa) Grade A dengan kadar air 12–13%, dibuat dari bawang merah/bombay pilihan yang dikeringkan sempurna tanpa aditif. Mengandung quercetin dan senyawa organosulfur bermanfaat. Digunakan luas dalam industri saus, bumbu instan, produk daging olahan, snack, dan soup mix. Tersedia dalam berbagai tingkat kehalusan (mesh) sesuai kebutuhan spesifik industri.",
+        "en": "Onion powder (Allium cepa) Grade A with 12–13% moisture, made from selected red/onion varieties perfectly dried without additives. Contains quercetin and beneficial organosulfur compounds. Widely used in the sauce, instant seasoning, processed meat, snack, and soup mix industries. Available in various mesh fineness levels to specific industry requirements."
+      },
+      "featured": false,
       "initials": "BBB",
       "color": "#FBBF24",
       "img": "https://cairofood.id/wp-content/uploads/gambar-bawang-bombay-bubuk-cairo-food.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 56,
       "name": "Cabai Bubuk A60",
-      "category": "Bubuk & Biji",
-      "tagline": "Tipe A60 Grade A — Kadar Air 12–13%",
-      "desc": "Cabai bubuk tipe A60 Grade A dengan kadar air 12–13%. Tipe A60 menandakan ASTA Color Value ≥60 dengan tingkat kepedasan sedang-tinggi dan warna merah cerah yang menarik. Digunakan dalam industri saus cabai, bumbu masak, snack pedas premium, dan makanan olahan. Tersedia dalam kemasan bulk 25 kg standar ekspor untuk memenuhi kebutuhan industri makanan skala besar.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Tipe A60 Grade A — Kadar Air 12–13%",
+        "en": "Type A60 Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Cabai bubuk tipe A60 Grade A dengan kadar air 12–13%. Tipe A60 menandakan ASTA Color Value ≥60 dengan tingkat kepedasan sedang-tinggi dan warna merah cerah yang menarik. Digunakan dalam industri saus cabai, bumbu masak, snack pedas premium, dan makanan olahan. Tersedia dalam kemasan bulk 25 kg standar ekspor untuk memenuhi kebutuhan industri makanan skala besar.",
+        "en": "Type A60 chili powder Grade A with 12–13% moisture. Type A60 indicates ASTA Color Value ≥60 with medium-high heat and an attractive bright red color. Used in the chili sauce, seasoning, premium spicy snack, and processed food industries. Available in 25 kg bulk export-standard packaging for large-scale food industry needs."
+      },
+      "featured": false,
       "initials": "CBA",
       "color": "#EF4444",
       "img": "https://gaoyingindonesia.com/wp-content/uploads/2025/04/cabai-bubuk-C60-249x300.jpeg",
       "stats": [
         {
           "v": "Tipe A60",
-          "l": "Varian"
+          "l": {
+            "id": "Varian",
+            "en": "Variant"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 57,
       "name": "Cabai Bubuk C60",
-      "category": "Bubuk & Biji",
-      "tagline": "Tipe C60 Grade A — Kadar Air 12–13%",
-      "desc": "Cabai bubuk tipe C60 Grade A dengan kadar air 12–13%, memiliki profil kepedasan lebih intens dan warna merah pekat dibanding tipe A60 dengan ASTA Color Value ≥60. Aroma cabai kuat dan konsisten per batch. Digunakan dalam industri makanan pedas, bumbu kiloan, oleoresin capsaicin, dan produk hot sauce. Tersedia dalam kemasan bulk 25 kg siap ekspor.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Tipe C60 Grade A — Kadar Air 12–13%",
+        "en": "Type C60 Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Cabai bubuk tipe C60 Grade A dengan kadar air 12–13%, memiliki profil kepedasan lebih intens dan warna merah pekat dibanding tipe A60 dengan ASTA Color Value ≥60. Aroma cabai kuat dan konsisten per batch. Digunakan dalam industri makanan pedas, bumbu kiloan, oleoresin capsaicin, dan produk hot sauce. Tersedia dalam kemasan bulk 25 kg siap ekspor.",
+        "en": "Type C60 chili powder Grade A with 12–13% moisture, with a more intense heat profile and deeper red color than type A60 with ASTA Color Value ≥60. Strong, consistent chili aroma per batch. Used in the spicy food industry, wholesale seasoning, capsaicin oleoresin, and hot sauce products. Available in 25 kg bulk export-ready packaging."
+      },
+      "featured": false,
       "initials": "CBC",
       "color": "#DC2626",
       "img": "https://gaoyingindonesia.com/wp-content/uploads/2025/04/Cabai-Bubuk-Super-Pedas-233x300.jpeg",
       "stats": [
         {
           "v": "Tipe C60",
-          "l": "Varian"
+          "l": {
+            "id": "Varian",
+            "en": "Variant"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 58,
       "name": "Paprika Asap Bubuk",
-      "category": "Bubuk & Biji",
-      "tagline": "Smoked Grade A — Kadar Air 12–13%",
-      "desc": "Bubuk paprika asap (smoked paprika) Grade A dengan kadar air 12–13%, dibuat dari paprika merah pilihan yang diasap perlahan dengan kayu pilihan. Mengandung capsanthin sebagai pewarna alami merah dan antioksidan karotenoid tinggi. Memberikan warna merah khas, aroma asap yang kompleks, dan rasa smoky yang unik dalam masakan. Sangat diminati industri sosis, daging olahan, saus BBQ, dan restoran.",
+      "category": {
+        "id": "Bubuk & Biji",
+        "en": "Powder & Seeds"
+      },
+      "tagline": {
+        "id": "Smoked Grade A — Kadar Air 12–13%",
+        "en": "Smoked Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Bubuk paprika asap (smoked paprika) Grade A dengan kadar air 12–13%, dibuat dari paprika merah pilihan yang diasap perlahan dengan kayu pilihan. Mengandung capsanthin sebagai pewarna alami merah dan antioksidan karotenoid tinggi. Memberikan warna merah khas, aroma asap yang kompleks, dan rasa smoky yang unik dalam masakan. Sangat diminati industri sosis, daging olahan, saus BBQ, dan restoran.",
+        "en": "Smoked paprika powder (smoked paprika) Grade A with 12–13% moisture, made from selected red paprika slowly smoked over selected wood. Contains capsanthin as a natural red colorant and high carotenoid antioxidants. Delivers a characteristic red color, complex smoky aroma, and a unique smoky flavor in cooking. Highly sought by the sausage, processed meat, BBQ sauce, and restaurant industries."
+      },
+      "featured": false,
       "initials": "PAP",
       "color": "#C2410C",
       "img": "https://image.made-in-china.com/202f0j00DqfikZEasVuC/Smoked-Paprika-Powder-Sweet-Paprika-Pepper-Hot-Spice.webp",
       "stats": [
         {
           "v": "Smoked",
-          "l": "Proses"
+          "l": {
+            "id": "Proses",
+            "en": "Process"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 59,
       "name": "Almond",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Utuh Mentah Grade A — Kadar Air 12–13%",
-      "desc": "Kacang almond utuh mentah (Prunus dulcis) Grade A dengan kadar air 12–13%. Kaya vitamin E, magnesium, protein nabati berkualitas tinggi, dan serat larut. Digunakan dalam industri confectionery, susu almond, granola bar, snack premium, dan bakeri. Tersedia dalam varian natural (dengan kulit) maupun blanched (tanpa kulit). Kapasitas besar untuk buyer industri dan distributor retail internasional.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Utuh Mentah Grade A — Kadar Air 12–13%",
+        "en": "Whole Raw Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Kacang almond utuh mentah (Prunus dulcis) Grade A dengan kadar air 12–13%. Kaya vitamin E, magnesium, protein nabati berkualitas tinggi, dan serat larut. Digunakan dalam industri confectionery, susu almond, granola bar, snack premium, dan bakeri. Tersedia dalam varian natural (dengan kulit) maupun blanched (tanpa kulit). Kapasitas besar untuk buyer industri dan distributor retail internasional.",
+        "en": "Whole raw almonds (Prunus dulcis) Grade A with 12–13% moisture. Rich in vitamin E, magnesium, high-quality plant protein, and soluble fiber. Used in the confectionery, almond milk, granola bar, premium snack, and bakery industries. Available in natural (with skin) and blanched (skinless) variants. Large capacity for international industry buyers and retail distributors."
+      },
+      "featured": true,
       "initials": "AL",
       "color": "#D97706",
       "img": "https://images.bisnis.com/upload/img/kacang_almond.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
       "id": 60,
       "name": "Almond Slice",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Irisan Tipis Grade A — Kadar Air 12–13%",
-      "desc": "Kacang almond kupas irisan tipis (sliced almonds) Grade A dengan kadar air 12–13%. Potongan tipis yang seragam memudahkan penggunaan sebagai topping kue premium, salad, granola, yogurt parfait, dan dekorasi dessert fine dining. Diproses dengan mesin presisi tinggi untuk keseragaman ketebalan maksimal. Tersedia dalam kemasan bulk standar ekspor untuk industri bakeri dan confectionery.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Irisan Tipis Grade A — Kadar Air 12–13%",
+        "en": "Thin Sliced Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Kacang almond kupas irisan tipis (sliced almonds) Grade A dengan kadar air 12–13%. Potongan tipis yang seragam memudahkan penggunaan sebagai topping kue premium, salad, granola, yogurt parfait, dan dekorasi dessert fine dining. Diproses dengan mesin presisi tinggi untuk keseragaman ketebalan maksimal. Tersedia dalam kemasan bulk standar ekspor untuk industri bakeri dan confectionery.",
+        "en": "Peeled thin-sliced almonds (sliced almonds) Grade A with 12–13% moisture. Uniformly thin slices facilitate use as premium cake toppings, salads, granola, yogurt parfait, and fine dining dessert decoration. Processed with high-precision machines for maximum thickness uniformity. Available in bulk export-standard packaging for the bakery and confectionery industries."
+      },
+      "featured": false,
       "initials": "ALS",
       "color": "#B45309",
       "img": "https://mandelin.com/cdn/shop/products/Nat-Slice-MVR_800x_d3c915b7-3f49-4aff-8803-a11fca54a356.jpg?v=1623198112&width=2048",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "Irisan Tipis",
-          "l": "Bentuk"
+          "l": {
+            "id": "Bentuk",
+            "en": "Form"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 61,
       "name": "Walnut",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Utuh Grade A — Kadar Air 12–13%",
-      "desc": "Kacang walnut utuh (Juglans regia) Grade A dengan kadar air 12–13%. Sumber asam lemak omega-3 (ALA) terkaya di antara semua jenis kacang, ditambah kandungan antosianin, polifenol, dan melatonin yang tinggi. Sangat diminati oleh industri snack premium, bakeri artisan, confectionery, dan suplemen kesehatan otak. Tersedia dalam walnut utuh dalam cangkang (in-shell) maupun sudah dikupas sesuai kebutuhan buyer.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Utuh Grade A — Kadar Air 12–13%",
+        "en": "Whole Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Kacang walnut utuh (Juglans regia) Grade A dengan kadar air 12–13%. Sumber asam lemak omega-3 (ALA) terkaya di antara semua jenis kacang, ditambah kandungan antosianin, polifenol, dan melatonin yang tinggi. Sangat diminati oleh industri snack premium, bakeri artisan, confectionery, dan suplemen kesehatan otak. Tersedia dalam walnut utuh dalam cangkang (in-shell) maupun sudah dikupas sesuai kebutuhan buyer.",
+        "en": "Whole walnuts (Juglans regia) Grade A with 12–13% moisture. The richest omega-3 fatty acid (ALA) source among all nut varieties, plus high anthocyanins, polyphenols, and melatonin. Highly sought by the premium snack, artisan bakery, confectionery, and brain health supplement industries. Available as whole in-shell or shelled walnuts to buyer specification."
+      },
+      "featured": false,
       "initials": "WN",
       "color": "#92400E",
       "img": "https://mdpiblog.wordpress.sciforum.net/wp-content/uploads/sites/4/2023/01/walnuts.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 62,
       "name": "Kacang Hijau",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Biji kacang hijau pilihan (Vigna radiata) Grade A dengan kadar air 12–13%. Kaya protein nabati berkualitas, folat, zat besi, dan antioksidan flavonoid. Selain untuk kebutuhan pangan tradisional, semakin diminati untuk industri tauge komersial, tepung kacang hijau (mung bean starch/flour), dan aplikasi protein nabati (plant-based protein) global. Tersedia dalam versi utuh maupun kupas (split mung).",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Biji kacang hijau pilihan (Vigna radiata) Grade A dengan kadar air 12–13%. Kaya protein nabati berkualitas, folat, zat besi, dan antioksidan flavonoid. Selain untuk kebutuhan pangan tradisional, semakin diminati untuk industri tauge komersial, tepung kacang hijau (mung bean starch/flour), dan aplikasi protein nabati (plant-based protein) global. Tersedia dalam versi utuh maupun kupas (split mung).",
+        "en": "Selected mung beans (Vigna radiata) Grade A with 12–13% moisture. Rich in quality plant protein, folate, iron, and flavonoid antioxidants. Beyond traditional food needs, increasingly sought for commercial bean sprout production, mung bean flour (mung bean starch/flour), and global plant-based protein applications. Available whole or split (split mung)."
+      },
+      "featured": false,
       "initials": "KH",
       "color": "#16A34A",
       "img": "https://jagadtani.com/uploads/news/2020/02/menangkap-peluang-pasar-kacang-470036175ef0698.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 63,
       "name": "Aprikot Kering",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Manis Grade A — Kadar Air 12–13%",
-      "desc": "Buah aprikot kering manis (Prunus armeniaca) Grade A dengan kadar air 12–13%. Kaya beta-karoten, vitamin C, vitamin A, serat, dan kalium yang mendukung kesehatan mata dan fungsi pencernaan. Tersedia dalam varian natural non-sulfured (warna coklat alami) maupun treated (warna oranye cerah). Diminati untuk snack sehat premium, granola, trail mix, baking, dan produk makanan kesehatan internasional.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Manis Grade A — Kadar Air 12–13%",
+        "en": "Sweet Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Buah aprikot kering manis (Prunus armeniaca) Grade A dengan kadar air 12–13%. Kaya beta-karoten, vitamin C, vitamin A, serat, dan kalium yang mendukung kesehatan mata dan fungsi pencernaan. Tersedia dalam varian natural non-sulfured (warna coklat alami) maupun treated (warna oranye cerah). Diminati untuk snack sehat premium, granola, trail mix, baking, dan produk makanan kesehatan internasional.",
+        "en": "Sweet dried apricots (Prunus armeniaca) Grade A with 12–13% moisture. Rich in beta-carotene, vitamin C, vitamin A, fiber, and potassium supporting eye health and digestive function. Available in natural non-sulfured (natural brown) and treated (bright orange) variants. Sought for premium healthy snacks, granola, trail mix, baking, and international health food products."
+      },
+      "featured": false,
       "initials": "AK",
       "color": "#F97316",
       "img": "https://img.lazcdn.com/g/p/f43e3ea6e456dcad8fafe73b4f75972a.jpg_720x720q80.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 64,
       "name": "Kismis",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Grade A — Kadar Air 12–13%",
-      "desc": "Kismis kering pilihan (Vitis vinifera) Grade A dengan kadar air 12–13%. Kaya antioksidan resveratrol dan polifenol, zat besi, serat alami, dan kalium yang mendukung kesehatan jantung. Tersedia dalam berbagai varian: hijau/kuning (Sultana/Thompson), hitam (Corinth), dan merah (Flame). Digunakan dalam industri bakeri, confectionery, granola, cereal, dan camilan sehat premium. Kemasan bulk dan retail.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Grade A — Kadar Air 12–13%",
+        "en": "Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Kismis kering pilihan (Vitis vinifera) Grade A dengan kadar air 12–13%. Kaya antioksidan resveratrol dan polifenol, zat besi, serat alami, dan kalium yang mendukung kesehatan jantung. Tersedia dalam berbagai varian: hijau/kuning (Sultana/Thompson), hitam (Corinth), dan merah (Flame). Digunakan dalam industri bakeri, confectionery, granola, cereal, dan camilan sehat premium. Kemasan bulk dan retail.",
+        "en": "Selected dried raisins (Vitis vinifera) Grade A with 12–13% moisture. Rich in antioxidant resveratrol and polyphenols, iron, natural fiber, and potassium supporting heart health. Available in various variants: green/yellow (Sultana/Thompson), black (Corinth), and red (Flame). Used in the bakery, confectionery, granola, cereal, and premium healthy snack industries. Bulk and retail packaging."
+      },
+      "featured": false,
       "initials": "KIS",
       "color": "#7C2D12",
       "img": "https://img.lazcdn.com/g/p/4ce118d1c4d329acfd211ec04150defc.jpg_720x720q80.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 65,
       "name": "Hong Zao (Angco)",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Kurma Merah Tiongkok — Kadar Air 12–13%",
-      "desc": "Kurma merah kering khas Tiongkok (Ziziphus jujuba / angco / hong zao) Grade A dengan kadar air 12–13%. Kaya vitamin C, zat besi, saponin, dan polifenol yang mendukung produksi darah, kesehatan wanita, dan stamina dalam pengobatan tradisional Tiongkok (TCM). Diminati oleh komunitas Tionghoa di seluruh dunia, industri makanan kesehatan Asia, dan pasar premium TCM. Kemasan standar ekspor.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Kurma Merah Tiongkok — Kadar Air 12–13%",
+        "en": "Chinese Red Dates — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Kurma merah kering khas Tiongkok (Ziziphus jujuba / angco / hong zao) Grade A dengan kadar air 12–13%. Kaya vitamin C, zat besi, saponin, dan polifenol yang mendukung produksi darah, kesehatan wanita, dan stamina dalam pengobatan tradisional Tiongkok (TCM). Diminati oleh komunitas Tionghoa di seluruh dunia, industri makanan kesehatan Asia, dan pasar premium TCM. Kemasan standar ekspor.",
+        "en": "Dried Chinese red dates (Ziziphus jujuba / angco / hong zao) Grade A with 12–13% moisture. Rich in vitamin C, iron, saponins, and polyphenols supporting blood production, women's health, and stamina in Traditional Chinese Medicine (TCM). Sought by Chinese communities worldwide, Asian health food industries, and premium TCM markets. Export-standard packaging."
+      },
+      "featured": false,
       "initials": "HZ",
       "color": "#9F1239",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOqwR50V7hqEOrlnZkUrYsHtABrDqkmzXkQ&s",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 66,
       "name": "Mangga Kering",
-      "category": "Kacang & Buah Kering",
-      "tagline": "Manisan Grade A — Kadar Air 12–13%",
-      "desc": "Manisan buah mangga kering (Mangifera indica) Grade A dengan kadar air 12–13%. Menggunakan varietas mangga lokal pilihan Indonesia yang kaya vitamin C, antioksidan beta-karoten, dan enzim pencernaan alami. Tersedia dalam potongan natural maupun dengan lapisan gula tipis sesuai permintaan. Digunakan untuk snack premium, trail mix, dekorasi dessert, produk confectionery, dan pasar oleh-oleh internasional.",
+      "category": {
+        "id": "Kacang & Buah Kering",
+        "en": "Nuts & Dried Fruit"
+      },
+      "tagline": {
+        "id": "Manisan Grade A — Kadar Air 12–13%",
+        "en": "Candied Grade A — Moisture 12–13%"
+      },
+      "desc": {
+        "id": "Manisan buah mangga kering (Mangifera indica) Grade A dengan kadar air 12–13%. Menggunakan varietas mangga lokal pilihan Indonesia yang kaya vitamin C, antioksidan beta-karoten, dan enzim pencernaan alami. Tersedia dalam potongan natural maupun dengan lapisan gula tipis sesuai permintaan. Digunakan untuk snack premium, trail mix, dekorasi dessert, produk confectionery, dan pasar oleh-oleh internasional.",
+        "en": "Dried candied mango (Mangifera indica) Grade A with 12–13% moisture. Uses selected premium local Indonesian mango varieties rich in vitamin C, beta-carotene antioxidants, and natural digestive enzymes. Available in natural cuts or with a thin sugar coating to order. Used for premium snacks, trail mix, dessert decoration, confectionery, and international souvenir markets."
+      },
+      "featured": false,
       "initials": "MGK",
       "color": "#F59E0B",
       "img": "https://id.underextract.com/uploads/202117112/dried-mango-pieces19025444788.jpg",
       "stats": [
         {
           "v": "Grade A",
-          "l": "Kualitas"
+          "l": {
+            "id": "Kualitas",
+            "en": "Quality"
+          }
         },
         {
           "v": "12–13%",
-          "l": "Kadar Air"
+          "l": {
+            "id": "Kadar Air",
+            "en": "Moisture"
+          }
         }
       ],
-      "featured": false,
       "website": ""
     },
     {
       "id": 67,
       "name": "Kayu Mahoni",
-      "category": "Kayu & Material",
-      "tagline": "Premium 1 m³ — Furnitur & Interior",
-      "desc": "Kayu mahoni premium (Swietenia mahagoni) dalam volume 1 m³, memiliki serat halus, warna kemerahan elegan, dan karakteristik dimensi yang sangat stabil setelah pengeringan. Ideal untuk pembuatan furnitur kelas atas, panel dekorasi interior mewah, kusen, pintu solid, dan ukiran seni berkualitas tinggi. Bersertifikat legal dan berkelanjutan (sustainable) sesuai regulasi ekspor kayu Indonesia (SVLK/V-Legal). Pengiriman dapat disesuaikan.",
+      "category": {
+        "id": "Kayu & Material",
+        "en": "Wood & Materials"
+      },
+      "tagline": {
+        "id": "Premium 1 m³ — Furnitur & Interior",
+        "en": "Premium 1 m³ — Furniture & Interior"
+      },
+      "desc": {
+        "id": "Kayu mahoni premium (Swietenia mahagoni) dalam volume 1 m³, memiliki serat halus, warna kemerahan elegan, dan karakteristik dimensi yang sangat stabil setelah pengeringan. Ideal untuk pembuatan furnitur kelas atas, panel dekorasi interior mewah, kusen, pintu solid, dan ukiran seni berkualitas tinggi. Bersertifikat legal dan berkelanjutan (sustainable) sesuai regulasi ekspor kayu Indonesia (SVLK/V-Legal). Pengiriman dapat disesuaikan.",
+        "en": "Premium mahogany wood (Swietenia mahagoni) in 1 m³ volume, with fine grain, elegant reddish color, and very stable dimensional characteristics after drying. Ideal for high-end furniture, luxury interior decorative panels, frames, solid doors, and high-quality artistic carvings. Legally and sustainably certified in accordance with Indonesian timber export regulations (SVLK/V-Legal). Flexible shipping arrangements."
+      },
+      "featured": true,
       "initials": "KMH",
       "color": "#7C2D12",
       "img": "https://id-live-01.slatic.net/p/fa48cbb588582c57fec1c0093c954367.jpg",
       "stats": [
         {
           "v": "1 m³",
-          "l": "Volume"
+          "l": {
+            "id": "Volume",
+            "en": "Volume"
+          }
         },
         {
           "v": "Serat Halus",
-          "l": "Karakteristik"
+          "l": {
+            "id": "Karakteristik",
+            "en": "Karakteristik"
+          }
         },
         {
           "v": "Ekspor",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         }
       ],
-      "featured": true,
       "website": ""
     },
     {
@@ -1595,140 +2684,224 @@
         "$numberLong": "1780902249694"
       },
       "name": "Kayu Apel",
-      "category": "Kayu & Material",
-      "tagline": "Premium 1 m³",
-      "desc": "Sangat populer dalam teknik memasak barbecue (BBQ) dan pengasapan (smoking) karena menghasilkan aroma serta rasa manis yang khas pada daging.",
+      "category": {
+        "id": "Kayu & Material",
+        "en": "Wood & Materials"
+      },
+      "tagline": {
+        "id": "Premium 1 m³",
+        "en": "Premium 1 m³"
+      },
+      "desc": {
+        "id": "Sangat populer dalam teknik memasak barbecue (BBQ) dan pengasapan (smoking) karena menghasilkan aroma serta rasa manis yang khas pada daging.",
+        "en": "Apple wood is very popular in barbecue (BBQ) and smoking cooking techniques as it produces a characteristically sweet, mild aroma and flavor on meats. Also used in artisan furniture, decorative woodturning, and high-end woodcraft. Sustainably sourced and exported to premium culinary and craft markets."
+      },
       "featured": false,
-      "color": "#1affc2",
       "initials": "KYA",
+      "color": "#1affc2",
       "img": "https://id.woodveneerfactory.com/uploads/37725/apple-wood-veneer16f52.jpg",
-      "website": "",
       "stats": [
         {
           "v": "1 m³",
-          "l": "Volume"
+          "l": {
+            "id": "Volume",
+            "en": "Volume"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902615451"
       },
       "name": "Kayu Jeruk",
-      "category": "Kayu & Material",
-      "tagline": "Premium 1 m³",
-      "desc": " Batang dan ranting pohon jeruk yang sudah dikeringkan menjadi komoditas premium untuk memasak, barbeque, dan pengasapan daging. Kayu ini menghasilkan aroma asap yang khas, memiliki kadar air sangat rendah (di bawah 10%), dan panas pembakaran yang stabil.",
+      "category": {
+        "id": "Kayu & Material",
+        "en": "Wood & Materials"
+      },
+      "tagline": {
+        "id": "Premium 1 m³",
+        "en": "Premium 1 m³"
+      },
+      "desc": {
+        "id": " Batang dan ranting pohon jeruk yang sudah dikeringkan menjadi komoditas premium untuk memasak, barbeque, dan pengasapan daging. Kayu ini menghasilkan aroma asap yang khas, memiliki kadar air sangat rendah (di bawah 10%), dan panas pembakaran yang stabil.",
+        "en": "Dried orange tree trunks and branches are a premium commodity for cooking, barbecue, and meat smoking. This wood produces a distinctive smoky aroma, has a very low moisture content (below 10%), and delivers stable combustion heat. Ideal for fish, poultry, and dessert smoking with a characteristic fruity citrus aroma. Suitable for European and American culinary export markets."
+      },
       "featured": false,
-      "color": "#7e008f",
       "initials": "KYJ",
+      "color": "#7e008f",
       "img": "https://id-live-01.slatic.net/p/412614535d73a232310e29e8e904a27d.jpg",
-      "website": "",
       "stats": [
         {
           "v": "1 m³",
-          "l": "Volume"
+          "l": {
+            "id": "Volume",
+            "en": "Volume"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902855055"
       },
       "name": "Cengkeh",
-      "category": "Kopi & Rempah",
-      "tagline": "Cengkeh Premium",
-      "desc": "Cengkeh Timbunan 3th \nKadar Air 5% (3 Ton) \nRp 150k /Kg\nRp 132k /Kg",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Cengkeh Premium",
+        "en": "Premium Cloves"
+      },
+      "desc": {
+        "id": "Cengkeh Timbunan 3th \nKadar Air 5% (3 Ton) \nRp 150k /Kg\nRp 132k /Kg",
+        "en": "Aged cloves (3-year stock), moisture 5% (3 Tons). Premium Indonesian export cloves with intense eugenol aroma. IDR 150k/kg (bulk), IDR 132k/kg (wholesale). Used in food, pharmaceutical, and essential oil industries. Available for large volume export orders."
+      },
       "featured": false,
-      "color": "#ff0000",
       "initials": "CKH",
+      "color": "#ff0000",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfHLMLo2Uji9KD26M4YH4vPpSYtZODZQWFQ&s",
-      "website": "",
       "stats": [
         {
           "v": "Kering",
-          "l": "5%"
+          "l": {
+            "id": "5%",
+            "en": "5%"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902856342"
       },
       "name": "Vanilla Grade A",
-      "category": "Kopi & Rempah",
-      "tagline": "Grade A",
-      "desc": "Biji vanili kelas A, yang sering disebut biji \"gourmet\" atau \"prime\", adalah polong vanili premium yang lebih panjang, lebih berisi, dan jauh lebih berminyak daripada biji kelas B.Biji ini dipanen pada saat kematangan puncak dan mengandung kadar air yang lebih tinggi (biasanya 25% hingga 35%), sehingga sangat lentur, aromatik, dan mudah dibelah untuk mengambil biji vanili kecil di dalamnya.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Grade A",
+        "en": "Grade A"
+      },
+      "desc": {
+        "id": "Biji vanili kelas A, yang sering disebut biji \"gourmet\" atau \"prime\", adalah polong vanili premium yang lebih panjang, lebih berisi, dan jauh lebih berminyak daripada biji kelas B.Biji ini dipanen pada saat kematangan puncak dan mengandung kadar air yang lebih tinggi (biasanya 25% hingga 35%), sehingga sangat lentur, aromatik, dan mudah dibelah untuk mengambil biji vanili kecil di dalamnya.",
+        "en": "Grade A vanilla beans, often called 'gourmet' or 'prime' grade, are premium vanilla pods — longer, plumper, and far more oily than Grade B beans. Harvested at peak ripeness, they have higher moisture content (typically 25% to 35%), making them very supple, aromatic, and easy to split to extract the tiny vanilla seeds inside."
+      },
       "featured": true,
-      "color": "#8cff00",
       "initials": "VGA",
+      "color": "#8cff00",
       "img": "https://thevanillacrown.com/cdn/shop/files/VanillaGradeA_1.png?v=1774441254&width=1200",
-      "website": "",
       "stats": [
         {
           "v": "A",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902857872"
       },
       "name": "Vanilla Grade B",
-      "category": "Kopi & Rempah",
-      "tagline": "Grade B",
-      "desc": "Biji vanili kelas B, juga dikenal sebagai biji \"kelas ekstrak\", lebih kering, lebih tipis, dan kurang menarik secara visual dibandingkan biji kelas A.Meskipun terdapat sedikit noda atau retakan, biji vanili kelas B memiliki kadar air yang lebih rendah (20%-25%) dan dianggap sebagai pilihan terbaik untuk membuat ekstrak vanili, gula vanili, dan pasta kue buatan sendiri yang sangat pekat.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Grade B",
+        "en": "Grade B"
+      },
+      "desc": {
+        "id": "Biji vanili kelas B, juga dikenal sebagai biji \"kelas ekstrak\", lebih kering, lebih tipis, dan kurang menarik secara visual dibandingkan biji kelas A.Meskipun terdapat sedikit noda atau retakan, biji vanili kelas B memiliki kadar air yang lebih rendah (20%-25%) dan dianggap sebagai pilihan terbaik untuk membuat ekstrak vanili, gula vanili, dan pasta kue buatan sendiri yang sangat pekat.",
+        "en": "Grade B vanilla beans, also known as 'extract grade' beans, are drier, thinner, and less visually appealing than Grade A beans. Although they may have minor blemishes or splits, Grade B vanilla beans have lower moisture content (20%–25%) and are considered the best choice for making vanilla extract, vanilla sugar, and homemade baking paste with exceptional concentration."
+      },
       "featured": false,
-      "color": "#00ff11",
       "initials": "VGB",
+      "color": "#00ff11",
       "img": "https://inaexport.id/uploads/Eksportir_Product/Image/33352/1741014289__V.Beans.jpeg",
-      "website": "",
       "stats": [
         {
           "v": "B",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902859090"
       },
       "name": "Vanilla Grade C",
-      "category": "Kopi & Rempah",
-      "tagline": "Grade C",
-      "desc": "Biji vanili kelas C (kadang-kadang disebut kelas \"industri\" atau \"ekstrak\") adalah polong vanili dengan kualitas terendah dan paling kering yang tersedia. Polong ini lebih pendek, rapuh, dan memiliki kadar air lebih rendah (12% hingga 20%) dibandingkan dengan biji kelas A atau B.Karena kurang berisi dan tidak memiliki keindahan visual seperti biji vanili gourmet, biji vanili kelas C jarang digunakan langsung untuk memasak atau membuat kue.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Grade C",
+        "en": "Grade C"
+      },
+      "desc": {
+        "id": "Biji vanili kelas C (kadang-kadang disebut kelas \"industri\" atau \"ekstrak\") adalah polong vanili dengan kualitas terendah dan paling kering yang tersedia. Polong ini lebih pendek, rapuh, dan memiliki kadar air lebih rendah (12% hingga 20%) dibandingkan dengan biji kelas A atau B.Karena kurang berisi dan tidak memiliki keindahan visual seperti biji vanili gourmet, biji vanili kelas C jarang digunakan langsung untuk memasak atau membuat kue.",
+        "en": "Grade C vanilla beans (sometimes called 'industrial' or 'extract' grade) are the lowest commercial quality vanilla pods available. They are shorter, more brittle, and have lower moisture content (12%–20%) compared to Grade A or B beans. As they are less plump and lack the visual appeal of gourmet vanilla beans, Grade C beans are rarely used directly in cooking or baking."
+      },
       "featured": false,
-      "color": "#00854b",
       "initials": "VGC",
+      "color": "#00854b",
       "img": "https://www.slofoodgroup.com/cdn/shop/collections/grade-c-vanilla-beans-707250.jpg?v=1779899814",
-      "website": "",
       "stats": [
         {
           "v": "C",
-          "l": "Grade"
+          "l": {
+            "id": "Grade",
+            "en": "Grade"
+          }
         }
-      ]
+      ],
+      "website": ""
     },
     {
       "id": {
         "$numberLong": "1780902860107"
       },
       "name": "Vanilla Powder",
-      "category": "Kopi & Rempah",
-      "tagline": "Soft Powder",
-      "desc": "Vanili bubuk adalah perasa makanan serbaguna yang terbuat dari ekstrak biji vanili atau sintetis (vanillin). Berfungsi memberikan aroma manis dan menghilangkan bau amis telur pada kue atau minuman, bahan ini praktis digunakan dan mudah larut dalam adonan kering maupun basah.",
+      "category": {
+        "id": "Kopi & Rempah",
+        "en": "Coffee & Spices"
+      },
+      "tagline": {
+        "id": "Soft Powder",
+        "en": "Soft Powder"
+      },
+      "desc": {
+        "id": "Vanili bubuk adalah perasa makanan serbaguna yang terbuat dari ekstrak biji vanili atau sintetis (vanillin). Berfungsi memberikan aroma manis dan menghilangkan bau amis telur pada kue atau minuman, bahan ini praktis digunakan dan mudah larut dalam adonan kering maupun basah.",
+        "en": "Vanilla powder is a versatile food flavoring made from vanilla bean extract or synthetic vanillin. It provides a sweet aroma and eliminates the eggy odor in baked goods or beverages. Practical and easy to use, it dissolves readily in both dry and wet batters."
+      },
       "featured": false,
-      "color": "#91ff47",
       "initials": "VP",
+      "color": "#91ff47",
       "img": "https://image.chemeka.com/s3/productimages/webp/co43213/p607690/w600-h600/92c28769-2994-48e3-bc04-ef592e10c486.jpeg",
-      "website": "",
       "stats": [
         {
           "v": "Soft",
-          "l": "Texture"
+          "l": {
+            "id": "Texture",
+            "en": "Texture"
+          }
         }
-      ]
+      ],
+      "website": ""
     }
   ]
 }

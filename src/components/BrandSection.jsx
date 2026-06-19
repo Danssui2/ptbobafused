@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import { ShoppingBag, Recycle, ExternalLink } from 'lucide-react'
 
@@ -30,7 +31,8 @@ const LogoBox = ({ brand }) => (
 
 export default function BrandSection() {
   const [sectionRef, inView] = useInView(0.08)
-  const { data } = useContent('brands')
+  const { data: rawData } = useContent('brands')
+  const data = useLocalizedData(rawData)
   const { header, brands, platformNote } = data ?? {}
   if (!header) return null
 

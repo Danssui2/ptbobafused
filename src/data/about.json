@@ -1,25 +1,58 @@
 {
   "hero": {
-    "chip": "Tentang Kami",
-    "title": "Bikin Orang Bahagia Lewat",
-    "titleHighlight": "Produk & Lingkungan",
-    "description": "PT Bikin Orang Bahagia (PT BOBA) adalah perusahaan yang bergerak di bidang perdagangan bahan baku alam, mencakup komoditas pertanian, perkebunan, dan hasil alam unggulan Indonesia — baik untuk pasar nasional maupun ekspor internasional.",
+    "chip": {
+      "id": "Tentang Kami",
+      "en": "About Us"
+    },
+    "title": {
+      "id": "Bikin Orang Bahagia Lewat",
+      "en": "Making People Happy Through"
+    },
+    "titleHighlight": {
+      "id": "Produk & Lingkungan",
+      "en": "Products & Environment"
+    },
+    "description": {
+      "id": "PT Bikin Orang Bahagia (PT BOBA) adalah perusahaan yang bergerak di bidang perdagangan bahan baku alam, mencakup komoditas pertanian, perkebunan, dan hasil alam unggulan Indonesia — baik untuk pasar nasional maupun ekspor internasional.",
+      "en": "PT Bikin Orang Bahagia (PT BOBA) is a company engaged in the trading of natural raw materials, encompassing agricultural commodities, plantation products, and Indonesia's finest natural resources — for both the domestic market and international export."
+    },
     "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "imageAlt": "Tim PT BOBA",
-    "imageLabel": "Tim Profesional Kami",
-    "imageSub": "20+ karyawan berdedikasi",
+    "imageAlt": {
+      "id": "Tim PT BOBA",
+      "en": "PT BOBA Team"
+    },
+    "imageLabel": {
+      "id": "Tim Profesional Kami",
+      "en": "Our Professional Team"
+    },
+    "imageSub": {
+      "id": "20+ karyawan berdedikasi",
+      "en": "20+ dedicated employees"
+    },
     "badge": {
-      "value": "Indonesia 100%",
-      "sub": "National Identity"
+      "value": {
+        "id": "Indonesia 100%",
+        "en": "100% Indonesian"
+      },
+      "sub": {
+        "id": "Identitas Nasional",
+        "en": "National Identity"
+      }
     },
     "cta": [
       {
-        "label": "Struktur Perusahaan",
+        "label": {
+          "id": "Struktur Perusahaan",
+          "en": "Company Structure"
+        },
         "href": "#struktur",
         "variant": "primary"
       },
       {
-        "label": "Mitra Kami",
+        "label": {
+          "id": "Mitra Kami",
+          "en": "Our Partners"
+        },
         "href": "#partner",
         "variant": "outline"
       }
@@ -30,111 +63,222 @@
       "icon": "TrendingUp",
       "value": 3,
       "suffix": "+",
-      "label": "Tahun Pengalaman",
-      "sub": "sejak 2024"
+      "label": {
+        "id": "Tahun Pengalaman",
+        "en": "Years of Experience"
+      },
+      "sub": {
+        "id": "sejak 2024",
+        "en": "since 2024"
+      }
     },
     {
       "icon": "Users",
       "value": 20,
       "suffix": "+",
-      "label": "Karyawan Aktif",
-      "sub": "seluruh Indonesia"
+      "label": {
+        "id": "Karyawan Aktif",
+        "en": "Active Employees"
+      },
+      "sub": {
+        "id": "seluruh Indonesia",
+        "en": "across Indonesia"
+      }
     },
     {
       "icon": "Globe",
       "value": 10,
       "suffix": "+",
-      "label": "Negara Operasional",
-      "sub": "ekspansi global"
+      "label": {
+        "id": "Negara Operasional",
+        "en": "Operating Countries"
+      },
+      "sub": {
+        "id": "ekspansi global",
+        "en": "global expansion"
+      }
     },
     {
       "icon": "Award",
       "value": 10,
       "suffix": "+",
-      "label": "Penghargaan",
-      "sub": "nasional & internasional"
+      "label": {
+        "id": "Penghargaan",
+        "en": "Awards"
+      },
+      "sub": {
+        "id": "nasional & internasional",
+        "en": "national & international"
+      }
     }
   ],
   "visiMisi": {
-    "chip": "Arah Perusahaan",
-    "title": "Visi & Misi Kami",
+    "chip": {
+      "id": "Arah Perusahaan",
+      "en": "Company Direction"
+    },
+    "title": {
+      "id": "Visi & Misi Kami",
+      "en": "Our Vision & Mission"
+    },
     "visi": {
-      "title": "Menjadi Perusahaan Energi Nasional Kelas Dunia",
-      "desc": "Kami beraspirasi menjadi perusahaan terdepan dalam industri energi, yang diakui secara global atas inovasi, keberlanjutan, dan kontribusi nyata bagi kemakmuran bangsa Indonesia."
+      "title": {
+        "id": "Menjadi Perusahaan Energi Nasional Kelas Dunia",
+        "en": "Becoming a World-Class National Energy Company"
+      },
+      "desc": {
+        "id": "Kami beraspirasi menjadi perusahaan terdepan dalam industri energi, yang diakui secara global atas inovasi, keberlanjutan, dan kontribusi nyata bagi kemakmuran bangsa Indonesia.",
+        "en": "We aspire to become the leading company in the energy industry, globally recognized for innovation, sustainability, and tangible contributions to the prosperity of Indonesia."
+      }
     },
     "misi": [
-      "Menjalankan usaha minyak, gas, serta energi baru & terbarukan secara terintegrasi.",
-      "Memaksimalkan nilai perusahaan melalui inovasi, tata kelola baik, dan SDM unggul.",
-      "Memberikan manfaat optimal bagi pemegang saham, pelanggan, dan masyarakat.",
-      "Mendukung ketahanan energi nasional dan agenda keberlanjutan Indonesia."
+      {
+        "id": "Menjalankan usaha minyak, gas, serta energi baru & terbarukan secara terintegrasi.",
+        "en": "Conducting integrated oil, gas, and new & renewable energy businesses."
+      },
+      {
+        "id": "Memaksimalkan nilai perusahaan melalui inovasi, tata kelola baik, dan SDM unggul.",
+        "en": "Maximizing company value through innovation, good governance, and superior human resources."
+      },
+      {
+        "id": "Memberikan manfaat optimal bagi pemegang saham, pelanggan, dan masyarakat.",
+        "en": "Delivering optimal benefits for shareholders, customers, and society."
+      },
+      {
+        "id": "Mendukung ketahanan energi nasional dan agenda keberlanjutan Indonesia.",
+        "en": "Supporting national energy resilience and Indonesia's sustainability agenda."
+      }
     ]
   },
   "pillars": {
-    "chip": "Fondasi Kami",
-    "title": "Empat Pilar Utama Perusahaan",
-    "ctaLabel": "Lihat Semua Layanan",
+    "chip": {
+      "id": "Fondasi Kami",
+      "en": "Our Foundation"
+    },
+    "title": {
+      "id": "Empat Pilar Utama Perusahaan",
+      "en": "Four Core Company Pillars"
+    },
+    "ctaLabel": {
+      "id": "Lihat Semua Layanan",
+      "en": "View All Services"
+    },
     "ctaHref": "#services",
     "items": [
       {
         "icon": "Zap",
-        "title": "Ketahanan Energi",
-        "desc": "Memastikan ketersediaan energi yang andal dan terjangkau untuk seluruh masyarakat Indonesia dari Sabang sampai Merauke.",
+        "title": {
+          "id": "Ketahanan Energi",
+          "en": "Energy Resilience"
+        },
+        "desc": {
+          "id": "Memastikan ketersediaan energi yang andal dan terjangkau untuk seluruh masyarakat Indonesia dari Sabang sampai Merauke.",
+          "en": "Ensuring reliable and affordable energy availability for all Indonesian people from Sabang to Merauke."
+        },
         "color": "from-brand-green to-brand-green-mid"
       },
       {
         "icon": "Leaf",
-        "title": "Energi Berkelanjutan",
-        "desc": "Berkomitmen mengurangi emisi karbon dan mengembangkan portofolio energi terbarukan menuju Indonesia Net Zero 2060.",
+        "title": {
+          "id": "Energi Berkelanjutan",
+          "en": "Sustainable Energy"
+        },
+        "desc": {
+          "id": "Berkomitmen mengurangi emisi karbon dan mengembangkan portofolio energi terbarukan menuju Indonesia Net Zero 2060.",
+          "en": "Committed to reducing carbon emissions and developing a renewable energy portfolio towards Indonesia Net Zero 2060."
+        },
         "color": "from-brand-green-mid to-brand-green-light"
       },
       {
         "icon": "ShieldCheck",
-        "title": "Tata Kelola Unggul",
-        "desc": "Menjalankan bisnis dengan standar GCG tertinggi, transparansi penuh, dan integritas sebagai fondasi kepercayaan publik.",
+        "title": {
+          "id": "Tata Kelola Unggul",
+          "en": "Excellent Governance"
+        },
+        "desc": {
+          "id": "Menjalankan bisnis dengan standar GCG tertinggi, transparansi penuh, dan integritas sebagai fondasi kepercayaan publik.",
+          "en": "Conducting business with the highest GCG standards, full transparency, and integrity as the foundation of public trust."
+        },
         "color": "from-emerald-600 to-teal-500"
       },
       {
         "icon": "Users",
-        "title": "Dampak Sosial",
-        "desc": "Program CSR & TJSL yang menyentuh ribuan komunitas — dari pemberdayaan UMKM hingga pendidikan dan kesehatan masyarakat.",
+        "title": {
+          "id": "Dampak Sosial",
+          "en": "Social Impact"
+        },
+        "desc": {
+          "id": "Program CSR & TJSL yang menyentuh ribuan komunitas — dari pemberdayaan UMKM hingga pendidikan dan kesehatan masyarakat.",
+          "en": "CSR & TJSL programs touching thousands of communities — from SME empowerment to community education and health."
+        },
         "color": "from-teal-600 to-brand-green-light"
       }
     ]
   },
   "timeline": {
-    "chip": "Perjalanan Kami",
-    "title": "Sejarah & Pencapaian",
+    "chip": {
+      "id": "Perjalanan Kami",
+      "en": "Our Journey"
+    },
+    "title": {
+      "id": "Sejarah & Pencapaian",
+      "en": "History & Milestones"
+    },
     "defaultYear": "2025",
     "milestones": [
       {
         "year": "2024",
-        "event": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional."
+        "event": {
+          "id": "Restrukturisasi holding dan pembentukan subholding untuk efisiensi operasional.",
+          "en": "Holding restructuring and subholding formation for operational efficiency."
+        }
       },
       {
         "year": "2025",
-        "event": "Masuk daftar Fortune Global 500 dan memperkuat komitmen energi terbarukan."
+        "event": {
+          "id": "Masuk daftar Fortune Global 500 dan memperkuat komitmen energi terbarukan.",
+          "en": "Entered the Fortune Global 500 list and strengthened commitment to renewable energy."
+        }
       },
       {
         "year": "2026",
-        "event": "Akselerasi transisi energi — target 23% portofolio dari renewable energy."
+        "event": {
+          "id": "Akselerasi transisi energi — target 23% portofolio dari renewable energy.",
+          "en": "Accelerating energy transition — targeting 23% portfolio from renewable energy."
+        }
       },
       {
         "year": "2027",
-        "event": "Inovasi pedagangan internasional berbasis ai untuk menunjang kebutuhan ekspor negeri"
+        "event": {
+          "id": "Inovasi pedagangan internasional berbasis ai untuk menunjang kebutuhan ekspor negeri",
+          "en": "AI-based international trade innovation to support the nation's export needs."
+        }
       }
     ]
   },
   "cta": {
-    "title": "Ingin Berkolaborasi Bersama Kami?",
-    "desc": "Kami membuka peluang kemitraan strategis, investasi, dan kolaborasi lintas sektor untuk membangun masa depan energi Indonesia yang lebih cerah.",
+    "title": {
+      "id": "Ingin Berkolaborasi Bersama Kami?",
+      "en": "Want to Collaborate With Us?"
+    },
+    "desc": {
+      "id": "Kami membuka peluang kemitraan strategis, investasi, dan kolaborasi lintas sektor untuk membangun masa depan energi Indonesia yang lebih cerah.",
+      "en": "We open opportunities for strategic partnerships, investment, and cross-sector collaboration to build a brighter future for Indonesia's energy."
+    },
     "buttons": [
       {
-        "label": "Hubungi Kami",
+        "label": {
+          "id": "Hubungi Kami",
+          "en": "Contact Us"
+        },
         "href": "#contact",
         "variant": "primary"
       },
       {
-        "label": "Hubungan Investor",
+        "label": {
+          "id": "Hubungan Investor",
+          "en": "Investor Relations"
+        },
         "href": "/investor-relations",
         "variant": "white"
       }

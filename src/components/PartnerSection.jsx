@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, Handshake, ChevronRight, CheckCircle2, Send } from 'lucide-react'
 
@@ -24,7 +25,8 @@ const PartnerLogo = ({ partner }) => (
 )
 
 export default function PartnerSection() {
-  const { data } = useContent('partners')
+  const { data: rawData } = useContent('partners')
+  const data = useLocalizedData(rawData)
   const { header, categories = [], partners = [], benefits, partnerTypes, cta } = data ?? {}
   const [activeCategory, setActiveCategory] = useState('Semua')
   const [headerRef, headerInView] = useInView(0.1)

@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useEffect, useRef, useState } from 'react'
 import { Award, ShoppingBag, ShieldCheck, TrendingUp, Users, Zap, Leaf, Globe, Send, ChevronRight } from 'lucide-react'
 
@@ -72,7 +73,8 @@ export default function ServiceSection() {
   const ref3 = useInView(0.06); const ref4 = useInView(0.06); const ref5 = useInView(0.06)
   const ref6 = useInView(0.06); const ref7 = useInView(0.06)
 
-  const { data } = useContent('services')
+  const { data: rawData } = useContent('services')
+  const data = useLocalizedData(rawData)
   const { header, groups = [], footer: footerData = {} } = data ?? {}
   const refs = [ref0, ref1, ref2, ref3, ref4, ref5, ref6, ref7]
 

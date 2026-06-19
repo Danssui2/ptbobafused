@@ -1,10 +1,12 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Play, Pause, Volume2, VolumeX, ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
 
 
 export default function HeroSection() {
-  const { data } = useContent('hero')
+  const { data: rawData } = useContent('hero')
+  const data = useLocalizedData(rawData)
   const SLIDES            = data?.slides           ?? []
   const AUTOPLAY_DURATION = data?.autoplayDuration ?? 7000
   const FLOATING_STATS    = data?.floatingStats    ?? []

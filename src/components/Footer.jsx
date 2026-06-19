@@ -1,4 +1,5 @@
 import { useContent } from '../hooks/useContent'
+import { useLocalizedData } from '../hooks/useLang'
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Mail, Phone, MapPin, Instagram, Twitter, Youtube, Linkedin, ArrowUp } from 'lucide-react'
@@ -23,7 +24,8 @@ const Logo = () => (
 )
 
 export default function Footer() {
-  const { data } = useContent('footer')
+  const { data: rawData } = useContent('footer')
+  const data = useLocalizedData(rawData)
   const { brand, socials = [], navGroups = [], newsletter = {}, bottomLinks = [], copyright } = data ?? {}
   const { pathname } = useLocation()
   const isInvestor = pathname.startsWith('/investor')

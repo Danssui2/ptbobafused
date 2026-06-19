@@ -5,71 +5,42 @@
       "id": 1,
       "src": "",
       "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-wolfgang-weiser-467045605-30517083_p9ijf2.jpg",
-      "title": "Perdaganan Lintas Benua",
-      "subtitle": "Menghadirkan solusi perdagangan bahan baku alam terbaik",
-      "tag": "Visi & Misi",
-      "cta": {
-        "primary": "Pelajari Lebih Lanjut",
-        "href": "#about",
-        "secondary": "Lihat Produk",
-        "href2": "#products"
-      }
+      "title": { "id": "Perdagangan Lintas Benua", "en": "Cross-Continental Trade" },
+      "subtitle": { "id": "Menghadirkan solusi perdagangan bahan baku alam terbaik", "en": "Delivering the finest natural raw material trading solutions" },
+      "tag": { "id": "Visi & Misi", "en": "Vision & Mission" },
+      "cta": { "primary": { "id": "Pelajari Lebih Lanjut", "en": "Learn More" }, "href": "#about", "secondary": { "id": "Lihat Produk", "en": "View Products" }, "href2": "#products" }
     },
     {
       "id": 2,
       "src": "",
       "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589119/pexels-pavel-danilyuk-8439008_mnxcvl.jpg",
-      "title": "Inovasi Tanpa Batas",
-      "subtitle": "Mendorong transformasi digital di sektor perdagangan nasional",
-      "tag": "Inovasi",
-      "cta": {
-        "primary": "Tentang Kami",
-        "href": "#about",
-        "secondary": "Investor",
-        "href2": "/investor-relations"
-      }
+      "title": { "id": "Inovasi Tanpa Batas", "en": "Boundless Innovation" },
+      "subtitle": { "id": "Mendorong transformasi digital di sektor perdagangan nasional", "en": "Driving digital transformation in the national trade sector" },
+      "tag": { "id": "Inovasi", "en": "Innovation" },
+      "cta": { "primary": { "id": "Tentang Kami", "en": "About Us" }, "href": "#about", "secondary": { "id": "Investor", "en": "Investor" }, "href2": "/investor-relations" }
     },
     {
       "id": 3,
       "src": "",
       "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-pavel-danilyuk-5520322_ejfzp5.jpg",
-      "title": "Mitra Strategis Bangsa",
-      "subtitle": "Berkomitmen menjadi perusahaan perdagangan internasional kelas dunia",
-      "tag": "Kemitraan",
-      "cta": {
-        "primary": "Hubungi Kami",
-        "href": "#contact",
-        "secondary": "Partner",
-        "href2": "#partner"
-      }
+      "title": { "id": "Mitra Strategis Bangsa", "en": "Strategic National Partner" },
+      "subtitle": { "id": "Berkomitmen menjadi perusahaan perdagangan internasional kelas dunia", "en": "Committed to becoming a world-class international trading company" },
+      "tag": { "id": "Kemitraan", "en": "Partnership" },
+      "cta": { "primary": { "id": "Hubungi Kami", "en": "Contact Us" }, "href": "#contact", "secondary": { "id": "Partner", "en": "Partner" }, "href2": "#partner" }
     },
     {
       "id": 4,
       "src": "",
       "poster": "https://res.cloudinary.com/dftolrwwi/image/upload/v1781589120/pexels-andre-ulysses-de-salis-2100065-8299631_phlohp.jpg",
-      "title": "Keberlanjutan untuk Masa Depan",
-      "subtitle": "Bergerak menuju perdagangan hijau yang ramah lingkungan dan berkelanjutan",
-      "tag": "Sustainability",
-      "cta": {
-        "primary": "Program ESG",
-        "href": "#services",
-        "secondary": "Brand Kami",
-        "href2": "#brands"
-      }
+      "title": { "id": "Keberlanjutan untuk Masa Depan", "en": "Sustainability for the Future" },
+      "subtitle": { "id": "Bergerak menuju perdagangan hijau yang ramah lingkungan dan berkelanjutan", "en": "Moving towards eco-friendly and sustainable green trade" },
+      "tag": { "id": "Sustainability", "en": "Sustainability" },
+      "cta": { "primary": { "id": "Program ESG", "en": "ESG Program" }, "href": "#services", "secondary": { "id": "Brand Kami", "en": "Our Brands" }, "href2": "#brands" }
     }
   ],
   "floatingStats": [
-    {
-      "value": "3+",
-      "label": "Lini Bisnis"
-    },
-    {
-      "value": "20+",
-      "label": "Mitra Strategis"
-    },
-    {
-      "value": "99.9%",
-      "label": "Uptime Layanan"
-    }
+    { "value": "3+",    "label": { "id": "Lini Bisnis",    "en": "Business Lines"     } },
+    { "value": "20+",   "label": { "id": "Mitra Strategis","en": "Strategic Partners" } },
+    { "value": "99.9%", "label": { "id": "Uptime Layanan", "en": "Service Uptime"     } }
   ]
 }

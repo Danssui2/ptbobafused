@@ -1,47 +1,104 @@
 {
   "header": {
-    "chip": "Layanan Bisnis",
-    "title": "Layanan BOBA Group",
-    "subtitle": "Dari kekayaan intelektual hingga pemberdayaan sosial — solusi bisnis terintegrasi yang menggerakkan nilai nyata bagi mitra, komunitas, dan ekosistem kami."
+    "chip": {
+      "id": "Layanan Bisnis",
+      "en": "Business Services"
+    },
+    "title": {
+      "id": "Layanan BOBA Group",
+      "en": "BOBA Group Services"
+    },
+    "subtitle": {
+      "id": "Dari kekayaan intelektual hingga pemberdayaan sosial — solusi bisnis terintegrasi yang menggerakkan nilai nyata bagi mitra, komunitas, dan ekosistem kami.",
+      "en": "From intellectual property to social empowerment — integrated business solutions that drive real value for our partners, communities, and ecosystem."
+    }
   },
   "groups": [
     {
       "id": "ip",
       "chip": "BOBA IP Ventures",
-      "label": "Kekayaan Intelektual & Bisnis",
+      "label": {
+        "id": "Kekayaan Intelektual & Bisnis",
+        "en": "Intellectual Property & Business"
+      },
       "accentColor": "#D97706",
       "services": [
         {
           "id": 1,
           "icon": "ShoppingBag",
-          "title": "Sistem Waralaba (Franchise)",
-          "tag": "Franchise",
-          "desc": "Paket waralaba turnkey untuk jaringan distribusi bahan baku alam BOBA Group — termasuk pelatihan, SOP operasional, dan dukungan distribusi nasional.",
+          "title": {
+            "id": "Sistem Waralaba (Franchise)",
+            "en": "Franchise System"
+          },
+          "tag": {
+            "id": "Franchise",
+            "en": "Franchise"
+          },
+          "desc": {
+            "id": "Paket waralaba turnkey untuk jaringan distribusi bahan baku alam BOBA Group — termasuk pelatihan, SOP operasional, dan dukungan distribusi nasional.",
+            "en": "Turnkey franchise packages for BOBA Group's natural raw material distribution network — including training, operational SOPs, and national distribution support."
+          },
           "price": "Mulai Rp 50 Jt",
-          "unit": "/ outlet",
-          "cta": "Daftar Franchise",
+          "unit": {
+            "id": "/ outlet",
+            "en": "/ outlet"
+          },
+          "cta": {
+            "id": "Daftar Franchise",
+            "en": "Register Franchise"
+          },
           "ctaHref": "#contact"
         },
         {
           "id": 2,
           "icon": "ShieldCheck",
-          "title": "Sewa Paten Teknologi",
-          "tag": "Patent Licensing",
-          "desc": "Akses eksklusif paten teknologi kemasan ramah lingkungan dan pola pakaian zero-waste untuk produksi skala komersial.",
+          "title": {
+            "id": "Sewa Paten Teknologi",
+            "en": "Technology Patent Licensing"
+          },
+          "tag": {
+            "id": "Patent Licensing",
+            "en": "Patent Licensing"
+          },
+          "desc": {
+            "id": "Akses eksklusif paten teknologi kemasan ramah lingkungan dan pola pakaian zero-waste untuk produksi skala komersial.",
+            "en": "Exclusive access to eco-friendly packaging technology patents and zero-waste garment patterns for commercial-scale production."
+          },
           "price": "Hubungi Kami",
-          "unit": "/ tahun",
-          "cta": "Konsultasi Paten",
+          "unit": {
+            "id": "/ tahun",
+            "en": "/ year"
+          },
+          "cta": {
+            "id": "Konsultasi Paten",
+            "en": "Patent Consultation"
+          },
           "ctaHref": "#contact"
         },
         {
           "id": 3,
           "icon": "TrendingUp",
-          "title": "Konsultasi IP & Strategi Produk",
-          "tag": "IP Consultation",
-          "desc": "Pendampingan strategi merek, perlindungan kekayaan intelektual, dan pengembangan portofolio IP untuk bisnis Anda.",
+          "title": {
+            "id": "Konsultasi IP & Strategi Produk",
+            "en": "IP & Product Strategy Consultation"
+          },
+          "tag": {
+            "id": "IP Consultation",
+            "en": "IP Consultation"
+          },
+          "desc": {
+            "id": "Pendampingan strategi merek, perlindungan kekayaan intelektual, dan pengembangan portofolio IP untuk bisnis Anda.",
+            "en": "Brand strategy mentoring, intellectual property protection, and IP portfolio development for your business."
+          },
           "price": "Rp 2.500.000",
-          "unit": "/ sesi",
-          "cta": "Jadwalkan Sesi",
+          "unit": {
+            "id": "/ sesi",
+            "en": "/ session"
+          },
+          "cta": {
+            "id": "Jadwalkan Sesi",
+            "en": "Schedule Session"
+          },
           "ctaHref": "#contact"
         }
       ]
@@ -49,59 +106,140 @@
     {
       "id": "social",
       "chip": "BOBA Foundation",
-      "label": "Bantuan Sosial & Komunitas",
+      "label": {
+        "id": "Bantuan Sosial & Komunitas",
+        "en": "Social & Community Programs"
+      },
       "accentColor": "#7C3AED",
       "services": [
         {
           "id": 5,
           "icon": "ShieldCheck",
-          "title": "Donasi Bencana Alam",
-          "tag": "Program Kemanusiaan",
-          "desc": "Penyaluran bantuan logistik, pakaian layak pakai, makanan, dan kebutuhan darurat untuk korban bencana alam di berbagai wilayah Indonesia.",
-          "price": "Gratis",
-          "unit": "bagi penerima",
-          "cta": "Salurkan Donasi",
+          "title": {
+            "id": "Donasi Bencana Alam",
+            "en": "Natural Disaster Relief"
+          },
+          "tag": {
+            "id": "Program Kemanusiaan",
+            "en": "Humanitarian Program"
+          },
+          "desc": {
+            "id": "Penyaluran bantuan logistik, pakaian layak pakai, makanan, dan kebutuhan darurat untuk korban bencana alam di berbagai wilayah Indonesia.",
+            "en": "Distribution of logistical aid, usable clothing, food, and emergency supplies for natural disaster victims across Indonesia."
+          },
+          "price": {
+            "id": "Gratis",
+            "en": "Free"
+          },
+          "unit": {
+            "id": "bagi penerima",
+            "en": "for recipients"
+          },
+          "cta": {
+            "id": "Salurkan Donasi",
+            "en": "Donate Now"
+          },
           "ctaHref": "#contact"
         },
         {
           "id": 6,
           "icon": "Users",
-          "title": "Donasi ke Panti Asuhan & Lansia",
-          "tag": "Program Sosial",
-          "desc": "Kegiatan berbagi kebutuhan pokok, pakaian, perlengkapan harian, serta dukungan sosial untuk panti asuhan dan panti lansia.",
-          "price": "Terbuka",
-          "unit": "untuk donatur & relawan",
-          "cta": "Ikut Berdonasi",
+          "title": {
+            "id": "Donasi ke Panti Asuhan & Lansia",
+            "en": "Orphanage & Elderly Donations"
+          },
+          "tag": {
+            "id": "Program Sosial",
+            "en": "Social Program"
+          },
+          "desc": {
+            "id": "Kegiatan berbagi kebutuhan pokok, pakaian, perlengkapan harian, serta dukungan sosial untuk panti asuhan dan panti lansia.",
+            "en": "Sharing basic necessities, clothing, daily supplies, and social support for orphanages and elderly care homes."
+          },
+          "price": {
+            "id": "Terbuka",
+            "en": "Open"
+          },
+          "unit": {
+            "id": "untuk donatur & relawan",
+            "en": "for donors & volunteers"
+          },
+          "cta": {
+            "id": "Ikut Berdonasi",
+            "en": "Donate"
+          },
           "ctaHref": "#contact"
         },
         {
           "id": 7,
           "icon": "Leaf",
-          "title": "Dapur Umum & Distribusi Gizi",
-          "tag": "Bantuan Pangan",
-          "desc": "Program dapur umum untuk mendistribusikan makanan bergizi kepada komunitas rentan — dikelola bersama BOBA Food Innovations.",
-          "price": "Gratis",
-          "unit": "bagi penerima",
-          "cta": "Jadi Relawan",
+          "title": {
+            "id": "Dapur Umum & Distribusi Gizi",
+            "en": "Community Kitchen & Nutrition"
+          },
+          "tag": {
+            "id": "Bantuan Pangan",
+            "en": "Food Aid"
+          },
+          "desc": {
+            "id": "Program dapur umum untuk mendistribusikan makanan bergizi kepada komunitas rentan — dikelola bersama BOBA Food Innovations.",
+            "en": "Community kitchen program distributing nutritious meals to vulnerable communities — managed in collaboration with BOBA Food Innovations."
+          },
+          "price": {
+            "id": "Gratis",
+            "en": "Free"
+          },
+          "unit": {
+            "id": "bagi penerima",
+            "en": "for recipients"
+          },
+          "cta": {
+            "id": "Jadi Relawan",
+            "en": "Become a Volunteer"
+          },
           "ctaHref": "#contact"
         },
         {
           "id": 8,
           "icon": "Globe",
-          "title": "Pemberdayaan UMKM Lokal",
-          "tag": "Kemitraan",
-          "desc": "Pendampingan, akses jaringan distribusi BOBA Group, dan modal usaha bergulir bagi UMKM fashion dan komoditas lokal binaan BOBA Foundation.",
-          "price": "Hubungi Kami",
-          "unit": "/ program",
-          "cta": "Daftar UMKM",
+          "title": {
+            "id": "Pemberdayaan UMKM Lokal",
+            "en": "Local SME Empowerment"
+          },
+          "tag": {
+            "id": "Kemitraan",
+            "en": "Partnership"
+          },
+          "desc": {
+            "id": "Pendampingan, akses jaringan distribusi BOBA Group, dan modal usaha bergulir bagi UMKM fashion dan komoditas lokal binaan BOBA Foundation.",
+            "en": "Mentoring, access to BOBA Group distribution networks, and revolving business capital for fashion and local commodity SMEs under BOBA Foundation."
+          },
+          "price": {
+            "id": "Hubungi Kami",
+            "en": "Contact Us"
+          },
+          "unit": {
+            "id": "/ program",
+            "en": "/ program"
+          },
+          "cta": {
+            "id": "Daftar UMKM",
+            "en": "Register SME"
+          },
           "ctaHref": "#contact"
         }
       ]
     }
   ],
   "footer": {
-    "note": "Butuh solusi kustom atau kemitraan strategis? Tim kami siap merancang paket khusus untuk kebutuhan Anda.",
-    "ctaLabel": "Konsultasi Gratis",
+    "note": {
+      "id": "Butuh solusi kustom atau kemitraan strategis? Tim kami siap merancang paket khusus untuk kebutuhan Anda.",
+      "en": "Need a custom solution or strategic partnership? Our team is ready to design a tailored package for your needs."
+    },
+    "ctaLabel": {
+      "id": "Konsultasi Gratis",
+      "en": "Free Consultation"
+    },
     "ctaHref": "#contact"
   }
 }

@@ -1,50 +1,41 @@
 {
   "header": {
-    "chip": "Brand Perusahaan",
-    "title": "Brand & Platform PT BOBA",
-    "subtitle": "Dua brand fashion (pria & wanita) di bawah PT BOBA, dipasarkan via",
-    "subtitleBold": "Ponpin",
-    "subtitleEnd": ", platform marketplace ASEAN milik PT BOBA."
+    "chip":        { "id": "Brand Perusahaan",         "en": "Company Brands"          },
+    "title":       { "id": "Brand & Platform PT BOBA", "en": "PT BOBA Brands & Platforms" },
+    "subtitle":    { "id": "Dua brand fashion (pria & wanita) di bawah PT BOBA, dipasarkan via", "en": "Two fashion brands (men & women) under PT BOBA, marketed through" },
+    "subtitleBold":{ "id": "Ponpin",                   "en": "Ponpin"                  },
+    "subtitleEnd": { "id": ", platform marketplace ASEAN milik PT BOBA.", "en": ", PT BOBA's ASEAN marketplace platform." }
   },
   "brands": [
     {
       "id": 1,
       "name": "tsoecha.co",
-      "category": "Fashion Pria",
-      "desc": "Brand fashion pria PT BOBA yang menghadirkan kaos, kemeja, hoodie, jaket, celana, dan aksesoris pria dengan desain modern dan kualitas premium.",
-      "cta": { "label": "Lihat Produk", "icon": "ShoppingBag", "href": "#products" },
-      "logoText": "TSOECHA.CO",
-      "logoBg": "#f5f5f5",
-      "logoTextColor": "#333",
-      "accent": "#BBBBBB"
+      "category": { "id": "Fashion Pria",   "en": "Men's Fashion"   },
+      "desc": { "id": "Brand fashion pria PT BOBA yang menghadirkan kaos, kemeja, hoodie, jaket, celana, dan aksesoris pria dengan desain modern dan kualitas premium.", "en": "PT BOBA's men's fashion brand offering t-shirts, shirts, hoodies, jackets, pants, and men's accessories with modern design and premium quality." },
+      "cta": { "label": { "id": "Lihat Produk",  "en": "View Products"  }, "icon": "ShoppingBag", "href": "#products" },
+      "logoText": "TSOECHA.CO", "logoBg": "#f5f5f5", "logoTextColor": "#333", "accent": "#BBBBBB"
     },
     {
       "id": 2,
       "name": "sokyuut",
-      "category": "Fashion Wanita",
-      "desc": "Brand fashion wanita PT BOBA yang menyediakan blouse, dress, outer, hijab, rok, celana, dan aksesoris wanita yang modis, nyaman, dan berkualitas.",
-      "cta": { "label": "Lihat Produk", "icon": "ShoppingBag", "href": "#products" },
-      "logoText": "sokyuut",
-      "logoBg": "#fce4ec",
-      "logoTextColor": "#c2185b",
-      "accent": "#c2185b"
+      "category": { "id": "Fashion Wanita", "en": "Women's Fashion" },
+      "desc": { "id": "Brand fashion wanita PT BOBA yang menyediakan blouse, dress, outer, hijab, rok, celana, dan aksesoris wanita yang modis, nyaman, dan berkualitas.", "en": "PT BOBA's women's fashion brand offering blouses, dresses, outerwear, hijabs, skirts, pants, and women's accessories that are stylish, comfortable, and quality-made." },
+      "cta": { "label": { "id": "Lihat Produk",  "en": "View Products"  }, "icon": "ShoppingBag", "href": "#products" },
+      "logoText": "sokyuut", "logoBg": "#fce4ec", "logoTextColor": "#c2185b", "accent": "#c2185b"
     },
     {
       "id": 3,
       "name": "Ponpin",
-      "category": "Green Technology",
-      "desc": "Holding company green technology PT BOBA — pengambilan sampah, pengelolaan sampah, pengolahan sampah organik, dan pembuatan bahan bakar kendaraan dari sampah organik.",
-      "cta": { "label": "Pesan Layanan", "icon": "Recycle", "href": "#services" },
-      "logoText": "PONPIN",
-      "logoBg": "#1BA882",
-      "logoTextColor": "#ffffff",
-      "accent": "#1BA882"
+      "category": { "id": "Green Technology", "en": "Green Technology" },
+      "desc": { "id": "Holding company green technology PT BOBA — pengambilan sampah, pengelolaan sampah, pengolahan sampah organik, dan pembuatan bahan bakar kendaraan dari sampah organik.", "en": "PT BOBA's green technology holding company — waste collection, waste management, organic waste processing, and producing vehicle fuel from organic waste." },
+      "cta": { "label": { "id": "Pesan Layanan", "en": "Order Service"   }, "icon": "Recycle",     "href": "#services" },
+      "logoText": "PONPIN", "logoBg": "#1BA882", "logoTextColor": "#ffffff", "accent": "#1BA882"
     }
   ],
   "platformNote": {
-    "text": "Semua brand tersedia di",
-    "brand": "Ponpin Marketplace",
-    "ctaLabel": "Kunjungi",
+    "text":     { "id": "Semua brand tersedia di",  "en": "All brands available on" },
+    "brand":    { "id": "Ponpin Marketplace",        "en": "Ponpin Marketplace"       },
+    "ctaLabel": { "id": "Kunjungi",                  "en": "Visit"                    },
     "ctaHref": "#"
   }
 }

@@ -1,6 +1,9 @@
 {
   "brand": {
-    "tagline": "Holding company yang membangun ekosistem bisnis berkelanjutan — dari kekayaan intelektual, inovasi pangan, hingga pemberdayaan sosial — untuk membahagiakan masyarakat Indonesia.",
+    "tagline": {
+      "id": "Holding company yang membangun ekosistem bisnis berkelanjutan — dari kekayaan intelektual, inovasi pangan, hingga pemberdayaan sosial — untuk membahagiakan masyarakat Indonesia.",
+      "en": "A holding company building a sustainable business ecosystem — from intellectual property and food innovation to social empowerment — to bring happiness to Indonesian society."
+    },
     "address": "Jl. Mayjend. Jonosewojo No.Kav.3, Surabaya",
     "phone": "+6287874588706",
     "email": "ptboba26@gmail.com"
@@ -29,120 +32,219 @@
   ],
   "navGroups": [
     {
-      "title": "Perusahaan",
+      "title": {
+        "id": "Perusahaan",
+        "en": "Company"
+      },
       "links": [
         {
-          "label": "Tentang Kami",
+          "label": {
+            "id": "Tentang Kami",
+            "en": "About Us"
+          },
           "href": "#about"
         },
         {
-          "label": "Tim PT BOBA",
+          "label": {
+            "id": "Tim PT BOBA",
+            "en": "PT BOBA Team"
+          },
           "href": "#struktur"
         },
         {
-          "label": "Visi & Misi",
+          "label": {
+            "id": "Visi & Misi",
+            "en": "Vision & Mission"
+          },
           "href": "#about"
         },
         {
-          "label": "Subholding BOBA Group",
+          "label": {
+            "id": "Subholding BOBA Group",
+            "en": "BOBA Group Subholdings"
+          },
           "href": "#struktur"
         },
         {
-          "label": "Ekosistem Bisnis",
+          "label": {
+            "id": "Ekosistem Bisnis",
+            "en": "Business Ecosystem"
+          },
           "href": "#struktur"
         },
         {
-          "label": "Investor Relations",
+          "label": {
+            "id": "Investor Relations",
+            "en": "Investor Relations"
+          },
           "href": "/investor-relations"
         }
       ]
     },
     {
-      "title": "Komoditas Alam",
+      "title": {
+        "id": "Komoditas Alam",
+        "en": "Natural Commodities"
+      },
       "links": [
         {
-          "label": "Pertanian & Perkebunan",
+          "label": {
+            "id": "Pertanian & Perkebunan",
+            "en": "Agriculture & Plantation"
+          },
           "href": "#products"
         },
         {
-          "label": "Perikanan & Energi",
+          "label": {
+            "id": "Perikanan & Energi",
+            "en": "Marine & Energy"
+          },
           "href": "#products"
         },
         {
-          "label": "Kerajinan & Tekstil",
+          "label": {
+            "id": "Kerajinan & Tekstil",
+            "en": "Craft & Textile"
+          },
           "href": "#products"
         },
         {
-          "label": "Ekspor Internasional",
+          "label": {
+            "id": "Ekspor Internasional",
+            "en": "International Export"
+          },
           "href": "#services"
         },
         {
-          "label": "Distribusi Nasional",
+          "label": {
+            "id": "Distribusi Nasional",
+            "en": "National Distribution"
+          },
           "href": "#services"
         }
       ]
     },
     {
-      "title": "Layanan & Program",
+      "title": {
+        "id": "Layanan & Program",
+        "en": "Services & Programs"
+      },
       "links": [
         {
-          "label": "Lisensi Merek & IP",
+          "label": {
+            "id": "Lisensi Merek & IP",
+            "en": "Brand & IP Licensing"
+          },
           "href": "#services"
         },
         {
-          "label": "Sistem Waralaba",
+          "label": {
+            "id": "Sistem Waralaba",
+            "en": "Franchise System"
+          },
           "href": "#services"
         },
         {
-          "label": "Sewa Paten Teknologi",
+          "label": {
+            "id": "Sewa Paten Teknologi",
+            "en": "Technology Patent Lease"
+          },
           "href": "#services"
         },
         {
-          "label": "Donasi Bencana Alam",
+          "label": {
+            "id": "Donasi Bencana Alam",
+            "en": "Natural Disaster Donations"
+          },
           "href": "#services"
         },
         {
-          "label": "Pemberdayaan UMKM Lokal",
+          "label": {
+            "id": "Pemberdayaan UMKM Lokal",
+            "en": "Local SME Empowerment"
+          },
           "href": "#services"
         }
       ]
     },
     {
-      "title": "Kemitraan & Kontak",
+      "title": {
+        "id": "Kemitraan & Kontak",
+        "en": "Partnership & Contact"
+      },
       "links": [
         {
-          "label": "Mitra Strategis",
+          "label": {
+            "id": "Mitra Strategis",
+            "en": "Strategic Partners"
+          },
           "href": "#partner"
         },
         {
-          "label": "Daftar UMKM Binaan",
+          "label": {
+            "id": "Daftar UMKM Binaan",
+            "en": "SME Registration"
+          },
           "href": "#contact"
         },
         {
-          "label": "Ekspor & Kerjasama",
+          "label": {
+            "id": "Ekspor & Kerjasama",
+            "en": "Export & Cooperation"
+          },
           "href": "#contact"
         },
         {
-          "label": "Hubungi Kami",
+          "label": {
+            "id": "Hubungi Kami",
+            "en": "Contact Us"
+          },
           "href": "#contact"
         },
         {
-          "label": "Konsultasi Gratis",
+          "label": {
+            "id": "Konsultasi Gratis",
+            "en": "Free Consultation"
+          },
           "href": "#contact"
         }
       ]
     }
   ],
   "newsletter": {
-    "title": "Dapatkan Update Terbaru BOBA Group",
-    "subtitle": "Informasi layanan, program sosial, dan peluang kemitraan langsung ke inbox Anda.",
-    "placeholder": "Email Anda...",
-    "ctaLabel": "Subscribe"
+    "title": {
+      "id": "Dapatkan Update Terbaru BOBA Group",
+      "en": "Get the Latest BOBA Group Updates"
+    },
+    "subtitle": {
+      "id": "Informasi layanan, program sosial, dan peluang kemitraan langsung ke inbox Anda.",
+      "en": "Service information, social programs, and partnership opportunities straight to your inbox."
+    },
+    "placeholder": {
+      "id": "Email Anda...",
+      "en": "Your email..."
+    },
+    "ctaLabel": {
+      "id": "Subscribe",
+      "en": "Subscribe"
+    }
   },
   "bottomLinks": [
-    "Kebijakan Privasi",
-    "Syarat & Ketentuan",
-    "Sitemap"
+    {
+      "id": "Kebijakan Privasi",
+      "en": "Privacy Policy"
+    },
+    {
+      "id": "Syarat & Ketentuan",
+      "en": "Terms & Conditions"
+    },
+    {
+      "id": "Sitemap",
+      "en": "Sitemap"
+    }
   ],
-  "copyright": "PT Bikin Orang Bahagia. Seluruh hak cipta dilindungi."
+  "copyright": {
+    "id": "PT Bikin Orang Bahagia. Seluruh hak cipta dilindungi.",
+    "en": "PT Bikin Orang Bahagia. All rights reserved."
+  }
 }
