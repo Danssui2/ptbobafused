@@ -37,7 +37,7 @@ export default function AdminLayout() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f8fafc', fontFamily: "'Segoe UI', system-ui, sans-serif", display: 'flex', flexDirection: 'column' }}>
+    <div style={{ height: '100vh', overflow: 'hidden', background: '#f8fafc', fontFamily: "'Segoe UI', system-ui, sans-serif", display: 'flex', flexDirection: 'column' }}>
 
       {/* ── Top bar ── */}
       <header style={{ background: '#fff', borderBottom: '1px solid #e5e7eb', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 20px', position: 'sticky', top: 0, zIndex: 50, flexShrink: 0 }}>
@@ -72,7 +72,7 @@ export default function AdminLayout() {
       <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
 
         {/* ── Sidebar ── */}
-        <aside style={{ width: sidebarOpen ? 230 : 0, overflow: 'hidden', transition: 'width 0.25s ease', borderRight: '1px solid #e5e7eb', background: '#fff', flexShrink: 0, display: 'flex', flexDirection: 'column' }}>
+        <aside style={{ width: sidebarOpen ? 230 : 0, overflow: 'hidden', transition: 'width 0.25s ease', borderRight: '1px solid #e5e7eb', background: '#fff', flexShrink: 0, display: 'flex', flexDirection: 'column', height: '100%' }}>
           <div style={{ flex: 1, overflowY: 'auto', padding: '14px 10px', width: 230 }}>
 
             <NavLink to="/admin" end style={navLinkStyle}>

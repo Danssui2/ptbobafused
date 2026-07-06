@@ -59,8 +59,9 @@ export default function SectionEditorPage() {
 
   return (
     <div>
-      {/* ── Header bar ── */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 24, flexWrap: 'wrap', gap: 12 }}>
+      {/* ── Header bar — sticky ── */}
+      <div style={{ position: 'sticky', top: 0, zIndex: 20, background: '#f8fafc', paddingBottom: 16, marginBottom: 8, borderBottom: '1px solid #e5e7eb' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <Btn onClick={() => navigate('/admin')} variant="outline" size="sm">← Dashboard</Btn>
           <div>
@@ -79,6 +80,7 @@ export default function SectionEditorPage() {
           <Btn onClick={handleSave} variant="primary" size="sm" disabled={!dirty || saving}>
             {saving ? <><Spinner size={14} color="#fff" /> Menyimpan...</> : '💾 Simpan ke Database'}
           </Btn>
+        </div>
         </div>
       </div>
 

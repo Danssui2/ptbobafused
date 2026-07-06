@@ -133,8 +133,18 @@ export const Card = ({ children, style = {} }) => (
   </div>
 )
 
-export const CardTitle = ({ children, action, sub }) => (
-  <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 18, paddingBottom: 14, borderBottom: '1px solid #f3f4f6' }}>
+export const CardTitle = ({ children, action, sub, sticky = false }) => (
+  <div style={{
+    display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+    marginBottom: 18, paddingBottom: 14, borderBottom: '1px solid #f3f4f6',
+    ...(sticky ? {
+      position: 'sticky', top: 57, zIndex: 10,
+      background: '#fff', marginTop: -20, paddingTop: 20,
+      marginLeft: -24, marginRight: -24, paddingLeft: 24, paddingRight: 24,
+      borderBottom: '1px solid #e5e7eb',
+      boxShadow: '0 4px 12px -4px rgba(0,0,0,0.06)',
+    } : {})
+  }}>
     <div>
       <h3 style={{ margin: 0, fontSize: 15, fontWeight: 700, color: '#111' }}>{children}</h3>
       {sub && <p style={{ margin: '3px 0 0', fontSize: 12, color: '#9ca3af' }}>{sub}</p>}
@@ -142,6 +152,35 @@ export const CardTitle = ({ children, action, sub }) => (
     {action && <div style={{ flexShrink: 0, marginLeft: 12 }}>{action}</div>}
   </div>
 )
+
+// Tiap item produk bisa collapse/expand agar layar tidak penuh.
+// Header (nama + warna) selalu tampil. Isi form muncul hanya saat dibuka.
+export const CollapsibleItemCard = ({ children, label, accent, onRemove, onMoveUp, onMoveDown, canMoveUp, canMoveDown, defaultOpen = false }) => {
+  const [open, setOpen] = useState(defaultOpen)
+  return (
+    <div style={{ border: `1.5px solid ${open ? (accent || '#1BA882') : '#f0f0f0'}`, borderRadius: 12, marginBottom: 10, borderLeft: accent ? `4px solid ${accent}` : undefined, overflow: 'hidden', transition: 'border-color 0.2s' }}>
+      {/* ── Row header (selalu tampil) ── */}
+      <div
+        onClick={() => setOpen(x => !x)}
+        style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '11px 14px', cursor: 'pointer', background: open ? '#f9fffe' : '#fff', userSelect: 'none', transition: 'background 0.15s' }}>
+        <span style={{ fontSize: 13, color: '#9ca3af', flexShrink: 0, transition: 'transform 0.2s', display: 'inline-block', transform: open ? 'rotate(90deg)' : 'rotate(0deg)' }}>▶</span>
+        <span style={{ flex: 1, fontSize: 13, fontWeight: 600, color: accent || '#374151', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
+        {/* Tombol aksi — stopPropagation agar tidak toggle accordion */}
+        <div style={{ display: 'flex', gap: 5, flexShrink: 0 }} onClick={e => e.stopPropagation()}>
+          {onMoveUp && <Btn onClick={onMoveUp} variant="outline" size="xs" disabled={!canMoveUp} style={{ padding: '3px 8px' }}>↑</Btn>}
+          {onMoveDown && <Btn onClick={onMoveDown} variant="outline" size="xs" disabled={!canMoveDown} style={{ padding: '3px 8px' }}>↓</Btn>}
+          {onRemove && <Btn onClick={onRemove} variant="danger" size="xs">Hapus</Btn>}
+        </div>
+      </div>
+      {/* ── Form fields (hanya tampil saat open) ── */}
+      {open && (
+        <div style={{ padding: '16px 16px 18px', borderTop: `1px solid ${accent ? accent + '30' : '#f3f4f6'}` }}>
+          {children}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export const Btn = ({ children, onClick, variant = 'default', size = 'md', disabled, type = 'button', style = {} }) => {
   const sizes = { xs: { padding: '4px 10px', fontSize: 12 }, sm: { padding: '6px 14px', fontSize: 13 }, md: { padding: '9px 18px', fontSize: 14 }, lg: { padding: '12px 24px', fontSize: 15 } }

@@ -7,7 +7,7 @@
  *   StrukturEditor, PartnersEditor, ContactEditor, FooterEditor, InvestorEditor
  */
 import { useState } from 'react'
-import { Card, CardTitle, Field, Input, Textarea, LocalizedInput, LocalizedTextarea, Select, ItemCard, Btn, Grid2, Divider, Badge, Alert } from '../../components/UI'
+import { Card, CardTitle, Field, Input, Textarea, LocalizedInput, LocalizedTextarea, Select, ItemCard, CollapsibleItemCard, Btn, Grid2, Divider, Badge, Alert } from '../../components/UI'
 import { uploadToCloudinary, isCloudinaryConfigured } from '../../utils/cloudinary'
 import { cld } from '../../utils/cloudinaryUrl'
 
@@ -351,7 +351,7 @@ export function ProductsEditor({ data, onChange }) {
 
       {/* ── Kelola Kategori ── */}
       <Card>
-        <CardTitle action={<Btn onClick={addCategory} variant="primary" size="sm">+ Tambah Kategori</Btn>}
+        <CardTitle sticky action={<Btn onClick={addCategory} variant="primary" size="sm">+ Tambah Kategori</Btn>}
           sub="Kategori ini muncul sebagai filter di halaman produk & pilihan dropdown di tiap produk di bawah">
           Kelola Kategori
         </CardTitle>
@@ -375,11 +375,13 @@ export function ProductsEditor({ data, onChange }) {
 
       {/* ── Produk ── */}
       <Card>
-        <CardTitle action={<Btn onClick={addProduct} variant="primary" size="sm">+ Tambah Produk</Btn>} sub={`${brands.length} produk — urutan di sini = urutan tampil di website`}>
+        <CardTitle sticky action={<Btn onClick={addProduct} variant="primary" size="sm">+ Tambah Produk</Btn>} sub={`${brands.length} produk — urutan di sini = urutan tampil di website`}>
           Daftar Produk
         </CardTitle>
         {brands.map((p,i) => (
-          <ItemCard key={p.id||i} label={`${i+1}. ${bt(p.name)} — ${bt(p.category)}`} accent={p.color}
+          <CollapsibleItemCard key={p.id||i}
+            label={`${i+1}. ${bt(p.name)} — ${bt(p.category)}`}
+            accent={p.color}
             onRemove={()=>removeProduct(i)}
             onMoveUp={()=>moveProduct(i,-1)} canMoveUp={i>0}
             onMoveDown={()=>moveProduct(i,1)} canMoveDown={i<brands.length-1}>
@@ -444,7 +446,7 @@ export function ProductsEditor({ data, onChange }) {
                 <Btn onClick={()=>removeStat(i,si)} variant="danger" size="xs">×</Btn>
               </div>
             ))}
-          </ItemCard>
+          </CollapsibleItemCard>
         ))}
       </Card>
     </div>
