@@ -1,6 +1,62 @@
+import { useState } from 'react'
 import { Card, CardTitle, Field, Input, Textarea, LocalizedInput, LocalizedTextarea, ItemCard, Btn, Grid2 } from '../../components/UI'
+import { uploadToCloudinary, isCloudinaryConfigured } from '../../utils/cloudinary'
+import { cld } from '../../utils/cloudinaryUrl'
 
 const clone = v => JSON.parse(JSON.stringify(v))
+
+// Upload langsung ke Cloudinary — sama dengan di SectionEditors tapi direplikasi
+// agar HeroEditor tidak bergantung pada SectionEditors
+const ImageUploadField = ({ value, onChange, placeholder = 'https://... atau upload file', folder = 'ptboba/hero' }) => {
+  const [uploading, setUploading] = useState(false)
+  const [progress, setProgress] = useState(0)
+  const [error, setError] = useState('')
+
+  const handleFile = async (e) => {
+    const file = e.target.files?.[0]
+    e.target.value = ''
+    if (!file) return
+    setError(''); setUploading(true); setProgress(0)
+    try {
+      const url = await uploadToCloudinary(file, { folder, onProgress: setProgress })
+      onChange(url)
+    } catch (err) {
+      setError(err.message || 'Upload gagal.')
+    } finally {
+      setUploading(false)
+    }
+  }
+
+  return (
+    <div>
+      <div style={{ display: 'flex', gap: 8, alignItems: 'flex-start' }}>
+        <div style={{ flex: 1 }}>
+          <Input value={value || ''} onChange={onChange} placeholder={placeholder} disabled={uploading} />
+        </div>
+        <label style={{
+          flexShrink: 0, padding: '9px 14px', borderRadius: 8, fontSize: 13, fontWeight: 600,
+          cursor: uploading ? 'default' : 'pointer', whiteSpace: 'nowrap',
+          background: uploading ? '#f3f4f6' : '#ecfdf5', color: uploading ? '#9ca3af' : '#0f766e',
+          border: `1.5px solid ${uploading ? '#e5e7eb' : '#99f6e4'}`,
+        }}>
+          {uploading ? `Uploading ${progress}%` : '📤 Upload Gambar'}
+          <input type="file" accept="image/*" onChange={handleFile} disabled={uploading} style={{ display: 'none' }} />
+        </label>
+      </div>
+      {error && <p style={{ fontSize: 12, color: '#dc2626', marginTop: 6 }}>{error}</p>}
+      {!isCloudinaryConfigured() && (
+        <p style={{ fontSize: 11, color: '#d97706', marginTop: 5 }}>
+          ⚠️ Cloudinary belum dikonfigurasi — isi .env, lalu restart. Paste URL manual masih bisa.
+        </p>
+      )}
+      {value && (
+        <img src={cld(value, 'q_auto,f_auto,c_scale,w_300')} alt="preview"
+          onError={e => e.target.style.display = 'none'}
+          style={{ height: 80, borderRadius: 8, objectFit: 'cover', marginTop: 8, maxWidth: '100%', display: 'block' }} />
+      )}
+    </div>
+  )
+}
 
 export default function HeroEditor({ data, onChange }) {
   const { slides = [], floatingStats = [], autoplayDuration } = data
@@ -44,12 +100,11 @@ export default function HeroEditor({ data, onChange }) {
               <Field label="Teks CTA Kanan"><LocalizedInput value={slide.cta?.secondary} onChange={v => updCta(i, 'secondary', v)} /></Field>
               <Field label="Link CTA Kanan"><LocalizedInput value={slide.cta?.href2} onChange={v => updCta(i, 'href2', v)} placeholder="#products" /></Field>
             </Grid2>
-            <Field label="URL Poster / Thumbnail" hint="Gambar yang tampil sebelum video diputar">
-              <LocalizedInput value={slide.poster} onChange={v => updSlide(i, 'poster', v)} placeholder="https://..." />
+            <Field label="Poster / Thumbnail Slide" hint="Gambar yang tampil sebelum video diputar (upload langsung ke Cloudinary atau paste URL)">
+              <ImageUploadField value={slide.poster} onChange={v => updSlide(i, 'poster', v)} folder="ptboba/hero/poster" />
             </Field>
-            {slide.poster && <div style={{ marginBottom: 14 }}><img src={slide.poster} alt="preview" style={{ height: 80, borderRadius: 8, objectFit: 'cover', maxWidth: '100%' }} onError={e => e.target.style.display = 'none'} /></div>}
-            <Field label="URL Video (Sumber)" hint="URL langsung ke file .mp4">
-              <LocalizedInput value={slide.src} onChange={v => updSlide(i, 'src', v)} placeholder="https://..." />
+            <Field label="URL Video (Sumber)" hint="URL langsung ke file .mp4 atau paste link video">
+              <Input value={slide.src || ''} onChange={v => updSlide(i, 'src', v)} placeholder="https://res.cloudinary.com/.../video.mp4" />
             </Field>
           </ItemCard>
         ))}

@@ -28,14 +28,39 @@ export default function PartnerSection() {
   const { data: rawData } = useContent('partners')
   const data = useLocalizedData(rawData)
   const { header, categories = [], partners = [], benefits, partnerTypes, cta } = data ?? {}
-  const [activeCategory, setActiveCategory] = useState('Semua')
+  // activeCategory menyimpan KEY language-neutral (bukan label terjemahan)
+  // Ini menghindari mismatch ketika bahasa berganti
+  const [activeCategory, setActiveCategory] = useState('all')
   const [headerRef, headerInView] = useInView(0.1)
   const [gridRef,   gridInView]   = useInView(0.08)
   const [joinRef,   joinInView]   = useInView(0.08)
 
   if (!header) return null
 
-  const filtered = activeCategory === 'Semua' ? partners : partners.filter(p => p.cat === activeCategory)
+  // Normalkan struktur kategori — bisa berupa:
+  //   A) array string (format lama):  ["Semua", "Strategis", ...]
+  //   B) array {key, label} (format baru): [{key:"all", label:"Semua"}, ...]
+  const normCategories = categories.map(cat => {
+    if (typeof cat === 'string') {
+      // Format lama: buat key dari string (huruf kecil, tanpa spasi)
+      const key = cat.toLowerCase() === 'semua' || cat.toLowerCase() === 'all' ? 'all'
+        : cat.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+      return { key, label: cat }
+    }
+    // Format baru {key, label} — label sudah di-resolve oleh useLocalizedData
+    return { key: cat.key ?? 'all', label: cat.label ?? cat.key ?? '' }
+  })
+
+  // Filter: 'all' = tampilkan semua
+  // Untuk backward compat: partner bisa punya .catKey (baru) atau .cat (lama)
+  const filtered = activeCategory === 'all'
+    ? partners
+    : partners.filter(p => {
+        const key = p.catKey ?? (typeof p.cat === 'string'
+          ? p.cat.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+          : '')
+        return key === activeCategory
+      })
 
   return (
     <section id="partner" className="overflow-hidden">
@@ -62,14 +87,14 @@ export default function PartnerSection() {
           {/* Category filter */}
           <div className="overflow-x-auto scrollbar-hide -mx-6 px-6 sm:-mx-10 sm:px-10 lg:mx-0 lg:px-0 mb-10">
             <div className="flex items-center gap-2 w-max lg:w-auto lg:justify-center mx-auto">
-              {categories.map(cat => (
-                <button key={cat} onClick={() => setActiveCategory(cat)}
+              {normCategories.map(({ key, label }) => (
+                <button key={key} onClick={() => setActiveCategory(key)}
                   className={`flex-shrink-0 px-5 py-2.5 rounded-full text-sm font-bold border transition-all duration-300 ${
-                    activeCategory === cat
+                    activeCategory === key
                       ? 'bg-brand-green text-white border-brand-green shadow-[0_4px_20px_rgba(27,168,130,0.3)]'
                       : 'bg-white text-gray-500 border-gray-200 hover:border-brand-green hover:text-brand-green'
                   }`}>
-                  {cat}
+                  {label}
                 </button>
               ))}
             </div>

@@ -82,15 +82,19 @@ function localizeDeep(value, lang) {
 
   const keys = Object.keys(value)
 
-  // Detect bilingual leaf: exactly { id, en } (only these two keys)
-  if (
-    keys.length === 2 &&
-    keys.includes('id') &&
-    keys.includes('en') &&
-    typeof value.id === 'string' &&
-    typeof value.en === 'string'
-  ) {
-    return value[lang] ?? value.id
+  // Detect bilingual leaf: exactly { id, en }
+  // Tidak lagi mensyaratkan typeof === 'string' karena value.id bisa berupa
+  // tipe apapun (number, object, dll) akibat data yang tidak konsisten.
+  // Kita tetap resolve selama hanya ada 2 key: 'id' dan 'en'.
+  if (keys.length === 2 && keys.includes('id') && keys.includes('en')) {
+    const picked = lang === 'en' ? value.en : (value.id ?? value.en)
+    // Kalau nilai yang dipilih masih berupa object, recurse sekali lagi
+    if (picked !== null && typeof picked === 'object') {
+      return localizeDeep(picked, lang)
+    }
+    // Pastikan hasilnya selalu string supaya tidak menjadi React child yang crash
+    if (picked === null || picked === undefined) return ''
+    return typeof picked === 'string' ? picked : String(picked)
   }
 
   // Recurse into all other objects
